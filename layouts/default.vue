@@ -18,6 +18,10 @@ export default {
 </script>
 <style>
 
+.test {
+  border: 2px solid red;
+}
+
 /* WHOLE SITE SETTINGS */
 
 @font-face {

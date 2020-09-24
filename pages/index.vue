@@ -1,23 +1,17 @@
 <template>
+  <div>
     <!-- page content -->
     <div class="container pl-sm-0 pr-sm-0">
       <div class="row">
         <div class="col-xs-12 col-md-7 pr-xl-5 home-div">
-          <h1>Come and join in with some stomping good fun!</h1>
-          <p class="welcome-p">Hello and welcome to Tiny Stompers!</p>
-          <p>Here at Tiny Stompers, we love introducing children and their parents/carers to the stimulating world of music and movement in a fun, energetic and exciting way within a safe environment.</p>
+          <h1>Hello and welcome to Tiny Stompers!</h1>
+          <p class="font-weight-bold">Here at Tiny Stompers, we love introducing children and their parents/carers to the stimulating world of music and movement in a fun, energetic and exciting way within a safe environment.</p>
           <p>With a range of musical instruments, textures, music, sights, and smells, there is so much for Tiny Stompers to explore! Each session provides a multi-sensory environment aiding in children's development in many different and beneficial ways.</p>
-
-          <!-- only visible on >=medium screens -->
-          <p class="d-none d-md-block">Children are encouraged to move freely and take the lead in activities allowing them to decide what inspires them. Session activity examples include bubbles, ribbons sticks and pompoms, music, dancing, parachute, balancing and much more. We also celebrate themes such as Teddy Bear's Picnic, World Book Day, big box play, World Wildlife day, National Science Week, recycling and other exciting themes.</p>
-          <p class="d-none d-md-block">The sessions are aimed at children aged 12 months to 5 years old, although older and younger siblings are always welcome.</p>
-          <p class="d-none d-md-block">The lead worker, Becky, has a BA(hons) in Early Childcare and Education and is qualified in baby signing, baby massage and introducing young children to yoga. Time is spent looking at each child’s individual needs and interests and each session is is fun and varied and aids in your child's development, linking to the EYFS.</p>
-          <p class="d-none d-md-block">Please don’t hesitate to <a href="contact.html">contact us</a> for more information, we’d love to hear from you.</p>
-          <!-- end of only visible on >=medium screens -->
+          <button type="button" class="btn btn-primary">Read More..</button>
         </div>
 
         <!-- image carousel -->
-        <div class="col-xs-12 col-md-5 pl-0 pr-0 carousel-container animated bounceInUp">
+        <!-- <div class="col-xs-12 col-md-5 pl-0 pr-0  pt-5 pb-5 pt-md-0 pb-md-0 carousel-container animated bounceInUp">
           <div id="carouselSlidesOnly" class="carousel slide " data-ride="carousel">
             <div class="carousel-inner " role="listbox">
               <div class="carousel-item active" style="background-image: url(/photos/carousel3.jpg); background-position-y: 40%">
@@ -40,18 +34,89 @@
               </div>
             </div>
           </div>
+        </div> -->
+        <!-- vue carousel  -->
+        <div class="col-xs-12 col-md-5 pl-0 pr-0  pt-5 pb-5 pt-md-0 pb-md-0 carousel-container animated bounceInUp">
+          <b-carousel
+            id="carousel-fade"
+            fade
+          >
+            <b-carousel-slide
+              caption="Becky's love for children shines through as she creates fun and motivational music and movement sessions for children and their grown ups"
+              caption-tag="p"
+              text="Linda, Tiny Stomper Nanna"
+              img-src="/photos/carousel03.jpg"
+            ></b-carousel-slide>
+            <b-carousel-slide
+              caption="Second Slide"
+              img-src="/photos/carousel02.jpg"
+            ></b-carousel-slide>
+            <b-carousel-slide
+              caption="Third Slide"
+              img-src="/photos/carousel01.jpg"
+            ></b-carousel-slide>
+          </b-carousel>
         </div>
-        <!-- only visible on screens < medium -->
-        <div class="d-xs-block d-md-none col-12">
-          <p class="pt-2">Children are encouraged to move freely and take the lead in activities allowing them to decide what inspires them. Session activity examples include bubbles, ribbons sticks and pompoms, music, dancing, parachute, balancing and much more. We also celebrate themes such as Teddy Bear's Picnic, World Book Day, big box play, World Wildlife day, National Science Week, recycling and other exciting themes.</p>
-          <p>The sessions are aimed at children aged 12 months to 5 years, although older and younger siblings are always welcome.</p>
-          <p>The lead worker, Becky, has a BA(hons) in Early Childcare and Education and is qualified in baby signing, baby massage and introducing young children to yoga. Time is spent looking at each child’s individual needs and interests and each session is fun and varied and aids in your child's development, linking to the EYFS</p>
-          <p>Please don’t hesitate to <a href="contact.html">contact us</a> for more information, we’d love to hear from you.</p>
-        </div>
-        <!-- end of only visible on screens < medium -->
       </div>
     </div>
-    <!-- text to show on mobile only -->
+    <svg id="wave1" data-name="wave1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.89 82.08">
+      <defs>
+        <style>.cls-1{fill:#d2cfe7;}.cls-2{fill:#2d2e83;}</style>
+      </defs>
+      <path class="cls-1" d="M845.83,89.75s-806-.09-846.81,3V30.85h0c40.8-3,114.13,40.89,215.07,12.24C371.64-1.64,398.83,11.74,581.77,49.4,735.58,81.07,845.83,24.26,845.83,24.26Z"/>
+      <path class="cls-2" d="M846.17,29.59S736.5,82.82,582.43,51.89C399.18,15.1,371.94,2,214.12,45.72,113,73.71,39.54,30.86-1.32,33.83V26.11h0c40.86-3,114.32,39.94,215.44,12C371.94-5.63,399.18,7.44,582.43,44.23c154.07,30.93,263.74-23.3,263.74-23.3Z"/>
+    </svg>
+    <div class="container-fluid circles-container" style="background-color: rgba(48, 45, 126, 0.2); ">
+      <div class="row circles-row pt-3">
+        <div class="col-12 col-md-6 col-lg-3 pl-5 pr-5 pt-3 pb-3 pl-lg-3 pr-lg-3">
+          <div class="home-circle">
+            <div class="home-circle-inner" style="background-image: url(/photos/carousel3.jpg);">
+              <div class="home-circle-caption">
+                <p>"Becky's love for children shines through as she creates fun and motivational music and movement sessions for children and their grown ups"</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 pl-5 pr-5 pt-3 pb-3 pl-lg-3 pr-lg-3">
+          <div class="home-circle">
+            <div class="home-circle-inner" style="background-image: url(/photos/carousel3.jpg);">
+              <div class="home-circle-caption">
+                <p>"Becky's love for children shines through as she creates fun and motivational music and movement sessions for children and their grown ups"</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 pl-5 pr-5 pt-3 pb-3 pl-lg-3 pr-lg-3">
+          <div class="home-circle">
+            <div class="home-circle-inner" style="background-image: url(/photos/carousel3.jpg);">
+              <div class="home-circle-caption">
+                <p>"Becky's love for children shines through as she creates fun and motivational music and movement sessions for children and their grown ups"</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 pl-5 pr-5 pt-3 pb-3 pl-lg-3 pr-lg-3">
+          <div class="home-circle">
+            <div class="home-circle-inner" style="background-image: url(/photos/carousel3.jpg);">
+              <div class="home-circle-caption">
+                <p>"Becky's love for children shines through as she creates fun and motivational music and movement sessions for children and their grown ups"</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>    
+    </div>
+    <svg id="wave2" data-name="wave2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.89 82.08">
+      <defs>
+        <style>.cls-1{fill:#d2cfe7;}.cls-2{fill:#2d2e83;}</style>
+      </defs>
+      <path class="cls-1" d="M845.83,89.75s-806-.09-846.81,3V30.85h0c40.8-3,114.13,40.89,215.07,12.24C371.64-1.64,398.83,11.74,581.77,49.4,735.58,81.07,845.83,24.26,845.83,24.26Z"/>
+      <path class="cls-2" d="M846.17,29.59S736.5,82.82,582.43,51.89C399.18,15.1,371.94,2,214.12,45.72,113,73.71,39.54,30.86-1.32,33.83V26.11h0c40.86-3,114.32,39.94,215.44,12C371.94-5.63,399.18,7.44,582.43,44.23c154.07,30.93,263.74-23.3,263.74-23.3Z"/>
+    </svg>
+    <div class="container-fluid">
+
+    </div>
+  </div>
 </template>
 
 <script>
@@ -67,8 +132,7 @@ export default {
         }
       ]
     };
-  }
-
+  },
 }
 </script>
 
@@ -83,11 +147,11 @@ export default {
   text-align: justify;
 }
 
-.welcome-p {
-  font-weight: bold;
+.btn-primary{
+  background-color: #302d7e;
+  color: white;
 }
-
-/* carousel */
+/* carousel
 #carouselSlidesOnly { 
   height: 200px;
   border-radius: 0;
@@ -102,17 +166,17 @@ export default {
 .carousel-inner,
 .carousel-item {
   height: inherit; /*ensures carousel bg image is visible/correct height */
-  background-size: cover;
+  /* background-size: cover;
   background-position: center;
-}
+} */
 
-.carousel-caption {
+/* .carousel-caption {
   height: 40%;
   left: 0;
   right: 0;
   bottom: 0;
   padding: 0 10% 10px 10%;
-  background-color: #302d7e; /*fallback for older browsers */
+  background-color: #302d7e; 
   background-color: #38328dc4;
 }
 
@@ -127,19 +191,77 @@ export default {
   font-size: 0.5rem;
   margin-top: 0px;
   text-align: left;
-}
+}  */
 /* end of carousel */
+
+#carousel-fade {
+  height: 250px;
+  border-radius: 0;
+  overflow: hidden;
+  border-image: url(/bgcolours.jpg) 5; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: none;
+  border-right: none;
+}
+
+.carousel-caption {
+  right: 0;
+  left: 0;
+  background-color: #302d7e; 
+  background-color: #38328dc4;
+
+}
+
+/* .img-fluid.w-100.d-block {
+  max-width: 170%;
+} */
+
+/* home circles */
+
+.circles-container {
+  background-color: #d2cfe7;
+  padding-bottom: 100px;
+}
+
+.home-circle {
+  height: 70vw;
+}
+
+.home-circle-inner {
+  border-radius: 50%;
+  height: inherit; /*ensures carousel bg image is visible/correct height */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.home-circle-caption {
+  position: absolute;
+  bottom: 0;
+  padding: 0 10% 10px 10%;
+  background-color: #302d7e; /*fallback for older browsers */
+  background-color: #38328dc4;
+}
+
+#wave2 {
+  position: relative;
+  top: -50px;
+}
+
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
  
   /* HOME PAGE */
   
-  #carouselSlidesOnly {
-    height: 220px;
-    border-right: 10px solid transparent;
-    border-left: 10px solid transparent;
+  #carousel-fade {
+    /* height: 220px;
+    border: none;
+    border-radius: 50%; */
   }
+  /*
 
   .carousel-caption {
     height: 35%;
@@ -149,7 +271,7 @@ export default {
   .carousel-caption p:first-child {
     line-height: 1;
     font-size: 0.8rem;
-  }
+  } */
 
 }
 
@@ -158,12 +280,19 @@ export default {
 
   /* HOME PAGE */
 
-  #carouselSlidesOnly {
+  #carousel-fade,
+  .carousel-inner {
     border-radius: 50%;
     border: none;
     height: 295px;
   }
-
+  .w-100 {
+    width: 128% !important;
+  }
+  .img-fluid {
+    max-width: none;
+  }
+/* 
   .carousel-caption {
     height: 35%;
     padding: 0 17% 15px 17%;
@@ -172,6 +301,10 @@ export default {
   .carousel-caption p:first-child {
     line-height: 1;
     font-size: 0.8rem;
+  } */
+
+  .home-circle {
+    height: 38vw;
   }
 
 }
@@ -180,13 +313,24 @@ export default {
 @media (min-width: 992px) {
 
   /* HOME PAGE */
-  #carouselSlidesOnly {
+  /* #carouselSlidesOnly {
     height: 395px;
   }
 
   .carousel-caption p:first-child {
     margin-top: 10px;
     font-size: 1.1rem;
+  } */
+
+
+  .circles-row {
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .home-circle {
+    height: 18vw;
   }
 
 }
@@ -195,7 +339,7 @@ export default {
 @media (min-width: 1200px) {
 
   /* HOME PAGE */
-  #carouselSlidesOnly {
+  /* #carouselSlidesOnly {
     height: 471px;
   }
 
@@ -206,7 +350,7 @@ export default {
 
   .carousel-caption p:last-child {
     font-size: 0.8rem;
-  }
+  } */
 
 }
 

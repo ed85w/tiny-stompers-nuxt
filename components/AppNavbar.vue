@@ -3,11 +3,11 @@
     <!-- navbar -->
     <nav class="sidebar text-center">
       <ul class="sidebar-nav">
-        <li><NuxtLink to="/" class="active">Home</NuxtLink></li>
+        <li><NuxtLink to="/">Home</NuxtLink></li>
         <li class="li-star"><img src="/star-tint.png" alt="star" class="nav-star"></li>
         <li><NuxtLink to="#">Prices</NuxtLink></li>
         <li class="li-star"><img src="/star-tint.png" alt="star" class="nav-star"></li>
-        <li><NuxtLink to="#">Where to find us</NuxtLink></li>
+        <li><NuxtLink to="where-to-find-us">Where to find us</NuxtLink></li>
         <li class="li-star"><img src="/star-tint.png" alt="star" class="nav-star"></li>
         <li><NuxtLink to="#" >Contact</NuxtLink></li>
         <li class="li-star"><img src="/star-tint.png" alt="star" class="nav-star"></li>
@@ -78,7 +78,7 @@ ul.sidebar-nav li a {
 
 ul.sidebar-nav li a:active,
 ul.sidebar-nav li a:hover,
-.active {
+.nuxt-link-exact-active {
   font-weight: bold;
   text-decoration: none;
 }
