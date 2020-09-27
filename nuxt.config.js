@@ -11,7 +11,7 @@ export default {
   */
   target: 'static',
   router: {
-    // base: '/tiny-stompers-nuxt/'
+    base: '/tiny-stompers-nuxt/'
   },
   /*
   ** Headers of the page

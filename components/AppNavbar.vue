@@ -4,7 +4,7 @@
     <nav class="sidebar text-center">
       <ul class="sidebar-nav">
         <li><NuxtLink to="/">Home</NuxtLink></li>
-        <li class="li-star"><img src="~/static/star-tint.png" alt="star" class="nav-star"></li>
+        <li class="li-star"><img src="/star-tint.png" alt="star" class="nav-star"></li>
         <li><NuxtLink to="#">Prices</NuxtLink></li>
         <li class="li-star"><img src="/star-tint.png" alt="star" class="nav-star"></li>
         <li><NuxtLink to="where-to-find-us">Where to find us</NuxtLink></li>
