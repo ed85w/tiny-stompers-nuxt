@@ -10,32 +10,7 @@
           <button type="button" class="btn btn-primary">Read More..</button>
         </div>
 
-        <!-- image carousel -->
-        <!-- <div class="col-xs-12 col-md-5 pl-0 pr-0  pt-5 pb-5 pt-md-0 pb-md-0 carousel-container animated bounceInUp">
-          <div id="carouselSlidesOnly" class="carousel slide " data-ride="carousel">
-            <div class="carousel-inner " role="listbox">
-              <div class="carousel-item active" style="background-image: url(/photos/carousel3.jpg); background-position-y: 40%">
-                <div class="carousel-caption">
-                  <p>"Becky's love for children shines through as she creates fun and motivational music and movement sessions for children and their grown ups"</p>
-                  <p>Linda, Tiny Stomper Nanna</p>
-                </div>
-              </div>
-              <div class="carousel-item" style="background-image: url(/photos/carousel2.jpg)">
-                <div class="carousel-caption">
-                  <p>"Lots of fun for little stompers and their parents!! Becky is lovely and keeps the sessions varied and interesting each week"</p>
-                  <p>Alex, Tiny Stomper Mum</p>
-                </div>
-              </div>
-              <div class="carousel-item" style="background-image: url(/photos/carousel1.jpg);">
-                <div class="carousel-caption">
-                  <p>"A fabulous, interactive group for preschoolers and their grown ups. Highly recommend coming to try it out"</p>
-                  <p>Kirsty, Tiny Stomper Mum</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
-        <!-- vue carousel  -->
+        <!-- image carousel  -->
         <div class="col-xs-12 col-md-5 pl-0 pr-0  pt-5 pb-5 pt-md-0 pb-md-0 carousel-container animated bounceInUp">
           <b-carousel
             id="carousel-fade"
@@ -48,11 +23,15 @@
               img-src="/photos/carousel03.jpg"
             ></b-carousel-slide>
             <b-carousel-slide
-              caption="Second Slide"
+              caption="Lots of fun for little stompers and their parents!! Becky is lovely and keeps the sessions varied and interesting each week"
+              caption-tag="p"
+              text="Alex, Tiny Stomper Mum"
               img-src="/photos/carousel02.jpg"
             ></b-carousel-slide>
             <b-carousel-slide
-              caption="Third Slide"
+              caption="A fabulous, interactive group for preschoolers and their grown ups. Highly recommend coming to try it out"
+              caption-tag="p"
+              text="Kirsty, Tiny Stomper Mum"
               img-src="/photos/carousel01.jpg"
             ></b-carousel-slide>
           </b-carousel>
@@ -136,7 +115,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 
 /*  Extra small devices (portrait phones, less than 576px) */
 /*  No media query for `xs` since this is the default in Bootstrap */
@@ -151,9 +130,11 @@ export default {
   background-color: #302d7e;
   color: white;
 }
-/* carousel
-#carouselSlidesOnly { 
-  height: 200px;
+
+/* carousel */
+
+#carousel-fade {
+  height: 60vw;
   border-radius: 0;
   overflow: hidden;
   border-image: url(/bgcolours.jpg) 5; 
@@ -165,57 +146,37 @@ export default {
 
 .carousel-inner,
 .carousel-item {
-  height: inherit; /*ensures carousel bg image is visible/correct height */
-  /* background-size: cover;
-  background-position: center;
-} */
-
-/* .carousel-caption {
-  height: 40%;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 0 10% 10px 10%;
-  background-color: #302d7e; 
-  background-color: #38328dc4;
-}
-
-.carousel-caption p:first-child {
-  text-align: justify;
-  font-style: italic;
-  margin-top: 2px;
-  margin-bottom: 2px;
-}
-
-.carousel-caption p:last-child {
-  font-size: 0.5rem;
-  margin-top: 0px;
-  text-align: left;
-}  */
-/* end of carousel */
-
-#carousel-fade {
-  height: 250px;
-  border-radius: 0;
-  overflow: hidden;
-  border-image: url(/bgcolours.jpg) 5; 
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: none;
-  border-right: none;
+  height: 60vw;
 }
 
 .carousel-caption {
   right: 0;
   left: 0;
+  bottom: 10px; //same as #carousel-fade border
+  padding: 0 10% 10px 10%;
   background-color: #302d7e; 
   background-color: #38328dc4;
+  text-align: left;
+
+  p:first-child::before {
+    content: open-quote;
+  }
+  
+  p:first-child::after {
+    content: close-quote;
+  }
+
+  p:first-child {
+    font-style: italic;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  p:last-child {
+    margin-top: 0px;
+  }
 
 }
-
-/* .img-fluid.w-100.d-block {
-  max-width: 170%;
-} */
 
 /* home circles */
 
@@ -254,37 +215,29 @@ export default {
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
  
-  /* HOME PAGE */
-  
-  #carousel-fade {
-    /* height: 220px;
-    border: none;
-    border-radius: 50%; */
-  }
-  /*
-
-  .carousel-caption {
-    height: 35%;
-    padding: 0 17% 15px 17%;
-  }
-
-  .carousel-caption p:first-child {
-    line-height: 1;
-    font-size: 0.8rem;
-  } */
-
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-  /* HOME PAGE */
-
   #carousel-fade,
-  .carousel-inner {
+  .carousel-inner,
+  .carousel-item {
     border-radius: 50%;
     border: none;
     height: 295px;
+
+    .carousel-caption{
+      bottom: 0;
+      padding-left: 20%;
+      padding-right: 20%;
+
+      p:last-child {
+        text-align: center;
+      }
+
+    }
+
   }
   .w-100 {
     width: 128% !important;
@@ -292,16 +245,6 @@ export default {
   .img-fluid {
     max-width: none;
   }
-/* 
-  .carousel-caption {
-    height: 35%;
-    padding: 0 17% 15px 17%;
-  }
-
-  .carousel-caption p:first-child {
-    line-height: 1;
-    font-size: 0.8rem;
-  } */
 
   .home-circle {
     height: 38vw;
@@ -312,16 +255,11 @@ export default {
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-  /* HOME PAGE */
-  /* #carouselSlidesOnly {
-    height: 395px;
+  #carousel-fade,
+  .carousel-inner,
+  .carousel-item {
+    height: 390px;
   }
-
-  .carousel-caption p:first-child {
-    margin-top: 10px;
-    font-size: 1.1rem;
-  } */
-
 
   .circles-row {
     width: 88%;
@@ -338,19 +276,11 @@ export default {
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
-  /* HOME PAGE */
-  /* #carouselSlidesOnly {
-    height: 471px;
+  #carousel-fade,
+  .carousel-inner,
+  .carousel-item {
+    height: 465px;
   }
-
-  .carousel-caption p:first-child {
-    font-size: 1.25rem;
-    margin-top: 8px;
-  }
-
-  .carousel-caption p:last-child {
-    font-size: 0.8rem;
-  } */
 
 }
 
