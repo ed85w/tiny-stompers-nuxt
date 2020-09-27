@@ -26,12 +26,12 @@ export default {
 
 @font-face {
   font-family: kristenITC;
-  src: url(/fonts/ITCKRIST.ttf) format('truetype');
+  src: url(~static/fonts/ITCKRIST.ttf) format('truetype');
 }
 
 @font-face {
   font-family: centuryGothic;
-  src: url(/fonts/CenturyGothic.ttf) format('truetype');
+  src: url(~static/fonts/CenturyGothic.ttf) format('truetype');
 }
 
 html {

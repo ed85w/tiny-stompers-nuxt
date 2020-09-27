@@ -20,36 +20,33 @@
               caption="Becky's love for children shines through as she creates fun and motivational music and movement sessions for children and their grown ups"
               caption-tag="p"
               text="Linda, Tiny Stomper Nanna"
-              img-src="/photos/carousel03.jpg"
+              img-src="~static/photos/carousel03.jpg"
             ></b-carousel-slide>
             <b-carousel-slide
               caption="Lots of fun for little stompers and their parents!! Becky is lovely and keeps the sessions varied and interesting each week"
               caption-tag="p"
               text="Alex, Tiny Stomper Mum"
-              img-src="/photos/carousel02.jpg"
+              img-src="~static/photos/carousel02.jpg"
             ></b-carousel-slide>
             <b-carousel-slide
               caption="A fabulous, interactive group for preschoolers and their grown ups. Highly recommend coming to try it out"
               caption-tag="p"
               text="Kirsty, Tiny Stomper Mum"
-              img-src="/photos/carousel01.jpg"
+              img-src="~static/photos/carousel01.jpg"
             ></b-carousel-slide>
           </b-carousel>
         </div>
       </div>
     </div>
     <svg id="wave1" data-name="wave1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.89 82.08">
-      <defs>
-        <style>.cls-1{fill:#d2cfe7;}.cls-2{fill:#2d2e83;}</style>
-      </defs>
-      <path class="cls-1" d="M845.83,89.75s-806-.09-846.81,3V30.85h0c40.8-3,114.13,40.89,215.07,12.24C371.64-1.64,398.83,11.74,581.77,49.4,735.58,81.07,845.83,24.26,845.83,24.26Z"/>
-      <path class="cls-2" d="M846.17,29.59S736.5,82.82,582.43,51.89C399.18,15.1,371.94,2,214.12,45.72,113,73.71,39.54,30.86-1.32,33.83V26.11h0c40.86-3,114.32,39.94,215.44,12C371.94-5.63,399.18,7.44,582.43,44.23c154.07,30.93,263.74-23.3,263.74-23.3Z"/>
+      <path fill="#d2cfe7" d="M845.83,89.75s-806-.09-846.81,3V30.85h0c40.8-3,114.13,40.89,215.07,12.24C371.64-1.64,398.83,11.74,581.77,49.4,735.58,81.07,845.83,24.26,845.83,24.26Z"/>
+      <path fill="#2d2e83" d="M846.17,29.59S736.5,82.82,582.43,51.89C399.18,15.1,371.94,2,214.12,45.72,113,73.71,39.54,30.86-1.32,33.83V26.11h0c40.86-3,114.32,39.94,215.44,12C371.94-5.63,399.18,7.44,582.43,44.23c154.07,30.93,263.74-23.3,263.74-23.3Z"/>
     </svg>
-    <div class="container-fluid circles-container" style="background-color: rgba(48, 45, 126, 0.2); ">
+    <div class="container-fluid circles-container">
       <div class="row circles-row pt-3">
         <div class="col-12 col-md-6 col-lg-3 pl-5 pr-5 pt-3 pb-3 pl-lg-3 pr-lg-3">
           <div class="home-circle">
-            <div class="home-circle-inner" style="background-image: url(/photos/carousel3.jpg);">
+            <div class="home-circle-inner" style="background-image: url(./photos/carousel3.jpg);">
               <div class="home-circle-caption">
                 <p>"Becky's love for children shines through as she creates fun and motivational music and movement sessions for children and their grown ups"</p>
               </div>
@@ -58,7 +55,7 @@
         </div>
         <div class="col-12 col-md-6 col-lg-3 pl-5 pr-5 pt-3 pb-3 pl-lg-3 pr-lg-3">
           <div class="home-circle">
-            <div class="home-circle-inner" style="background-image: url(/photos/carousel3.jpg);">
+            <div class="home-circle-inner" style="background-image: url(./photos/carousel3.jpg');">
               <div class="home-circle-caption">
                 <p>"Becky's love for children shines through as she creates fun and motivational music and movement sessions for children and their grown ups"</p>
               </div>
@@ -67,7 +64,7 @@
         </div>
         <div class="col-12 col-md-6 col-lg-3 pl-5 pr-5 pt-3 pb-3 pl-lg-3 pr-lg-3">
           <div class="home-circle">
-            <div class="home-circle-inner" style="background-image: url(/photos/carousel3.jpg);">
+            <div class="home-circle-inner" style="background-image: url(./photos/carousel3.jpg);">
               <div class="home-circle-caption">
                 <p>"Becky's love for children shines through as she creates fun and motivational music and movement sessions for children and their grown ups"</p>
               </div>
@@ -76,7 +73,7 @@
         </div>
         <div class="col-12 col-md-6 col-lg-3 pl-5 pr-5 pt-3 pb-3 pl-lg-3 pr-lg-3">
           <div class="home-circle">
-            <div class="home-circle-inner" style="background-image: url(/photos/carousel3.jpg);">
+            <div class="home-circle-inner" style="background-image: url(./photos/carousel3.jpg);">
               <div class="home-circle-caption">
                 <p>"Becky's love for children shines through as she creates fun and motivational music and movement sessions for children and their grown ups"</p>
               </div>
@@ -86,11 +83,8 @@
       </div>    
     </div>
     <svg id="wave2" data-name="wave2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.89 82.08">
-      <defs>
-        <style>.cls-1{fill:#d2cfe7;}.cls-2{fill:#2d2e83;}</style>
-      </defs>
-      <path class="cls-1" d="M845.83,89.75s-806-.09-846.81,3V30.85h0c40.8-3,114.13,40.89,215.07,12.24C371.64-1.64,398.83,11.74,581.77,49.4,735.58,81.07,845.83,24.26,845.83,24.26Z"/>
-      <path class="cls-2" d="M846.17,29.59S736.5,82.82,582.43,51.89C399.18,15.1,371.94,2,214.12,45.72,113,73.71,39.54,30.86-1.32,33.83V26.11h0c40.86-3,114.32,39.94,215.44,12C371.94-5.63,399.18,7.44,582.43,44.23c154.07,30.93,263.74-23.3,263.74-23.3Z"/>
+      <path fill="red" d="M845.83,89.75s-806-.09-846.81,3V30.85h0c40.8-3,114.13,40.89,215.07,12.24C371.64-1.64,398.83,11.74,581.77,49.4,735.58,81.07,845.83,24.26,845.83,24.26Z"/>
+      <path fill="green" d="M846.17,29.59S736.5,82.82,582.43,51.89C399.18,15.1,371.94,2,214.12,45.72,113,73.71,39.54,30.86-1.32,33.83V26.11h0c40.86-3,114.32,39.94,215.44,12C371.94-5.63,399.18,7.44,582.43,44.23c154.07,30.93,263.74-23.3,263.74-23.3Z"/>
     </svg>
     <div class="container-fluid">
 
@@ -137,7 +131,7 @@ export default {
   height: 60vw;
   border-radius: 0;
   overflow: hidden;
-  border-image: url(/bgcolours.jpg) 5; 
+  border-image: url(~static/bgcolours.jpg) 5; 
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
   border-left: none;

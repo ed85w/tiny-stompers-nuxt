@@ -16,7 +16,7 @@ function initMap() {
 
   // The icon
   var icon = {
-    url: "./img/tiny-stompers-logo-pin.png", // url
+    url: "~static/tiny-stompers-logo-pin.png", // url
     scaledSize: new google.maps.Size(40, 40), // scaled size
 };
 

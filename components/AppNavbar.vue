@@ -4,13 +4,13 @@
     <nav class="sidebar text-center">
       <ul class="sidebar-nav">
         <li><NuxtLink to="/">Home</NuxtLink></li>
-        <li class="li-star"><img src="~/static/star-tint.png" alt="star" class="nav-star"></li>
+        <li class="li-star"><img src="~static/star-tint.png" alt="star" class="nav-star"></li>
         <li><NuxtLink to="#">Prices</NuxtLink></li>
-        <li class="li-star"><img src="/star-tint.png" alt="star" class="nav-star"></li>
+        <li class="li-star"><img src="~static/star-tint.png" alt="star" class="nav-star"></li>
         <li><NuxtLink to="where-to-find-us">Where to find us</NuxtLink></li>
-        <li class="li-star"><img src="/star-tint.png" alt="star" class="nav-star"></li>
+        <li class="li-star"><img src="~static/star-tint.png" alt="star" class="nav-star"></li>
         <li><NuxtLink to="#" >Contact</NuxtLink></li>
-        <li class="li-star"><img src="/star-tint.png" alt="star" class="nav-star"></li>
+        <li class="li-star"><img src="~static/star-tint.png" alt="star" class="nav-star"></li>
         <li><NuxtLink to="#">Baby Massage</NuxtLink></li>
       </ul>
       <button class="sidebarBtn">
@@ -182,7 +182,7 @@ img.nav-star {
 /* end of navbar styling */
 
 #wave {
-  background-image: url("/mobile-header.png");
+  background-image: url("~static/mobile-header.png");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -197,7 +197,7 @@ img.nav-star {
 
 
   #wave {
-    background-image: url("/homepage-header.png");
+    background-image: url("~static/homepage-header.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: bottom center;
