@@ -1,19 +1,19 @@
 <template>
   <div>
     <!-- navbar -->
-    <nav class="sidebar text-center">
+    <nav class="sidebar text-center" v-bind:class="{ showsidebar: showMobileMenu }">
       <ul class="sidebar-nav">
-        <li><NuxtLink to="/">Home</NuxtLink></li>
+        <li v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="/" exact>Home</NuxtLink></li>
         <li class="li-star"><img src="~static/star-tint.png" alt="star" class="nav-star"></li>
-        <li><NuxtLink to="#">Prices</NuxtLink></li>
+        <li v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="#">Prices</NuxtLink></li>
         <li class="li-star"><img src="~static/star-tint.png" alt="star" class="nav-star"></li>
-        <li><NuxtLink to="where-to-find-us">Where to find us</NuxtLink></li>
+        <li v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="where-to-find-us">Where to find us</NuxtLink></li>
         <li class="li-star"><img src="~static/star-tint.png" alt="star" class="nav-star"></li>
-        <li><NuxtLink to="#" >Contact</NuxtLink></li>
+        <li v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="contact" >Contact</NuxtLink></li>
         <li class="li-star"><img src="~static/star-tint.png" alt="star" class="nav-star"></li>
-        <li><NuxtLink to="#">Baby Massage</NuxtLink></li>
+        <li v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="#">Baby Massage</NuxtLink></li>
       </ul>
-      <button class="sidebarBtn">
+      <button class="sidebarBtn" v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }">
         <span></span>
       </button>
     </nav>
@@ -28,6 +28,11 @@
 
 <script>
 export default {
+    data() {
+      return{
+          showMobileMenu: false,
+      }
+  }
 }
 </script>
 
@@ -50,7 +55,7 @@ export default {
   z-index: 1;
 }
 
-.active {
+.showsidebar {
   left: 0;
   width: 100%;
 }
@@ -121,7 +126,7 @@ img.nav-star {
 .sidebarBtn span {
   display: block;
   width: 25px;
-  height: 1.5px;
+  height: 3px;
   background-color:   rgb(0, 0, 0);
   position: absolute;
   top: 17px;
@@ -135,7 +140,7 @@ img.nav-star {
   top: -8px;
   left: 0;
   width: 100%;
-  height: 1.5px;
+  height: 3px;
   background: rgb(0, 0, 0);
   transition: .3s;
   -webkit-transition: .3s;
@@ -148,7 +153,7 @@ img.nav-star {
   top: 8px;
   left: 0;
   width: 100%;
-  height: 1.5px;
+  height: 3px;
   background: rgb(0, 0, 0);
   transition: .3s;
   -webkit-transition: .3s;

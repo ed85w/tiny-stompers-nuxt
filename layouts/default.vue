@@ -60,6 +60,19 @@ h2 {
   font-weight: bold;
 }
 
+.about-ul {
+  list-style-type: none;
+}
+
+li.about-li {
+  background: url(~static/star-tint.png);
+  background-size: 15px;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+  padding-left: 2em;
+  font-size: 0.7rem;
+}
+
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
  
@@ -72,6 +85,10 @@ h2 {
   }
 
   p {
+    font-size: 0.8rem;
+  }
+
+  li.about-li {
     font-size: 0.8rem;
   }
   
@@ -95,6 +112,12 @@ h2 {
 
   p {
     font-size: 1rem;
+  }
+
+  li.about-li {
+    background-size: 25px;
+    font-size: 1rem;
+    padding-bottom: 1px;
   }
 
 }
