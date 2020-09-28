@@ -40,7 +40,8 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
-    { src: '~plugins/ga.js', mode: 'client' }
+    { src: '~plugins/ga.js', mode: 'client' },
+    { src: '~plugins/v-calendar.js', ssr: false }
   ],
   /*
   ** Auto import components

@@ -18,7 +18,7 @@
         <div class="col-xs-12 col-md-7 animated fadeIn delay-1s" id="vue-form"> 
           <h2>Booking/enquiry form</h2>
           <!-- contact form (uses formspree) -->
-          <form method="POST" action="https://formspree.io/langstaff56@gmx.co.uk">          
+          <form method="POST" action="https://formspree.io/ed.walker@hotmail.co.uk">          
 
             <div class="form-group">
               <label for="adult_name">Adult's Name *</label>
@@ -67,7 +67,20 @@
             
             <div class="form-group">
               <label>When would you like your first session to be</label>
-              <input type="text" class="form-control" id="datepicker" name="first_session">
+              <client-only>
+                <v-date-picker
+                  v-model="date"
+                  :min-date='new Date()'
+                  :popover="{ visibility: 'click' }"
+                  :disabled-dates='{ weekdays: [1, 3, 5, 6, 7] }'
+                  :input-props='{
+                      type: "text",
+                      class: "form-control", 
+                      id: "datepicker", 
+                      name: "first_session"
+                    }'
+                />
+              </client-only>
             </div>
 
             <div class="form-group">
