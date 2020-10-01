@@ -131,7 +131,7 @@ export default {
   height: 60vw;
   border-radius: 0;
   overflow: hidden;
-  border-image: url(~static/bgcolours.jpg) 5; 
+  border-image: url("~static/bgcolours.jpg") 5; 
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
   border-left: none;
