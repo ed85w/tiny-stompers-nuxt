@@ -132,7 +132,10 @@ export default {
   border-radius: 0;
   overflow: hidden;
   border-image: url("~static/bgcolours.jpg") 5; 
-  border-top: 10px solid transparent;
+  border-top: 10px solid transparent; //also split out below as fallback as not rendering properly once generated
+  border-top: 10px;
+  border-top-style: solid;
+  border-top-color: transparent;
   border-bottom: 10px solid transparent;
   border-left: none;
   border-right: none;

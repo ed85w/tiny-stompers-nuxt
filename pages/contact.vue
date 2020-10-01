@@ -1,5 +1,18 @@
 <template>
-      <div class="container">
+    <div class="container">
+
+      <!-- facebook feed SDK (not visible)-->
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0&appId=819496821587088&autoLogAppEvents=1";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+      </script>
+      <!-- end of facebook feed SDK -->
+
       <div class="row">
         <div class="col-xs-12 col-md-5 animated fadeIn">
           <h2>Contact Us</h2>
@@ -110,7 +123,8 @@ data() {
         children: [{
             name: '',
             age: ''
-            }]
+            }],
+          today: ""
         }
     },
     methods: {
