@@ -174,8 +174,8 @@ label {
 @media (min-width: 992px) {
 
   .contact-row{
-  padding-bottom: 150px;
-} 
+    padding-bottom: 150px;
+  } 
 
   label {
     font-size: 1rem;
