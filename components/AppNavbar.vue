@@ -5,6 +5,8 @@
       <ul class="sidebar-nav">
         <li v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="/" exact>Home</NuxtLink></li>
         <li class="li-star"><img src="~static/star-tint.png" alt="star" class="nav-star"></li>
+        <li v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="about" exact>About</NuxtLink></li>
+        <li class="li-star"><img src="~static/star-tint.png" alt="star" class="nav-star"></li>
         <li v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="#">Prices</NuxtLink></li>
         <li class="li-star"><img src="~static/star-tint.png" alt="star" class="nav-star"></li>
         <li v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="where-to-find-us">Where to find us</NuxtLink></li>

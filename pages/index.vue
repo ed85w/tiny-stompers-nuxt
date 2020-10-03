@@ -4,9 +4,9 @@
     <div class="container pl-sm-0 pr-sm-0">
       <div class="row">
         <div class="col-xs-12 col-md-7 pr-xl-5 home-div">
-          <h1>Hello and welcome to Tiny Stompers!</h1>
-          <p class="font-weight-bold">Here at Tiny Stompers, we love introducing children and their parents/carers to the stimulating world of music and movement in a fun, energetic and exciting way within a safe environment.</p>
-          <p>With a range of musical instruments, textures, music, sights, and smells, there is so much for Tiny Stompers to explore! Each session provides a multi-sensory environment aiding in children's development in many different and beneficial ways.</p>
+          <h1 class="pb-4">Hello and welcome to Tiny Stompers!</h1>
+          <p class="pb-4 font-weight-bold">Here at Tiny Stompers, we love introducing children and their parents/carers to the stimulating world of music and movement in a fun, energetic and exciting way within a safe environment.</p>
+          <p class="pb-4">With a range of musical instruments, textures, music, sights, and smells, there is so much for Tiny Stompers to explore! Each session provides a multi-sensory environment aiding in children's development in many different and beneficial ways.</p>
           <button type="button" class="btn btn-primary">Read More..</button>
         </div>
 
@@ -43,57 +43,32 @@
       <path fill="#2d2e83" d="M846.17,29.59S736.5,82.82,582.43,51.89C399.18,15.1,371.94,2,214.12,45.72,113,73.71,39.54,30.86-1.32,33.83V26.11h0c40.86-3,114.32,39.94,215.44,12C371.94-5.63,399.18,7.44,582.43,44.23c154.07,30.93,263.74-23.3,263.74-23.3Z"/>
     </svg>
     <div class="container-fluid circles-container">
-      <div class="row circles-row pt-3">
-        <div class="col-12 col-md-6 col-lg-3 pl-5 pr-5 pt-3 pb-3 pl-lg-3 pr-lg-3">
-          <div class="home-circle">
-            <div class="home-circle-inner" style="background-image: url(./photos/carousel3.jpg);">
-              <div class="home-circle-caption">
-                <p>"Becky's love for children shines through as she creates fun and motivational music and movement sessions for children and their grown ups"</p>
-              </div>
-            </div>
-          </div>
+      <div class="row circles-row">
+        <div class="col-12">
+          <h1 class="pb-4">Come and join in with some stomping good fun!</h1>
+          <h5 class="font-weight-bold">Tiny Stompers is proud to be a Ryedale Mumbler Awards Finalist and York Mumbler</h5>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 pl-5 pr-5 pt-3 pb-3 pl-lg-3 pr-lg-3">
-          <div class="home-circle">
-            <div class="home-circle-inner" style="background-image: url(./photos/carousel3.jpg');">
-              <div class="home-circle-caption">
-                <p>"Becky's love for children shines through as she creates fun and motivational music and movement sessions for children and their grown ups"</p>
-              </div>
-            </div>
-          </div>
+      </div>
+      <navCircles />
+      <div class="row circles-row">
+        <div class="col-12">
+          <h1 class="pb-4">Contact us we'd love to hear from you!</h1>
+          <h5 class="pb-4 font-weight-bold">Tiny Stompers is proud to be a Ryedale Mumbler Awards Finalist and York Mumbler</h5>
+          <button type="button" class="btn btn-primary">Read More..</button>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 pl-5 pr-5 pt-3 pb-3 pl-lg-3 pr-lg-3">
-          <div class="home-circle">
-            <div class="home-circle-inner" style="background-image: url(./photos/carousel3.jpg);">
-              <div class="home-circle-caption">
-                <p>"Becky's love for children shines through as she creates fun and motivational music and movement sessions for children and their grown ups"</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3 pl-5 pr-5 pt-3 pb-3 pl-lg-3 pr-lg-3">
-          <div class="home-circle">
-            <div class="home-circle-inner" style="background-image: url(./photos/carousel3.jpg);">
-              <div class="home-circle-caption">
-                <p>"Becky's love for children shines through as she creates fun and motivational music and movement sessions for children and their grown ups"</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>    
-    </div>
-    <svg id="wave2" data-name="wave2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.89 82.08">
-      <path fill="red" d="M845.83,89.75s-806-.09-846.81,3V30.85h0c40.8-3,114.13,40.89,215.07,12.24C371.64-1.64,398.83,11.74,581.77,49.4,735.58,81.07,845.83,24.26,845.83,24.26Z"/>
-      <path fill="green" d="M846.17,29.59S736.5,82.82,582.43,51.89C399.18,15.1,371.94,2,214.12,45.72,113,73.71,39.54,30.86-1.32,33.83V26.11h0c40.86-3,114.32,39.94,215.44,12C371.94-5.63,399.18,7.44,582.43,44.23c154.07,30.93,263.74-23.3,263.74-23.3Z"/>
-    </svg>
-    <div class="container-fluid">
-
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+
+import navCircles from '../components/NavCircles'
+
 export default {
+    components: {
+    navCircles
+  },
   head(){
     return {
       title: 'Tiny Stompers | Home',
@@ -175,32 +150,9 @@ export default {
 
 }
 
-/* home circles */
-
 .circles-container {
   background-color: #d2cfe7;
-  padding-bottom: 100px;
-}
-
-.home-circle {
-  height: 70vw;
-}
-
-.home-circle-inner {
-  border-radius: 50%;
-  height: inherit; /*ensures carousel bg image is visible/correct height */
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  overflow: hidden;
-}
-
-.home-circle-caption {
-  position: absolute;
-  bottom: 0;
-  padding: 0 10% 10px 10%;
-  background-color: #302d7e; /*fallback for older browsers */
-  background-color: #38328dc4;
+  padding-bottom: 30px;
 }
 
 #wave2 {
@@ -243,10 +195,6 @@ export default {
     max-width: none;
   }
 
-  .home-circle {
-    height: 38vw;
-  }
-
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -264,10 +212,9 @@ export default {
     margin-right: auto;
   }
 
-  .home-circle {
-    height: 18vw;
+  .circles-container {
+    padding-bottom: 150px;
   }
-
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */

@@ -2,16 +2,19 @@
   <div>
     <AppNavbar />
     <Nuxt />
+    <AppFooter />
   </div>
 </template>
 
 <script>
 
 import AppNavbar from '../components/AppNavbar';
+import AppFooter from '../components/AppFooter';
 
 export default {
   components: {
-    AppNavbar
+    AppNavbar,
+    AppFooter
   }
 
 }
@@ -35,7 +38,7 @@ export default {
 }
 
 html {
-  font-size: 14px;
+  /* font-size: 12px; */
 }
 body { 
   font-family: centuryGothic, sans-serif;
@@ -46,11 +49,11 @@ h1,h2,h3,h4,h5 {
 }
 p {
   font-weight: normal;
-  font-size: 0.7rem;
+  /* font-size: 0.7rem; */
   margin-bottom: 8px;
 }
 
-h1 {
+/* h1 {
   font-size: 1rem;
   font-weight: bold;
 }
@@ -58,7 +61,7 @@ h1 {
 h2 {
   font-size:0.9rem;
   font-weight: bold;
-}
+} */
 
 .about-ul {
   list-style-type: none;
@@ -76,7 +79,7 @@ li.about-li {
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
  
-  h1 {
+  /* h1 {
     font-size: 1.25rem;
   }
 
@@ -90,7 +93,7 @@ li.about-li {
 
   li.about-li {
     font-size: 0.8rem;
-  }
+  } */
   
 }
 

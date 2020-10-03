@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-      <div class="row">
+      <div class="row contact-row">
         <div class="col-xs-12 col-md-5 animated fadeIn">
           <h2>Contact Us</h2>
           <p>If you would like to ask us any questions please don’t hesitate to contact Becky...</p>
@@ -132,6 +132,10 @@ data() {
 /*  Extra small devices (portrait phones, less than 576px) */
 /*  No media query for `xs` since this is the default in Bootstrap */
 
+.contact-row{
+  padding-bottom: 40px;
+}
+
 label {
   font-size: 0.7rem;
 }
@@ -168,6 +172,10 @@ label {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
+  .contact-row{
+  padding-bottom: 150px;
+} 
 
   label {
     font-size: 1rem;
