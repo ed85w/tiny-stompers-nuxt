@@ -96,12 +96,12 @@
 export default {
   head(){
     return {
-      title: 'Home Page',
+      title: 'Tiny Stompers | Home',
       meta: [
         {
           hid: 'description', //id
           name: 'description', //meta type
-          content: 'this is the description for the home page' //meta content
+          content: 'Tiny Stompers - music, movement and sensory group for babies, toddlers and children aged 12 months to 5 years. Based in Thirsk near York.' //meta content
         }
       ]
     };
