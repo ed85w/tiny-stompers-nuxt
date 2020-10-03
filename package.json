@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "node-sass": "^4.14.1",
+    "nuxt-gmaps": "^1.2.10",
     "push-dir": "^0.4.1",
     "sass-loader": "^10.0.2"
   }
