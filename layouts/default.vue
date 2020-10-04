@@ -38,7 +38,7 @@ export default {
 }
 
 html {
-  /* font-size: 12px; */
+  font-size: 13px;
 }
 body { 
   font-family: centuryGothic, sans-serif;
@@ -49,15 +49,13 @@ h1,h2,h3,h4,h5 {
 }
 p {
   font-weight: normal;
-  /* font-size: 0.7rem; */
-  margin-bottom: 8px;
 }
 
-/* h1 {
-  font-size: 1rem;
-  font-weight: bold;
+h1 {
+  font-size: 2rem;
 }
 
+/* 
 h2 {
   font-size:0.9rem;
   font-weight: bold;
@@ -106,15 +104,7 @@ li.about-li {
 @media (min-width: 992px) {
 
   h1 {
-    font-size: 1.5rem;
-  }
-
-  h2 {
-    font-size: 1.3rem;
-  }
-
-  p {
-    font-size: 1rem;
+    font-size: 2.5rem;
   }
 
   li.about-li {
@@ -128,13 +118,6 @@ li.about-li {
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
-  h1 {
-    font-size: 1.75rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
 
 }
 

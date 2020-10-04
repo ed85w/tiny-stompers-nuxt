@@ -42,20 +42,27 @@
       <path fill="#d2cfe7" d="M845.83,89.75s-806-.09-846.81,3V30.85h0c40.8-3,114.13,40.89,215.07,12.24C371.64-1.64,398.83,11.74,581.77,49.4,735.58,81.07,845.83,24.26,845.83,24.26Z"/>
       <path fill="#2d2e83" d="M846.17,29.59S736.5,82.82,582.43,51.89C399.18,15.1,371.94,2,214.12,45.72,113,73.71,39.54,30.86-1.32,33.83V26.11h0c40.86-3,114.32,39.94,215.44,12C371.94-5.63,399.18,7.44,582.43,44.23c154.07,30.93,263.74-23.3,263.74-23.3Z"/>
     </svg>
-    <div class="container-fluid circles-container">
-      <div class="row circles-row">
-        <div class="col-12">
-          <h1 class="pb-4">Come and join in with some stomping good fun!</h1>
-          <h5 class="font-weight-bold">Tiny Stompers is proud to be a Ryedale Mumbler Awards Finalist and York Mumbler</h5>
+    <div class="wrapper">
+      <div class="container circles-container pl-sm-0 pr-sm-0">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="pb-4">Come and join in with some stomping good fun!</h1>
+            <h5 class="font-weight-bold">Tiny Stompers is proud to be a Ryedale Mumbler Awards Finalist and York Mumbler</h5>
+          </div>
         </div>
       </div>
-      <navCircles />
-      <div class="row circles-row">
-        <div class="col-12">
-          <h1 class="pb-4">Contact us we'd love to hear from you!</h1>
-          <h5 class="pb-4 font-weight-bold">Tiny Stompers is proud to be a Ryedale Mumbler Awards Finalist and York Mumbler</h5>
-          <button type="button" class="btn btn-primary">Read More..</button>
+      <div class="container-fluid">
+        <navCircles />
+      </div>
+      <div class="container pl-sm-0 pr-sm-0">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="pb-4">Contact us we'd love to hear from you!</h1>
+            <h5 class="pb-4">Tiny Stompers is proud to be a Ryedale Mumbler Awards Finalist and York Mumbler</h5>
+            <button type="button" class="btn btn-primary">Read More..</button>
+          </div>
         </div>
+      </div>
       </div>
     </div>
   </div>
@@ -90,10 +97,6 @@ export default {
 /*  No media query for `xs` since this is the default in Bootstrap */
 
 /* HOME PAGE */
-
-.home-div {
-  text-align: justify;
-}
 
 .btn-primary{
   background-color: #302d7e;
@@ -130,6 +133,10 @@ export default {
   background-color: #38328dc4;
   text-align: left;
 
+  p {
+    font-size: 0.8rem;
+  }
+
   p:first-child::before {
     content: open-quote;
   }
@@ -150,9 +157,13 @@ export default {
 
 }
 
+.wrapper {
+  background-color: #d2cfe7;
+  padding-bottom: 40px;
+}
+
 .circles-container {
   background-color: #d2cfe7;
-  padding-bottom: 30px;
 }
 
 #wave2 {
@@ -206,13 +217,17 @@ export default {
     height: 390px;
   }
 
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+
   .circles-row {
     width: 88%;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .circles-container {
+  .wrapper {
     padding-bottom: 150px;
   }
 }
