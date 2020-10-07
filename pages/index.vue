@@ -2,16 +2,16 @@
   <div>
     <!-- page content -->
     <div class="container pl-sm-0 pr-sm-0">
-      <div class="row">
+      <div class="row home-row">
         <div class="col-xs-12 col-md-7 pr-xl-5 home-div">
-          <h1 class="pb-4">Hello and welcome to Tiny Stompers!</h1>
-          <p class="pb-4 font-weight-bold">Here at Tiny Stompers, we love introducing children and their parents/carers to the stimulating world of music and movement in a fun, energetic and exciting way within a safe environment.</p>
-          <p class="pb-4">With a range of musical instruments, textures, music, sights, and smells, there is so much for Tiny Stompers to explore! Each session provides a multi-sensory environment aiding in children's development in many different and beneficial ways.</p>
-          <button type="button" class="btn btn-primary">Read More..</button>
+          <h1 class="pb-3">Hello and welcome to Tiny Stompers!</h1>
+          <p class="pb-1 pb-md-4 font-weight-bold">Here at Tiny Stompers, we love introducing children and their parents/carers to the stimulating world of music and movement in a fun, energetic and exciting way within a safe environment.</p>
+          <p class="pb-3 d-none d-md-block">With a range of musical instruments, textures, music, sights, and smells, there is so much for Tiny Stompers to explore! Each session provides a multi-sensory environment aiding in children's development in many different and beneficial ways.</p>
+          <button type="button" class="btn btn-primary d-none d-md-block">Read More..</button>
         </div>
 
         <!-- image carousel  -->
-        <div class="col-xs-12 col-md-5 pl-0 pr-0  pt-5 pb-5 pt-md-0 pb-md-0 carousel-container animated bounceInUp">
+        <div class="col-xs-12 col-md-5 pt-0 pr-0 pb-3 pl-0 carousel-container animated bounceInUp">
           <b-carousel
             id="carousel-fade"
             fade
@@ -36,6 +36,10 @@
             ></b-carousel-slide>
           </b-carousel>
         </div>
+        <div class="col-xs-12 col-md-7 pr-xl-5 home-div">
+          <p class="pb-2 d-md-none">With a range of musical instruments, textures, music, sights, and smells, there is so much for Tiny Stompers to explore! Each session provides a multi-sensory environment aiding in children's development in many different and beneficial ways.</p>
+          <button type="button" class="btn btn-primary d-md-none">Read More..</button>
+        </div>
       </div>
     </div>
     <svg id="wave1" data-name="wave1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.89 82.08">
@@ -46,7 +50,7 @@
       <div class="container circles-container pl-sm-0 pr-sm-0">
         <div class="row">
           <div class="col-12">
-            <h1 class="pb-4">Come and join in with some stomping good fun!</h1>
+            <h1 class="pb-3">Come and join in with some stomping good fun!</h1>
             <h5 class="font-weight-bold">Tiny Stompers is proud to be a Ryedale Mumbler Awards Finalist and York Mumbler</h5>
           </div>
         </div>
@@ -57,8 +61,8 @@
       <div class="container pl-sm-0 pr-sm-0">
         <div class="row">
           <div class="col-12">
-            <h1 class="pb-4">Contact us we'd love to hear from you!</h1>
-            <h5 class="pb-4">Tiny Stompers is proud to be a Ryedale Mumbler Awards Finalist and York Mumbler</h5>
+            <h1 class="pb-3">Contact us we'd love to hear from you!</h1>
+            <h5 class="pb-3">Tiny Stompers is proud to be a Ryedale Mumbler Awards Finalist and York Mumbler</h5>
             <button type="button" class="btn btn-primary">Read More..</button>
           </div>
         </div>
@@ -96,7 +100,9 @@ export default {
 /*  Extra small devices (portrait phones, less than 576px) */
 /*  No media query for `xs` since this is the default in Bootstrap */
 
-/* HOME PAGE */
+.home-row {
+  padding-bottom: 20px;
+}
 
 .btn-primary{
   background-color: #302d7e;
@@ -106,7 +112,7 @@ export default {
 /* carousel */
 
 #carousel-fade {
-  height: 60vw;
+  height: 65vw;
   border-radius: 0;
   overflow: hidden;
   border-image: url("~static/bgcolours.jpg") 5; 
@@ -121,7 +127,7 @@ export default {
 
 .carousel-inner,
 .carousel-item {
-  height: 60vw;
+  height: 65vw;
 }
 
 .carousel-caption {

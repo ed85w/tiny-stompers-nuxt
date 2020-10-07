@@ -244,7 +244,7 @@ img.nav-star {
     }
     
     ul.sidebar-nav li {
-      padding: 20px 20px;
+      padding: 20px 15px;
       list-style: none;
       display: inline-block;
     }
@@ -270,6 +270,10 @@ img.nav-star {
 
   #wave {
     height: 254px;
+  }
+
+  ul.sidebar-nav li {
+    padding: 20px 20px;
   }
 
 }

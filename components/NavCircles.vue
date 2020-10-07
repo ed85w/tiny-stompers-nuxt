@@ -56,14 +56,7 @@ export default {
 
 <style lang="scss">
 
-$twiggys-color: #3299CC;
-$twiggys-opaque: #3299ccb0;
-$baby-color: #662D91;
-$baby-opaque: #662D91b0;
-$party-color: #8CC63F;
-$party-opaque: #8CC63Fb0;
-$preschool-color: #FF7BAC;
-$preschool-opaque: #FF7BACb0;
+
 
 /*  Extra small devices (portrait phones, less than 576px) */
 /*  No media query for `xs` since this is the default in Bootstrap */

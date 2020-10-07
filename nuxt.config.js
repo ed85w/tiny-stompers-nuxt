@@ -41,6 +41,7 @@ export default {
   ** Global CSS
   */
   css: [
+    '~assets/scss/variables.scss'
   ],
   /*
   ** Plugins to load before mounting the App
@@ -66,11 +67,21 @@ export default {
   modules: [
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
+    '@nuxtjs/style-resources',
   ],
   /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+  },
+    /*
+  ** Style Resources
+  ** Used for global sass variables
+  */
+  styleResources: {
+    scss: [
+        '~/assets/scss/variables.scss',
+    ]
   }
 }

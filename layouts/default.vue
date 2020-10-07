@@ -55,12 +55,6 @@ h1 {
   font-size: 2rem;
 }
 
-/* 
-h2 {
-  font-size:0.9rem;
-  font-weight: bold;
-} */
-
 .about-ul {
   list-style-type: none;
 }
@@ -76,25 +70,8 @@ li.about-li {
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
- 
-  /* h1 {
-    font-size: 1.25rem;
-  }
-
-  h2 {
-    font-size: 1.2rem;
-  }
-
-  p {
-    font-size: 0.8rem;
-  }
-
-  li.about-li {
-    font-size: 0.8rem;
-  } */
   
 }
-
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
