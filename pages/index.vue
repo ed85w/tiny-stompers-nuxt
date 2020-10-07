@@ -21,18 +21,21 @@
               caption-tag="p"
               text="Linda, Tiny Stomper Nanna"
               img-src="~static/photos/carousel03.jpg"
+              img-alt="becky bubbles with a certificate for a tiny stomper"
             ></b-carousel-slide>
             <b-carousel-slide
               caption="Lots of fun for little stompers and their parents!! Becky is lovely and keeps the sessions varied and interesting each week"
               caption-tag="p"
               text="Alex, Tiny Stomper Mum"
               img-src="~static/photos/carousel02.jpg"
+              img-alt="a tiny stomper having fun at tiny stompers!"
             ></b-carousel-slide>
             <b-carousel-slide
               caption="A fabulous, interactive group for preschoolers and their grown ups. Highly recommend coming to try it out"
               caption-tag="p"
               text="Kirsty, Tiny Stomper Mum"
               img-src="~static/photos/carousel01.jpg"
+              img-alt="a younger tiny stomper enjoying sensory play"
             ></b-carousel-slide>
           </b-carousel>
         </div>

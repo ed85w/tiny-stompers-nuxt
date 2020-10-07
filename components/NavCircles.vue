@@ -2,7 +2,7 @@
     <div class="row circles-row pt-3 pb-3">
         <div class="col-12 col-md-6 col-xl-3 pl-5 pr-5 pt-3 pb-3 pl-lg-5 pr-lg-5 pl-xl-3 pr-xl-3">
           <div class="home-circle twiggys-circle">
-            <NuxtLink to="#" class="circle-links">
+            <NuxtLink to="services" class="circle-links">
                 <div class="home-circle-inner" style="background-image: url(./photos/carousel3.jpg);">
                     <div class="home-circle-caption">
                         <h5>Tiny Stompers<br>at Twiggy's</h5>
@@ -64,6 +64,9 @@ export default {
 
 .home-circle {
   height: 73vw;
+  width: 73vw;
+  margin-left: auto;
+  margin-right: auto;
 
   .circle-links {
       height: 100%;
@@ -156,6 +159,7 @@ export default {
 
   .home-circle {
     height: 39vw;
+    width: 39vw;
   }
 
   .w-100 {
@@ -179,6 +183,7 @@ export default {
 
   .home-circle {
     height: 35vw;
+    width: 35vw;
   }
 
 }
@@ -188,6 +193,7 @@ export default {
 
     .home-circle {
         height: 19vw;
+        width: 19vw;
     }
 
 }
