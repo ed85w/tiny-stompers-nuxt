@@ -87,7 +87,8 @@ li.about-li {
   li.about-li {
     background-size: 25px;
     font-size: 1rem;
-    padding-bottom: 1px;
+    padding-bottom: 15px;
+    padding-left: 3rem;
   }
 
 }

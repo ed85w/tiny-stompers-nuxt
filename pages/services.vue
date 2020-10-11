@@ -2,7 +2,7 @@
     <div>
         <div class="services-wrapper wrapper-white">
             <div class="container">
-                <div class="row" id="twiggys-row">
+                <div class="row">
                     <div class="col-12 col-md-6 animated fadeIn">
                         <h2>Twiggy's Play - pay as you go! </h2>
                         <p>£6.50 per child. This includes your Tiny Stompers session and a play in Twiggy's soft play centre!
@@ -26,9 +26,9 @@
         </svg>
         <div class="services-wrapper wrapper-green">
             <div class="container">
-                <div class="row" id="party-row">
+                <div class="row">
                     <div class="col-12 col-md-8">
-                        <h2>Party bookings</h2>
+                        <h2 class="pb-3">Party bookings</h2>
                         <ul class="about-ul">
                             <li class="about-li">£75 for a 45 minute Birthday themed Tiny Stompers session</li>
                             <li class="about-li">For up to 10 children</li>
@@ -50,7 +50,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-8">
-                        <h2>Prices for preschool/ nursery bookings</h2>
+                        <h2 class="pb-3">Prices for preschool/ nursery bookings</h2>
                         <ul class="about-ul">
                             <li class="about-li">£75 per 45 minute session for up to 15 children</li>
                             <li class="about-li">Please contact Becky if you are a Charity as discount may apply</li>
@@ -115,6 +115,8 @@ export default {
 
 #pink-wave {
 
+    background-color: $party-light;
+
     path:first-child{
         fill: $preschool-light;
     }
@@ -157,10 +159,14 @@ export default {
         margin-top: -50px;
     }
 
-    .services-wrapper.services-wrapper.wrapper-white,
+    .services-wrapper.services-wrapper.wrapper-white {
+        padding-bottom: 150px;
+    }
+
     .services-wrapper.services-wrapper.wrapper-green,
     .services-wrapper.services-wrapper.wrapper-pink {
-        padding-bottom: 150px;
+        padding-top: 50px;
+        padding-bottom: 175px;
     }
 
 }

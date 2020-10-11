@@ -66,7 +66,7 @@
           <div class="col-12">
             <h1 class="pb-3">Contact us we'd love to hear from you!</h1>
             <h5 class="pb-3">Tiny Stompers is proud to be a Ryedale Mumbler Awards Finalist and York Mumbler</h5>
-            <button type="button" class="btn btn-primary">Read More..</button>
+            <NuxtLink to="services"><button type="button" class="btn btn-primary">Read More..</button></NuxtLink>
           </div>
         </div>
       </div>
