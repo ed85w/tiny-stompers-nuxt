@@ -1,7 +1,7 @@
 <template>
     <div class="row circles-row pt-3 pb-3">
         <div class="col-12 col-md-6 col-xl-3 pl-5 pr-5 pt-3 pb-3 pl-lg-5 pr-lg-5 pl-xl-3 pr-xl-3">
-          <div class="home-circle twiggys-circle">
+          <div class="home-circle twiggys-circle animate__bounceIn">
             <NuxtLink to="services" class="circle-links">
                 <div class="home-circle-inner" style="background-image: url(./photos/carousel3.jpg);">
                     <div class="home-circle-caption">
@@ -24,7 +24,7 @@
         </div>
         <div class="col-12 col-md-6 col-xl-3 pl-5 pr-5 pt-3 pb-3 pl-lg-5 pr-lg-5 pl-xl-3 pr-xl-3">
           <div class="home-circle party-circle">
-            <NuxtLink to="services#green-wave" class="circle-links">
+            <NuxtLink to="services#party-wave" class="circle-links">
                 <div class="home-circle-inner" style="background-image: url(./photos/carousel3.jpg);">
                     <div class="home-circle-caption">
                         <h5>Children's<br>Parties</h5>
@@ -35,7 +35,7 @@
         </div>
         <div class="col-12 col-md-6 col-xl-3 pl-5 pr-5 pt-3 pb-3 pl-lg-5 pr-lg-5 pl-xl-3 pr-xl-3">
           <div class="home-circle preschool-circle">
-            <NuxtLink to="services#pink-wave" class="circle-links">
+            <NuxtLink to="services#preschool-wave" class="circle-links">
                 <div class="home-circle-inner" style="background-image: url(./photos/carousel3.jpg);">
                     <div class="home-circle-caption">
                         <h5>Preschool/Nursery<br>Session Bookings</h5>

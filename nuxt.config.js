@@ -26,7 +26,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: './logo-circle.png' },
-      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css'},
+      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css'},
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'},
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css'},
 
@@ -48,7 +48,9 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
+    // google analytics 
     { src: '~plugins/ga.js', mode: 'client' },
+    // time/date picker 
     { src: '~plugins/v-calendar.js', ssr: false }
   ],
   /*

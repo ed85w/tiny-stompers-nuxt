@@ -65,7 +65,6 @@ li.about-li {
   background-repeat: no-repeat;
   margin-bottom: 10px;
   padding-left: 2em;
-  font-size: 0.7rem;
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -79,6 +78,12 @@ li.about-li {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
+  .max-width-container {
+    max-width: 2500px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 
   h1 {
     font-size: 2.5rem;

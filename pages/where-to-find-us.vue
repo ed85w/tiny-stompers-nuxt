@@ -1,7 +1,7 @@
 <template>
       <!-- page conetent -->
     <div class="container">
-      <div class="row">
+      <div class="row find-us-row">
         <div class="col-xs-12 col-sm-6 animated fadeIn">
           <h2>Session Times</h2>
           <p>Mondays 10:15am to 11:00 & 11:15am to 12:00</p>
@@ -28,11 +28,11 @@ export default {
         script: [
           {
             src:
-              'map.js'
+              'https://maps.googleapis.com/maps/api/js?key=AIzaSyCXYLBZn-ErcllJnGxiRVPyRXBzGb2nSjQ&callback=initMap', async: true ,defer: true
           },
           {
             src:
-              'https://maps.googleapis.com/maps/api/js?key=AIzaSyCXYLBZn-ErcllJnGxiRVPyRXBzGb2nSjQ&callback=initMap', async: true ,defer: true
+              'js/map.js'
           }
         ],
       }
@@ -41,6 +41,10 @@ export default {
 </script>
 
 <style>
+
+.find-us-row {
+  padding-bottom: 50px;
+}
 
 #map {
   height: 300px;
@@ -74,7 +78,10 @@ export default {
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-  /* WHERE TO FIND US PAGE */
+  .find-us-row {
+    padding-bottom: 150px;
+  }
+
   #map {
     height: 480px;
   }

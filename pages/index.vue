@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="max-width-container">
     <!-- page content -->
     <div class="container pl-sm-0 pr-sm-0">
       <div class="row home-row">
@@ -11,7 +11,7 @@
         </div>
 
         <!-- image carousel  -->
-        <div class="col-xs-12 col-md-5 pt-0 pr-0 pb-3 pl-0 carousel-container animated bounceInUp">
+        <div class="col-xs-12 col-md-5 pt-0 pr-0 pb-3 pl-0 carousel-container animate__animated animate__zoomIn animate__delay-1s">
           <b-carousel
             id="carousel-fade"
             fade

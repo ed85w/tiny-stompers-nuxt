@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="max-width-container">
     <!-- navbar -->
     <nav class="sidebar text-center" v-bind:class="{ showsidebar: showMobileMenu }">
       <ul class="sidebar-nav">
@@ -7,13 +7,13 @@
         <li class="li-star"><img src="~static/star-tint.png" alt="star" class="nav-star"></li>
         <li v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="about" exact>About</NuxtLink></li>
         <li class="li-star"><img src="~static/star-tint.png" alt="star" class="nav-star"></li>
-        <li v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="services">Services</NuxtLink></li>
+        <li v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="services" exact>Services</NuxtLink></li>
         <li class="li-star"><img src="~static/star-tint.png" alt="star" class="nav-star"></li>
-        <li v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="where-to-find-us">Where to find us</NuxtLink></li>
+        <li v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="where-to-find-us" exact>Where to find us</NuxtLink></li>
         <li class="li-star"><img src="~static/star-tint.png" alt="star" class="nav-star"></li>
-        <li v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="contact" >Contact</NuxtLink></li>
+        <li v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="contact" exact>Contact</NuxtLink></li>
         <li class="li-star"><img src="~static/star-tint.png" alt="star" class="nav-star"></li>
-        <li v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="#">Baby Massage</NuxtLink></li>
+        <li v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="#" exact>Baby Massage</NuxtLink></li>
       </ul>
       <button class="sidebarBtn" v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }">
         <span></span>
@@ -53,7 +53,6 @@ export default {
   height: 100%;
   transition: .8s;
   -o-transition: .8s;
-  /* overflow-y: scroll; */
   z-index: 1;
 }
 
@@ -69,8 +68,9 @@ ul {
 }
 
 ul.sidebar-nav li {
-  padding: 10px 20px;
   display: block;
+  padding: 10px 20px;
+  font-family: kristenITC;
   text-decoration: none;
 }
 
@@ -83,11 +83,15 @@ ul.sidebar-nav li a {
   font-size: 1.2rem;
 }
 
+/* prevent default behaviour  */
 ul.sidebar-nav li a:active,
-ul.sidebar-nav li a:hover,
-.nuxt-link-exact-active {
-  font-weight: bold;
+ul.sidebar-nav li a:hover {
   text-decoration: none;
+}
+
+/* active nav item  */
+ul.sidebar-nav li a.nuxt-link-exact-active.nuxt-link-active {
+    color: red;
 }
 
 ul.sidebar-nav li.li-star {

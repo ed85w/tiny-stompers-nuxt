@@ -110,7 +110,8 @@ data() {
         children: [{
             name: '',
             age: ''
-            }]
+            }],
+          date: ''
         }
     },
     methods: {
