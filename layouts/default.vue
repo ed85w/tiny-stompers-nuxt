@@ -10,11 +10,13 @@
 
 import AppNavbar from '../components/AppNavbar';
 import AppFooter from '../components/AppFooter';
+import GetInTouch from '../components/GetInTouch';
 
 export default {
   components: {
     AppNavbar,
-    AppFooter
+    AppFooter,
+    GetInTouch
   }
 
 }
@@ -32,39 +34,41 @@ export default {
   src: url(~static/fonts/ITCKRIST.ttf) format('truetype');
 }
 
-@font-face {
-  font-family: centuryGothic;
-  src: url(~static/fonts/CenturyGothic.ttf) format('truetype');
-}
-
 html {
   font-size: 13px;
 }
 body { 
-  font-family: centuryGothic, sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #302d7e;
 }
+
 h1,h2,h3,h4,h5 {
-  font-family: kristenITC;
+  font-family: kristenITC, serif;
 }
 p {
-  font-weight: normal;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 36px;
 }
 
-.about-ul {
-  list-style-type: none;
+h2 {
+  font-size: 24px;
 }
 
-li.about-li {
-  background: url(~static/star-tint.png);
-  background-size: 15px;
-  background-repeat: no-repeat;
-  margin-bottom: 10px;
-  padding-left: 2em;
+h2.roboto-h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.btn.btn-primary {
+  background-color: #5C52AF;
+  border-radius: 30px;
+  padding: 10px 40px;
+  font-family: kristenITC, serif;
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -73,6 +77,18 @@ li.about-li {
 }
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+  p {
+    font-size: 24px;
+  }
+
+  h1 {
+    font-size: 55px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
 
 }
 
@@ -83,17 +99,6 @@ li.about-li {
     max-width: 2500px;
     margin-right: auto;
     margin-left: auto;
-  }
-
-  h1 {
-    font-size: 2.5rem;
-  }
-
-  li.about-li {
-    background-size: 25px;
-    font-size: 1rem;
-    padding-bottom: 15px;
-    padding-left: 3rem;
   }
 
 }

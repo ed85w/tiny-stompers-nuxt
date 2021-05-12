@@ -4,10 +4,14 @@
       <section class="row d-flex justify-content-center landing-row-home">
         <div class="col-12 col-lg-11 nav-col">
           <div class="row">
-            <div class="col-12 text-center">
+            <div class="col-12 text-center text-md-left pt-md-5">
               <h1>Welcome to<br class="d-md-none"> Tiny Stompers!</h1>
             </div>
-            <div class="col-12 col-md-6 p-md-5 order-md-2">
+            <div class="col-12 pt-5 pb-5 col-md-6 p-md-5 order-md-2">
+              <div class="symbols-container">
+                <img class="symbols-img" src="~static/symbols-left.png" alt="">
+                <img class="symbols-img" src="~static/symbols-right.png" alt="">
+              </div>
               <div class="embed-responsive embed-responsive-1by1 text-center">
                 <div class="embed-responsive-item p-3 p-md-5">
                   <b-carousel
@@ -42,13 +46,13 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-6 order-md-1">
-              <h2>Tiny Stompers Music & Movement</h2>
+            <div class="col-12 col-md-6 order-md-1 pt-md-5">
+              <h2 class="roboto-h2">Tiny Stompers<br class="d-md-none"> Music & Movement</h2>
               <p>A multi-sensory world of music and movement in a fun and exciting setting for children to explore as part of a class, children’s party or at a preschool/nursery setting.</p>
-              <a href="" class="btn btn-primary">Go to Tiny Stompers Music & movement</a>
-              <h2>Tiny Stompers Baby Massage</h2>
+              <a href="" class="btn btn-primary mb-5">Go to Tiny Stompers Music & movement</a>
+              <h2 class="roboto-h2">Tiny Stompers<br class="d-md-none"> Baby Massage</h2>
               <p>A relaxing environment for you and your baby to share a wonderful massage experience together, as a 1:1 in your home, joining a class or a private group booking.</p>
-              <a href="" class="btn btn-primary">Go to Tiny Stompers Baby Massage</a>
+              <a href="" class="btn btn-primary mb-5">Go to Tiny Stompers Baby Massage</a>
             </div>
           </div>
         </div>
@@ -70,33 +74,29 @@
         <div class="bubble"></div>
         <div class="bubble"></div>
         <div class="bubble-text text-center">
-          <h3 class="bubbles-first-line">Come and join us for...</h3>
-          <h3 class="bubbles-second-line">stomping good fun!</h3>
+          <h4 class="bubbles-first-line">Come and join us for...</h4>
+          <h4 class="bubbles-second-line">stomping good fun!</h4>
         </div>
       </div>
     </section>
-    <div class="container-fluid">
-      <section class="row d-flex justify-content-center landing-row-home">
-        <div class="col-12 col-lg-11 nav-col">
-          <div class="row">
-            <div class="col-12 text-center">
-              <h2>Find out more about...</h2>
-            </div>
-          </div>
-          <nav-circles/>
-        </div>
-      </section>
-    </div>
+
+    <nav-circles/>
+
+    <get-in-touch/>
+
+
   </div>
 </template>
 
 <script>
 
 import navCircles from '../components/NavCircles'
+import getInTouch from '../components/GetInTouch'
 
 export default {
     components: {
-    navCircles
+    navCircles,
+    getInTouch
   },
   head(){
     return {
@@ -121,10 +121,24 @@ export default {
 .landing-row-home {
   padding-top: 70px;
 
+  .symbols-container {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 36px;
+    left: 0;
+    width: 100%;
+    padding: 0 16px;
+
+    .symbols-img {
+      width: 20%;
+    }
+  }
+
   /* carousel */
   #carousel-fade {
     height: 100%;
-    border: 5px solid #302d7e;
+    border: 5px solid $tiny-stompers-dark;
     border-radius: 50%;
     overflow: hidden;
 
@@ -142,8 +156,8 @@ export default {
         left: 0;
         bottom: 0; //same as #carousel-fade border
         padding: 0 10% 10px 10%;
-        background-color: #302d7e; 
-        background-color: #38328dc4;
+        background-color: $tiny-stompers-dark; 
+        background-color: rgba($tiny-stompers-dark, 0.7);
         text-align: center;
 
         p {
@@ -310,15 +324,17 @@ section.bubbles-container {
       transform: translate(-50%, -50%);
       width: 80%;
 
-      h3.bubbles-first-line {
+      h4.bubbles-first-line {
         font-size: 48px;
       }
-      h3.bubbles-second-line {
+      h4.bubbles-second-line {
         font-size: 64px;
       }
     }
   }
 }
+
+
 
 
 /* // Small devices (landscape phones, 576px and up) */
