@@ -66,31 +66,8 @@
             </div>
             
             <div class="form-group">
-              <label>When would you like your first session to be</label>
-              <client-only>
-                <v-date-picker
-                  v-model="date"
-                  :min-date='new Date()'
-                  :popover="{ visibility: 'click' }"
-                  :disabled-dates='{ weekdays: [1, 3, 5, 6, 7] }'
-                  :input-props='{
-                      type: "text",
-                      class: "form-control", 
-                      id: "datepicker", 
-                      name: "first_session"
-                    }'
-                />
-              </client-only>
-            </div>
-
-            <div class="form-group">
-              <label for="marketing_source">Where did you hear about Tiny Stompers</label>
-              <input type="text" class="form-control" id="marketing_source" name="marketing_source"/>
-            </div>
-
-            <div class="form-group">
-              <label for="comments">Comments</label>
-              <textarea class="form-control" id="comments" name="comments"></textarea>
+              <label for="enquiry">Enquiry</label>
+              <textarea class="form-control" id="enquiry" name="enquiry"></textarea>
             </div>
             
             <button type="submit" class="btn">Send</button>

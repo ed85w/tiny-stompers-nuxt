@@ -50,8 +50,6 @@ export default {
   plugins: [
     // google analytics 
     { src: '~plugins/ga.js', mode: 'client' },
-    // time/date picker 
-    { src: '~plugins/v-calendar.js', ssr: false }
   ],
   /*
   ** Auto import components
