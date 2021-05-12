@@ -9,7 +9,7 @@
             </div>
             <div class="col nav-menu-container" v-bind:class="{ showsidebar: showMobileMenu }">
               <ul class="sidebar-nav p-3 pt-5">
-                <li v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="/" exact>Home</NuxtLink></li>
+                <li class="d-lg-none" v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="/" exact>Home</NuxtLink></li>
                 <li v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="about" exact>About us</NuxtLink></li>
                 <li v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="services" exact>Our services</NuxtLink></li>
                 <li v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="contact" exact>Contact</NuxtLink></li>
@@ -268,12 +268,24 @@ export default {
             padding: 20px 15px;
             list-style: none;
             display: inline-block;
+
+            a {
+              font-size: 17px;
+            }
           }
         }
 
         ul.socials {
           display: inline-flex;
           align-items: center;
+
+          li a {
+            padding: 0 15px;
+
+            i {
+            font-size: 24px;
+            }
+          }
         }
       }
     }
@@ -287,6 +299,23 @@ export default {
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+
+  .nav-row .nav-col .nav-menu-container {
+    ul.sidebar-nav {
+      li a {
+        font-size: 20px;
+      }
+    }
+    ul.socials {
+      li a {
+        padding: 0 20px;
+
+        i {
+          font-size: 28px;
+        }
+      }
+    }
+  }
 
 
 }

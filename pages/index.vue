@@ -1,90 +1,91 @@
 <template>
   <div class="max-width-container">
-    <!-- page content -->
-    <div class="container pl-sm-0 pr-sm-0">
-      <div class="row home-row">
-        <div class="col-xs-12 col-md-7 pr-xl-5 home-div">
-          <h1 class="pb-3">Hello and welcome to Tiny Stompers!</h1>
-          <p class="pb-1 pb-md-4 font-weight-bold">Here at Tiny Stompers, we love introducing children and their parents/carers to the stimulating world of music and movement in a fun, energetic and exciting way within a safe environment.</p>
-          <p class="pb-3 d-none d-md-block">With a range of musical instruments, textures, music, sights, and smells, there is so much for Tiny Stompers to explore! Each session provides a multi-sensory environment aiding in children's development in many different and beneficial ways.</p>
-          <button type="button" class="btn btn-primary d-none d-md-block">Read More..</button>
-        </div>
-
-        <!-- image carousel  -->
-        <div class="col-xs-12 col-md-5 pt-0 pr-0 pb-3 pl-0 carousel-container animate__animated animate__zoomIn animate__delay-1s">
-          <b-carousel
-            id="carousel-fade"
-            fade
-          >
-            <b-carousel-slide
-              caption="Becky's love for children shines through as she creates fun and motivational music and movement sessions for children and their grown ups"
-              caption-tag="p"
-              text="Linda, Tiny Stomper Nanna"
-              img-src="~static/photos/carousel03.jpg"
-              img-alt="becky bubbles with a certificate for a tiny stomper"
-            ></b-carousel-slide>
-            <b-carousel-slide
-              caption="Lots of fun for little stompers and their parents!! Becky is lovely and keeps the sessions varied and interesting each week"
-              caption-tag="p"
-              text="Alex, Tiny Stomper Mum"
-              img-src="~static/photos/carousel02.jpg"
-              img-alt="a tiny stomper having fun at tiny stompers!"
-            ></b-carousel-slide>
-            <b-carousel-slide
-              caption="A fabulous, interactive group for preschoolers and their grown ups. Highly recommend coming to try it out"
-              caption-tag="p"
-              text="Kirsty, Tiny Stomper Mum"
-              img-src="~static/photos/carousel01.jpg"
-              img-alt="a younger tiny stomper enjoying sensory play"
-            ></b-carousel-slide>
-          </b-carousel>
-        </div>
-        <div class="col-xs-12 col-md-7 pr-xl-5 home-div">
-          <p class="pb-2 d-md-none">With a range of musical instruments, textures, music, sights, and smells, there is so much for Tiny Stompers to explore! Each session provides a multi-sensory environment aiding in children's development in many different and beneficial ways.</p>
-          <button type="button" class="btn btn-primary d-md-none">Read More..</button>
-        </div>
-      </div>
-    </div>
-    <div class="wrapper">
-      <div class="container circles-container pl-sm-0 pr-sm-0">
-        <div class="row">
-          <div class="col-12">
-            <h1 class="pb-3">Come and join in with some stomping good fun!</h1>
-            <h5 class="font-weight-bold">Tiny Stompers is proud to be a Ryedale Mumbler Awards Finalist and York Mumbler</h5>
+    <div class="container-fluid">
+      <section class="row d-flex justify-content-center landing-row-home">
+        <div class="col-12 col-lg-11 nav-col">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h1>Welcome to<br class="d-md-none"> Tiny Stompers!</h1>
+            </div>
+            <div class="col-12 col-md-6 p-md-5 order-md-2">
+              <div class="embed-responsive embed-responsive-1by1 text-center">
+                <div class="embed-responsive-item p-3 p-md-5">
+                  <b-carousel
+                    id="carousel-fade"
+                    fade
+                  >
+                  <b-carousel-slide
+                    class="carousel-img"
+                    caption="Becky's love for children shines through as she creates fun and motivational music and movement sessions for children and their grown ups"
+                    caption-tag="p"
+                    text="Linda, Tiny Stomper Nanna"
+                    img-src="~static/photos/carousel03.jpg"
+                    img-alt="becky bubbles with a certificate for a tiny stomper"
+                  ></b-carousel-slide>
+                  <b-carousel-slide
+                    class="carousel-img"
+                    caption="Lots of fun for little stompers and their parents!! Becky is lovely and keeps the sessions varied and interesting each week"
+                    caption-tag="p"
+                    text="Alex, Tiny Stomper Mum"
+                    img-src="~static/photos/carousel02.jpg"
+                    img-alt="a tiny stomper having fun at tiny stompers!"
+                  ></b-carousel-slide>
+                  <b-carousel-slide
+                    class="carousel-img"
+                    caption="A fabulous, interactive group for preschoolers and their grown ups. Highly recommend coming to try it out"
+                    caption-tag="p"
+                    text="Kirsty, Tiny Stomper Mum"
+                    img-src="~static/photos/carousel01.jpg"
+                    img-alt="a younger tiny stomper enjoying sensory play"
+                  ></b-carousel-slide>
+                </b-carousel>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 order-md-1">
+              <h2>Tiny Stompers Music & Movement</h2>
+              <p>A multi-sensory world of music and movement in a fun and exciting setting for children to explore as part of a class, children’s party or at a preschool/nursery setting.</p>
+              <a href="" class="btn btn-primary">Go to Tiny Stompers Music & movement</a>
+              <h2>Tiny Stompers Baby Massage</h2>
+              <p>A relaxing environment for you and your baby to share a wonderful massage experience together, as a 1:1 in your home, joining a class or a private group booking.</p>
+              <a href="" class="btn btn-primary">Go to Tiny Stompers Baby Massage</a>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <navCircles />
-      </div>
-      <section class="container-fluid bubbles-container">
-        <div class="bubbles">
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble-text">Come and join in</div>
         </div>
       </section>
-      <div class="container pl-sm-0 pr-sm-0">
-        <div class="row">
-          <div class="col-12">
-            <h1 class="pb-3">Contact us we'd love to hear from you!</h1>
-            <h5 class="pb-3">Tiny Stompers is proud to be a Ryedale Mumbler Awards Finalist and York Mumbler</h5>
-            <NuxtLink to="services"><button type="button" class="btn btn-primary">Read More..</button></NuxtLink>
-          </div>
+    </div>
+    <section class="container-fluid bubbles-container">
+      <div class="bubbles">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble-text text-center">
+          <h3 class="bubbles-first-line">Come and join us for...</h3>
+          <h3 class="bubbles-second-line">stomping good fun!</h3>
         </div>
       </div>
-      </div>
+    </section>
+    <div class="container-fluid">
+      <section class="row d-flex justify-content-center landing-row-home">
+        <div class="col-12 col-lg-11 nav-col">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h2>Find out more about...</h2>
+            </div>
+          </div>
+          <nav-circles/>
+        </div>
+      </section>
     </div>
   </div>
 </template>
@@ -117,83 +118,61 @@ export default {
 /*  Extra small devices (portrait phones, less than 576px) */
 /*  No media query for `xs` since this is the default in Bootstrap */
 
-.home-row {
-  padding-bottom: 20px;
-}
+.landing-row-home {
+  padding-top: 70px;
 
-.btn-primary{
-  background-color: #302d7e;
-  color: white;
-}
+  /* carousel */
+  #carousel-fade {
+    height: 100%;
+    border: 5px solid #302d7e;
+    border-radius: 50%;
+    overflow: hidden;
 
-/* carousel */
+    .carousel-inner,
+    .carousel-item {
+      height: 100%;
 
-#carousel-fade {
-  height: 65vw;
-  border-radius: 0;
-  overflow: hidden;
-  border-image: url("~static/bgcolours.jpg") 5; 
-  border-top: 10px solid transparent; //also split out below as fallback as not rendering properly once generated
-  border-top: 10px;
-  border-top-style: solid;
-  border-top-color: transparent;
-  border-bottom: 10px solid transparent;
-  border-left: none;
-  border-right: none;
-}
+      .carousel-img .img-fluid{
+        height: 100%;
+        object-fit: cover;
+      }
 
-.carousel-inner,
-.carousel-item {
-  height: 65vw;
-}
+      .carousel-caption {
+        right: 0;
+        left: 0;
+        bottom: 0; //same as #carousel-fade border
+        padding: 0 10% 10px 10%;
+        background-color: #302d7e; 
+        background-color: #38328dc4;
+        text-align: center;
 
-.carousel-caption {
-  right: 0;
-  left: 0;
-  bottom: 10px; //same as #carousel-fade border
-  padding: 0 10% 10px 10%;
-  background-color: #302d7e; 
-  background-color: #38328dc4;
-  text-align: left;
+        p {
+          font-size: 0.8rem;
+        }
 
-  p {
-    font-size: 0.8rem;
+        p:first-child::before {
+          content: open-quote;
+        }
+        
+        p:first-child::after {
+          content: close-quote;
+        }
+
+        p:first-child {
+          font-style: italic;
+          margin-top: 2px;
+          margin-bottom: 2px;
+        }
+
+        p:last-child {
+          margin-top: 0px;
+        }
+      }
+    }
   }
-
-  p:first-child::before {
-    content: open-quote;
-  }
-  
-  p:first-child::after {
-    content: close-quote;
-  }
-
-  p:first-child {
-    font-style: italic;
-    margin-top: 2px;
-    margin-bottom: 2px;
-  }
-
-  p:last-child {
-    margin-top: 0px;
-  }
-
 }
 
-.wrapper {
-  background-color: #d2cfe7;
-  padding-bottom: 40px;
-}
-
-.circles-container {
-  background-color: #d2cfe7;
-}
-
-#wave2 {
-  position: relative;
-  top: -50px;
-}
-
+// BUBBLES SECTION 
 section.bubbles-container {
   margin:0;
   padding:0;
@@ -215,7 +194,8 @@ section.bubbles-container {
       bottom:-100px;
       width:40px;
       height: 40px;
-      background:#f1f1f1;
+      background:#f1f1f188;
+      border: 2px solid white;
       border-radius:50%;
       opacity:0.5;
       animation: rise 10s infinite ease-in;
@@ -327,7 +307,15 @@ section.bubbles-container {
       position: absolute;
       left: 50%;
       top: 50%;
-      transform: translate(-50%, 50%);
+      transform: translate(-50%, -50%);
+      width: 80%;
+
+      h3.bubbles-first-line {
+        font-size: 48px;
+      }
+      h3.bubbles-second-line {
+        font-size: 64px;
+      }
     }
   }
 }
@@ -341,66 +329,66 @@ section.bubbles-container {
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-  #carousel-fade,
-  .carousel-inner,
-  .carousel-item {
-    border-radius: 50%;
-    border: none;
-    height: 295px;
+  // #carousel-fade,
+  // .carousel-inner,
+  // .carousel-item {
+  //   border-radius: 50%;
+  //   border: none;
+  //   height: 295px;
 
-    .carousel-caption{
-      bottom: 0;
-      padding-left: 20%;
-      padding-right: 20%;
+  //   .carousel-caption{
+  //     bottom: 0;
+  //     padding-left: 20%;
+  //     padding-right: 20%;
 
-      p:last-child {
-        text-align: center;
-      }
+  //     p:last-child {
+  //       text-align: center;
+  //     }
 
-    }
+  //   }
 
-  }
-  .w-100 {
-    width: 128% !important;
-  }
-  .img-fluid {
-    max-width: none;
-  }
+  // }
+  // .w-100 {
+  //   width: 128% !important;
+  // }
+  // .img-fluid {
+  //   max-width: none;
+  // }
 
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-  #carousel-fade,
-  .carousel-inner,
-  .carousel-item {
-    height: 390px;
-  }
+//   #carousel-fade,
+//   .carousel-inner,
+//   .carousel-item {
+//     height: 390px;
+//   }
 
-  .carousel-caption p {
-    font-size: 1rem;
-  }
+//   .carousel-caption p {
+//     font-size: 1rem;
+//   }
 
-  .circles-row {
-    width: 88%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+//   .circles-row {
+//     width: 88%;
+//     margin-left: auto;
+//     margin-right: auto;
+//   }
 
-  .wrapper {
-    padding-bottom: 150px;
-  }
+//   .wrapper {
+//     padding-bottom: 150px;
+//   }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
-  #carousel-fade,
-  .carousel-inner,
-  .carousel-item {
-    height: 465px;
-  }
+  // #carousel-fade,
+  // .carousel-inner,
+  // .carousel-item {
+  //   height: 465px;
+  // }
 
 }
 

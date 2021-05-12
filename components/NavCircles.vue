@@ -1,7 +1,22 @@
 <template>
     <div class="row circles-row pt-3 pb-3">
         <div class="col-12 col-md-6 col-xl-3 pl-5 pr-5 pt-3 pb-3 pl-lg-5 pr-lg-5 pl-xl-3 pr-xl-3">
-          <div class="home-circle twiggys-circle animate__bounceIn">
+          <div class="embed-responsive embed-responsive-1by1 text-center">
+            <NuxtLink to="services" class="circle-links">
+              <div class="embed-responsive-item home-circle twiggys-circle">
+                <img class="nav-circle-img" src="~/static/photos/carousel1.jpg" alt="">
+                <div class="home-circle-caption">
+                  <h5>Tiny Stompers<br>at Twiggy's</h5>
+                </div>
+              </div>
+            </NuxtLink>
+          </div>
+
+
+
+
+
+          <div class="home-circle twiggys-circle">
             <NuxtLink to="services" class="circle-links">
                 <div class="home-circle-inner" style="background-image: url(./photos/carousel3.jpg);">
                     <div class="home-circle-caption">
@@ -70,6 +85,7 @@ export default {
 
   .circle-links {
       height: 100%;
+      
 
     &:hover .home-circle-caption {
         height: 100%;
