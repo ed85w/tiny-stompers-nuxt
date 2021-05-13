@@ -39,23 +39,56 @@
         <div class="col-12 col-lg-11 pt-5 pb-5">
           <div class="row">
             <!-- card start -->
-            <div class="col-12 p-3 col-md-6 col-lg-4 pl-lg-5 pr-lg-5 text-center">
-              <div class="about-card p-3">
+            <div class="col-12 p-3 col-md-6 col-lg-4 p-lg-5 text-center">
+              <div class="about-card p-3 p-lg-5">
                 <img class="m-4" src="~static/tiny-stompers-logo.png" alt="">
                 <p class="pb-3">Parachutes, bubbles, ribbon sticks, balancing and  treasure baskets are just some of the fun activities Tiny Stompers can explore</p>
               </div>
             </div>
             <!-- card start -->
-            <div class="col-12 p-3 col-md-6 col-lg-4 pl-lg-5 pr-lg-5 text-center">
-              <div class="about-card p-3">
+            <div class="col-12 p-3 col-md-6 col-lg-4 p-lg-5 text-center">
+              <div class="about-card p-3 p-lg-5">
                 <img class="m-4" src="~static/tiny-stompers-logo.png" alt="">
-                <p class="pb-3">Parachutes, bubbles, ribbon sticks, balancing and  treasure baskets are just some of the fun activities Tiny Stompers can explore</p>
+                <p class="pb-3">A range of music, dancing, singing and playing musical instruments are all part of our music and movement sessions</p>
+              </div>
+            </div>
+            <!-- card start -->
+            <div class="col-12 p-3 col-md-6 col-lg-4 p-lg-5 text-center">
+              <div class="about-card p-3 p-lg-5">
+                <img class="m-4" src="~static/tiny-stompers-logo.png" alt="">
+                <p class="pb-3">Scents such as lavender, citrus and fruity fragrances are used to stimulate our Tiny Stompers sense of smell</p>
+              </div>
+            </div>
+            <!-- card start -->
+            <div class="col-12 p-3 col-md-6 col-lg-4 p-lg-5 text-center">
+              <div class="about-card p-3 p-lg-5">
+                <img class="m-4" src="~static/tiny-stompers-logo.png" alt="">
+                <p class="pb-3">Tiny Stompers can have fun investigating lots of tactile resources to enhance their sense of touch and hand to eye co-ordination</p>
+              </div>
+            </div>
+            <!-- card start -->
+            <div class="col-12 p-3 col-md-6 col-lg-4 p-lg-5 text-center">
+              <div class="about-card p-3 p-lg-5">
+                <img class="m-4" src="~static/tiny-stompers-logo.png" alt="">
+                <p class="pb-3">Vibrant resources create a beautiful visual display of colours for Tiny Stompers to enjoy, as they move around the setting</p>
+              </div>
+            </div>
+            <!-- card start -->
+            <div class="col-12 p-3 col-md-6 col-lg-4 p-lg-5 text-center">
+              <div class="about-card p-3 p-lg-5">
+                <img class="m-4" src="~static/tiny-stompers-logo.png" alt="">
+                <p class="pb-3">Becky has a BA(hons) in Early Childcare and Education and is qualified in Baby Signing and Introducing Children to Yoga</p>
               </div>
             </div>
           </div>
         </div>
       </section>
     </div>
+
+    <nav-circles/>
+
+    <get-in-touch/>
+    
   </div>
 </template>
 
@@ -129,10 +162,6 @@ section.about-cards {
   .about-card {
     border-radius: 60px;
 
-    &:nth-last-of-type(1) {
-      background: #B989DD;
-    }
-
     img {
       width: 84px;
       height: 84px;
@@ -141,6 +170,29 @@ section.about-cards {
     p {
       font-size: 19px;
       color: white;
+    }
+  }
+
+  div > div.row > div {
+    
+    &:nth-of-type(1) .about-card {
+      background: #B989DD;
+    }
+  
+    &:nth-of-type(2) .about-card {
+      background: #29ABE2;
+    }
+    &:nth-of-type(3) .about-card {
+      background: #F49300;
+    }
+    &:nth-of-type(4) .about-card {
+      background: #FF7BAC;
+    }
+    &:nth-of-type(5) .about-card {
+      background: #09D8A6;
+    }
+    &:nth-of-type(6) .about-card {
+      background: #8CC63F;
     }
   }
 }
@@ -166,7 +218,7 @@ section.about-cards {
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-    section.what-to-expect {
+  section.what-to-expect {
 
     .button-container {
       max-width: 960px;
@@ -186,9 +238,22 @@ section.about-cards {
         }
       }
     }
-  } 
+  }
 
+  section.about-cards {
+    .about-card {
+      height: 100%;
 
+      img {
+        width: 134px;
+        height: 134px;
+      }
+
+      p {
+        font-size: 21px;
+      }
+    }
+  }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */

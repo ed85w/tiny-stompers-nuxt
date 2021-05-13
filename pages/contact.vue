@@ -20,7 +20,7 @@
           <!-- contact form (uses formspree) -->
           <!-- <form method="POST" action="https://formspree.io/ed.walker@hotmail.co.uk">           -->
           <form 
-            name="contactus" 
+            name="contact-us" 
             action="/thanks" 
             method="post" 
             netlify

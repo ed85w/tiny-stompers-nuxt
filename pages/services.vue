@@ -1,68 +1,84 @@
 <template>
-    <div>
-        <div class="services-wrapper wrapper-white">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-6 animated fadeIn">
-                        <h2>Twiggy's Play - pay as you go! </h2>
-                        <p>£6.50 per child. This includes your Tiny Stompers session and a play in Twiggy's soft play centre!
-                            (please check Tiny Stompers Facebook/ instagram site for any special offers)</p>
-                        <p>For this venue there are a limited number of places available for the Tiny Stompers sessions</p>
-                        <br>
-                        <h2>Session Times</h2>
-                        <p>Mondays 10:15am to 11:00 & 11:15am to 12:00</p>
-                        <p>Wednesdays 10:15am to 11:00 & 11:15am to 12:00</p>
-                    </div>
-                    <div class="col-12 col-md-6 animated fadeIn">
-                        <h2>Address</h2>
-                        <p>Twiggy's Play<br>Unit 2<br>Concept Business Park<br>Allendale Road<br>Thirsk<br>YO7 3NY</p>   
-                    </div>
+  <div class="max-width-container">
+    <div class="container-fluid">
+      <section class="row d-flex justify-content-center landing-row-services">
+        <div class="col-12 col-lg-11 nav-col">
+          <div class="row">
+            <div class="col-12 text-center text-md-left pt-md-5">
+              <h1>Our services</h1>
+            </div>
+            <div class="col-12 pt-5 pb-5 col-md-6 p-md-5 order-md-2">
+              <div class="symbols-container">
+                <img class="symbols-img" src="~static/symbols-left.png" alt="">
+                <img class="symbols-img" src="~static/symbols-right.png" alt="">
+              </div>
+              <div class="embed-responsive embed-responsive-1by1 text-center">
+                <div class="embed-responsive-item p-3 p-md-5">
+                  <b-carousel
+                    id="carousel-fade"
+                    fade
+                  >
+                  <b-carousel-slide
+                    class="carousel-img"
+                    caption="Becky's love for children shines through as she creates fun and motivational music and movement sessions for children and their grown ups"
+                    caption-tag="p"
+                    text="Linda, Tiny Stomper Nanna"
+                    img-src="~static/photos/carousel03.jpg"
+                    img-alt="becky bubbles with a certificate for a tiny stomper"
+                  ></b-carousel-slide>
+                  <b-carousel-slide
+                    class="carousel-img"
+                    caption="Lots of fun for little stompers and their parents!! Becky is lovely and keeps the sessions varied and interesting each week"
+                    caption-tag="p"
+                    text="Alex, Tiny Stomper Mum"
+                    img-src="~static/photos/carousel02.jpg"
+                    img-alt="a tiny stomper having fun at tiny stompers!"
+                  ></b-carousel-slide>
+                  <b-carousel-slide
+                    class="carousel-img"
+                    caption="A fabulous, interactive group for preschoolers and their grown ups. Highly recommend coming to try it out"
+                    caption-tag="p"
+                    text="Kirsty, Tiny Stomper Mum"
+                    img-src="~static/photos/carousel01.jpg"
+                    img-alt="a younger tiny stomper enjoying sensory play"
+                  ></b-carousel-slide>
+                </b-carousel>
                 </div>
-            </div>        
+              </div>
+            </div>
+            <div class="col-12 col-md-6 order-md-1 pt-md-5">
+                <NuxtLink to="services#twiggys" exact class="btn btn-primary services-button mt-2 mb-2" href="">Tiny Stompers at Twiggys</NuxtLink>
+                <NuxtLink to="services#parties" exact class="btn btn-primary services-button mt-2 mb-2" href="">Children's parties</NuxtLink>
+                <NuxtLink to="services#preschool" exact class="btn btn-primary services-button mt-2 mb-2" href="">Preschool/nursery bookings</NuxtLink>
+                <NuxtLink to="services#baby" exact class="btn btn-primary services-button mt-2 mb-2" href="">Tiny Stompers Baby Massage</NuxtLink>
+
+            </div>
+          </div>
         </div>
-        <svg id="party-wave" class="wave-svg" data-name="party-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.89 82.08">
-            <path d="M845.83,89.75s-806-.09-846.81,3V30.85h0c40.8-3,114.13,40.89,215.07,12.24C371.64-1.64,398.83,11.74,581.77,49.4,735.58,81.07,845.83,24.26,845.83,24.26Z"/>
-            <path d="M846.17,29.59S736.5,82.82,582.43,51.89C399.18,15.1,371.94,2,214.12,45.72,113,73.71,39.54,30.86-1.32,33.83V26.11h0c40.86-3,114.32,39.94,215.44,12C371.94-5.63,399.18,7.44,582.43,44.23c154.07,30.93,263.74-23.3,263.74-23.3Z"/>
-        </svg>
-        <div class="services-wrapper wrapper-green">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-8">
-                        <h2 class="pb-3">Party bookings</h2>
-                        <ul class="about-ul">
-                            <li class="about-li">£75 for a 45 minute Birthday themed Tiny Stompers session</li>
-                            <li class="about-li">For up to 10 children</li>
-                            <li class="about-li">Includes a gift for the Birthday Stomper!</li>
-                            <li class="about-li">Venue hire is not included in this price</li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        other stuff
-                    </div>
-                </div>
-            </div>        
-        </div>
-        <svg id="preschool-wave" class="wave-svg" data-name="preschool-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.89 82.08">
-            <path fill="pink" d="M845.83,89.75s-806-.09-846.81,3V30.85h0c40.8-3,114.13,40.89,215.07,12.24C371.64-1.64,398.83,11.74,581.77,49.4,735.58,81.07,845.83,24.26,845.83,24.26Z"/>
-            <path fill="pink" d="M846.17,29.59S736.5,82.82,582.43,51.89C399.18,15.1,371.94,2,214.12,45.72,113,73.71,39.54,30.86-1.32,33.83V26.11h0c40.86-3,114.32,39.94,215.44,12C371.94-5.63,399.18,7.44,582.43,44.23c154.07,30.93,263.74-23.3,263.74-23.3Z"/>
-        </svg>
-        <div class="services-wrapper wrapper-pink">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-8">
-                        <h2 class="pb-3">Prices for preschool/ nursery bookings</h2>
-                        <ul class="about-ul">
-                            <li class="about-li">£75 per 45 minute session for up to 15 children</li>
-                            <li class="about-li">Please contact Becky if you are a Charity as discount may apply</li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        other stuff
-                    </div>
-                </div>
-            </div>        
-        </div>
+      </section>
     </div>
+    <div class="container-fluid">
+      <section class="row service-details">
+        <div class="col-12 p-0 col-md-5 services-img-container">
+          <img class="services-img" src="~static/photos/carousel1.jpg" alt="">
+        </div>
+        <div class="col-12 col-md-7">
+          <h3>Tiny Stompers at Twiggy’s</h3>
+          <h4>Session times:</h4>
+          <p>Mondays and Wednesdays (term time only)<br>10:15 - 11:00 or 11:15 - 12:00</p>
+          <p>There are a limited number of places available, so we advise booking to avoid disappointment (booking T&C apply).</p>
+          <h4>Price:</h4>
+          <p>£6.50 per child. Your session includes play time in Twiggy’s soft play centre after the Tiny Stompers class. </p>
+          <h4>Address:</h4>
+          <p>Twiggy’s Play, Unit 2, Concept Business Park, Allendale Road, Thirsk, YO7 3NY</p>
+        </div>
+      </section>
+    </div>
+
+    <!-- <get-in-touch/> -->
+
+  </div>
+
 </template>
 
 <script>
@@ -73,102 +89,65 @@ export default {
 
 <style lang="scss">
 
-.wave-svg {
-    position: relative;
-    top: -50px;
-}
+.landing-row-services {
 
-.services-wrapper {
-    padding-bottom: 50px;
-
-    &:not(:first-of-type) {
-    margin-top: -50px;
-    padding-top: 25px;
+  .services-button {
+    width: 100%;
+  
+    &:nth-of-type(1){
+        background: #29ABE2;
     }
-
-}
-
-.services-wrapper.wrapper-white {
-    background-color: white;
-}
-
-.services-wrapper.wrapper-green {
-    background-color: $party-light;
-    padding-bottom: 80px;
-}
-
-#party-wave {
-
-    path:first-child{
-        fill: $party-light;
+    &:nth-of-type(2){
+        background: #FF7BAC;
     }
-
-    path:last-child {
-        fill: $party-color;
+    &:nth-of-type(3){
+        background: #8CC63F;
     }
-
+    &:nth-of-type(4){
+        background: #662D91;
+    }
+  }
 }
 
-.services-wrapper.wrapper-pink {
-    background-color: $preschool-light;
+section.service-details {
+  .services-img-container {
+    
+    overflow: hidden;
+
+    .services-img {
+      max-width: 100%;
+      height: 500px;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
 }
 
-#preschool-wave {
-
-    background-color: $party-light;
-
-    path:first-child{
-        fill: $preschool-light;
-    }
-
-    path:last-child {
-        fill: $preschool-color;
-    }
-
-}
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
- 
+
+
+
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-    .wave-svg {
-        margin-top: -30px;
-    }
 
-    .services-wrapper.services-wrapper.wrapper-white,
-    .services-wrapper.services-wrapper.wrapper-green,
-    .services-wrapper.services-wrapper.wrapper-pink {
-        padding-bottom: 120px;
-    }
 
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
+
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
-    .wave-svg {
-        margin-top: -50px;
-    }
-
-    .services-wrapper.services-wrapper.wrapper-white {
-        padding-bottom: 150px;
-    }
-
-    .services-wrapper.services-wrapper.wrapper-green,
-    .services-wrapper.services-wrapper.wrapper-pink {
-        padding-top: 50px;
-        padding-bottom: 175px;
-    }
-
 }
+
 
 </style>

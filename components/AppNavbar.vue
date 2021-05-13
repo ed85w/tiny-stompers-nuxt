@@ -9,11 +9,11 @@
             </div>
             <div class="col nav-menu-container" v-bind:class="{ showsidebar: showMobileMenu }">
               <ul class="sidebar-nav p-3 pt-5">
-                <li class="d-lg-none" v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="/" exact>Home</NuxtLink></li>
-                <li v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="about" exact>About us</NuxtLink></li>
-                <li v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="services" exact>Our services</NuxtLink></li>
-                <li v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="contact" exact>Contact</NuxtLink></li>
-                <li v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="#" exact>Baby Massage</NuxtLink></li>
+                <li class="d-lg-none" v-on:click="showMenu()" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="/" exact>Home</NuxtLink></li>
+                <li v-on:click="showMenu()" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="about" exact>About us</NuxtLink></li>
+                <li v-on:click="showMenu()" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="services" exact>Our services</NuxtLink></li>
+                <li v-on:click="showMenu()" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="contact" exact>Contact</NuxtLink></li>
+                <li v-on:click="showMenu()" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="#" exact>Baby Massage</NuxtLink></li>
               </ul>
               <ul class="socials p-3 pt-0 pt-lg-5">
                 <li><a href="mailto:langstaff56@gmx.co.uk"><i class="fa fa-instagram"></i></a></li>
@@ -21,7 +21,7 @@
                 <li><a href="https://www.facebook.com/TinyStompers/"><i class="fa fa-facebook"></i></a></li>
               </ul>
             </div>
-            <button class="sidebarBtn" v-on:click="showMobileMenu = !showMobileMenu" v-bind:class="{ toggle: showMobileMenu }" aria-label="navbar expand button">
+            <button class="sidebarBtn" v-bind:class="{ toggle: showMobileMenu }" :aria-expanded="showMobileMenu ? 'true' : 'false'" @click="showMobileMenu = !showMobileMenu" aria-label="expand  navigation menu">
               <span></span>
             </button>
           </nav>
@@ -33,11 +33,28 @@
 
 <script>
 export default {
-    data() {
-      return{
-          showMobileMenu: false,
+  data() {
+    return {
+      showMobileMenu: false
+    }
+  },
+  methods: {
+    showMenu() {
+      // on laptops and larger 
+      if(window.innerWidth < 991) {
+        if(this.showMobileMenu == false){
+          this.showMobileMenu = true;
+        } else {
+          this.showMobileMenu = false;
+        }
       }
-  }
+    },
+    onResize(e) {
+      if(window.innerWidth > 991 && this.showMobileMenu == true) {
+        this.showMobileMenu = false;
+      }
+    }
+  },
 }
 </script>
 
@@ -252,8 +269,7 @@ export default {
         }
       }
 
-      .nav-menu-container,
-      .nav-menu-container.showsidebar {
+      .nav-menu-container {
         position: static;
         display: flex;
         justify-content: flex-end;
@@ -301,11 +317,13 @@ export default {
 @media (min-width: 1200px) {
 
   .nav-row .nav-col .nav-menu-container {
+
     ul.sidebar-nav {
       li a {
         font-size: 20px;
       }
     }
+
     ul.socials {
       li a {
         padding: 0 20px;

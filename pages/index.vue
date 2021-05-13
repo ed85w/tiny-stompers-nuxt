@@ -15,7 +15,7 @@
               <div class="embed-responsive embed-responsive-1by1 text-center">
                 <div class="embed-responsive-item p-3 p-md-5">
                   <b-carousel
-                    id="carousel-fade"
+                    class="carousel-fade"
                     fade
                   >
                   <b-carousel-slide
@@ -118,7 +118,10 @@ export default {
 /*  Extra small devices (portrait phones, less than 576px) */
 /*  No media query for `xs` since this is the default in Bootstrap */
 
-.landing-row-home {
+
+//NOTE - STYLING REUSED ON SERVICES PAGE!
+.landing-row-home,
+.landing-row-services {
   padding-top: 70px;
 
   .symbols-container {
@@ -136,7 +139,7 @@ export default {
   }
 
   /* carousel */
-  #carousel-fade {
+  .carousel-fade {
     height: 100%;
     border: 5px solid $tiny-stompers-dark;
     border-radius: 50%;
