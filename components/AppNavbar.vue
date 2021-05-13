@@ -132,7 +132,7 @@ export default {
 /* 'burger' */
 .sidebarBtn {
   display: block;
-  position: fixed;
+  position: absolute;
   top: 25px;
   right: 25px;
   width: 35px;

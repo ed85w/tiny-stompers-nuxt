@@ -74,7 +74,7 @@
         <div class="bubble"></div>
         <div class="bubble"></div>
         <div class="bubble-text text-center">
-          <h4 class="bubbles-first-line">Come and join us for...</h4>
+          <h4 class="pb-5 pb-lg-0 bubbles-first-line">Come and join us for...</h4>
           <h4 class="bubbles-second-line">stomping good fun!</h4>
         </div>
       </div>
@@ -345,66 +345,41 @@ section.bubbles-container {
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-  // #carousel-fade,
-  // .carousel-inner,
-  // .carousel-item {
-  //   border-radius: 50%;
-  //   border: none;
-  //   height: 295px;
 
-  //   .carousel-caption{
-  //     bottom: 0;
-  //     padding-left: 20%;
-  //     padding-right: 20%;
-
-  //     p:last-child {
-  //       text-align: center;
-  //     }
-
-  //   }
-
-  // }
-  // .w-100 {
-  //   width: 128% !important;
-  // }
-  // .img-fluid {
-  //   max-width: none;
-  // }
 
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-//   #carousel-fade,
-//   .carousel-inner,
-//   .carousel-item {
-//     height: 390px;
-//   }
+  // BUBBLES SECTION 
+section.bubbles-container {
+  height: 600px;
 
-//   .carousel-caption p {
-//     font-size: 1rem;
-//   }
+  .bubbles{
 
-//   .circles-row {
-//     width: 88%;
-//     margin-left: auto;
-//     margin-right: auto;
-//   }
+    .bubble-text {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 80%;
 
-//   .wrapper {
-//     padding-bottom: 150px;
-//   }
+      h4.bubbles-first-line {
+        font-size: 72px;
+      }
+      h4.bubbles-second-line {
+        font-size: 112px;
+      }
+    }
+  }
+}
+
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
-  // #carousel-fade,
-  // .carousel-inner,
-  // .carousel-item {
-  //   height: 465px;
-  // }
 
 }
 
