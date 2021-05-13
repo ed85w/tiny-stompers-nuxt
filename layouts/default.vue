@@ -36,6 +36,7 @@ export default {
 
 html {
   font-size: 13px;
+  /* scroll-behavior: smooth; */
 }
 body { 
   font-family: 'Roboto', sans-serif;
@@ -66,6 +67,7 @@ h2.roboto-h2 {
 
 .btn.btn-primary {
   background-color: #5C52AF;
+  border: none;
   border-radius: 30px;
   padding: 10px 40px;
   font-family: kristenITC, serif;

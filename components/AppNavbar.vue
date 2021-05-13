@@ -84,7 +84,7 @@ export default {
     }
 
     .nav-menu-container {
-      position: fixed;
+      position: absolute;
       top: 0;
       overflow: hidden;
       background: #312783;

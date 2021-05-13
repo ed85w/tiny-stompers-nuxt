@@ -46,24 +46,23 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-6 order-md-1 pt-md-5">
+            <div class="col-12 pb-5 col-md-6 order-md-1 pt-md-5 ">
                 <NuxtLink to="services#twiggys" exact class="btn btn-primary services-button mt-2 mb-2" href="">Tiny Stompers at Twiggys</NuxtLink>
                 <NuxtLink to="services#parties" exact class="btn btn-primary services-button mt-2 mb-2" href="">Children's parties</NuxtLink>
                 <NuxtLink to="services#preschool" exact class="btn btn-primary services-button mt-2 mb-2" href="">Preschool/nursery bookings</NuxtLink>
                 <NuxtLink to="services#baby" exact class="btn btn-primary services-button mt-2 mb-2" href="">Tiny Stompers Baby Massage</NuxtLink>
-
             </div>
           </div>
         </div>
       </section>
     </div>
     <div class="container-fluid">
-      <section class="row service-details">
-        <div class="col-12 p-0 col-md-5 services-img-container">
+      <section class="row service-details twiggys">
+        <div class="col-12 p-0 col-md-6 col-lg-7 order-md-2 services-img-container">
           <img class="services-img" src="~static/photos/carousel1.jpg" alt="">
         </div>
-        <div class="col-12 col-md-7">
-          <h3>Tiny Stompers at Twiggy’s</h3>
+        <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5 order-md-1">
+          <h3 id="twiggys" class="pb-3">Tiny Stompers at Twiggy’s</h3>
           <h4>Session times:</h4>
           <p>Mondays and Wednesdays (term time only)<br>10:15 - 11:00 or 11:15 - 12:00</p>
           <p>There are a limited number of places available, so we advise booking to avoid disappointment (booking T&C apply).</p>
@@ -71,6 +70,22 @@
           <p>£6.50 per child. Your session includes play time in Twiggy’s soft play centre after the Tiny Stompers class. </p>
           <h4>Address:</h4>
           <p>Twiggy’s Play, Unit 2, Concept Business Park, Allendale Road, Thirsk, YO7 3NY</p>
+          <NuxtLink to="contact" exact class="btn btn-primary mt-3 mb-3" href="">Book your place</NuxtLink>
+        </div>
+      </section>
+
+      <section class="row service-details preschool">
+        <div class="col-12 p-0 col-md-6 col-lg-7 services-img-container">
+          <img class="services-img" src="~static/photos/carousel1.jpg" alt="a child playing with a wooden toy">
+        </div>
+        <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5">
+          <h3 id="preschool" class="pb-3">Preschool / Nursery bookings</h3>
+          <p>Preschools and nurseries can book Tiny Stompers sessions to take place within their childcare setting.  Each session is fun and varied and links to the EYFS.</p>
+          <h4>Price:</h4>
+          <p>£75 for a 45 minute session for up to 10 children at your preschool or nursery location. A 50% deposit is required to reserve your date(s) with the remaining balance paid via invoice.</p>
+          <h4>Locations:</h4>
+          <p>Tiny Stompers covers York, Thirsk, Easingwold and surrounding villages.  Please contact us directly if you are located outside of these areas as we always try to accommodate (extra charges may apply).</p>
+          <NuxtLink to="contact" exact class="btn btn-primary mt-3 mb-3" href="">Contact us</NuxtLink>
         </div>
       </section>
     </div>
@@ -110,6 +125,28 @@ export default {
 }
 
 section.service-details {
+
+  &.twiggys {
+    background: $twiggys-light;
+  }
+  &.preschool {
+    background: $preschool-light;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
   .services-img-container {
     
     overflow: hidden;
@@ -120,6 +157,12 @@ section.service-details {
       object-fit: cover;
       object-position: center;
     }
+  }
+
+  .btn-primary {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);    
   }
 }
 
@@ -134,6 +177,22 @@ section.service-details {
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+  section.service-details {
+
+    .services-img-container {
+
+      .services-img {
+        width: 100%;
+        height: 100%;
+      }
+
+    }
+
+    .btn-primary {
+      left: 0;
+      transform: translateX(0);    
+  }
+  }
 
 
 }
