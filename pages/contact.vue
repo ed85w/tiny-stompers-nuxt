@@ -18,7 +18,16 @@
         <div class="col-xs-12 col-md-7 animated fadeIn delay-1s" id="vue-form"> 
           <h2>Booking/enquiry form</h2>
           <!-- contact form (uses formspree) -->
-          <form method="POST" action="https://formspree.io/ed.walker@hotmail.co.uk">          
+          <!-- <form method="POST" action="https://formspree.io/ed.walker@hotmail.co.uk">           -->
+          <form 
+            name="contactus" 
+            action="/thanks" 
+            method="post" 
+            netlify
+            netlify-honeypot="bot-field"
+          >
+          <!-- // Hidden input to check for bots -->
+          <input type="hidden" name="form-name" value="contactus" />
 
             <div class="form-group">
               <label for="adult_name">Adult's Name *</label>
@@ -70,7 +79,7 @@
               <textarea class="form-control" id="enquiry" name="enquiry"></textarea>
             </div>
             
-            <button type="submit" class="btn">Send</button>
+            <button type="submit" class="btn" value="send">Send</button>
           </form>
           <br>
           <p class="gdpr-text">GDPR: Tiny Stompers holds your contact details on a tablet device/mobile for contacting you with information about Tiny Stompers. The hard copies from signing in sheets once transported from the session, are stored in my office at home. I will not share your details with any third parties (unless in child protection instances where the usual policy applies). If at any time you would like to be removed from the distribution list, please let me know through my contact details.</p> 
