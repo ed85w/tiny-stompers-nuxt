@@ -41,42 +41,42 @@
             <!-- card start -->
             <div class="col-12 p-3 col-md-6 col-lg-4 p-lg-5 text-center">
               <div class="about-card p-3 p-lg-5">
-                <img class="m-4" src="~static/tiny-stompers-logo.png" alt="">
+                <img class="m-4" src="~static/horse-icon.png" alt="a horse icon">
                 <p class="pb-3">Parachutes, bubbles, ribbon sticks, balancing and  treasure baskets are just some of the fun activities Tiny Stompers can explore</p>
               </div>
             </div>
             <!-- card start -->
             <div class="col-12 p-3 col-md-6 col-lg-4 p-lg-5 text-center">
               <div class="about-card p-3 p-lg-5">
-                <img class="m-4" src="~static/tiny-stompers-logo.png" alt="">
+                <img class="m-4" src="~static/note-icon.png" alt="a music note icon">
                 <p class="pb-3">A range of music, dancing, singing and playing musical instruments are all part of our music and movement sessions</p>
               </div>
             </div>
             <!-- card start -->
             <div class="col-12 p-3 col-md-6 col-lg-4 p-lg-5 text-center">
               <div class="about-card p-3 p-lg-5">
-                <img class="m-4" src="~static/tiny-stompers-logo.png" alt="">
+                <img class="m-4" src="~static/flower-icon.png" alt="a flower icon">
                 <p class="pb-3">Scents such as lavender, citrus and fruity fragrances are used to stimulate our Tiny Stompers sense of smell</p>
               </div>
             </div>
             <!-- card start -->
             <div class="col-12 p-3 col-md-6 col-lg-4 p-lg-5 text-center">
               <div class="about-card p-3 p-lg-5">
-                <img class="m-4" src="~static/tiny-stompers-logo.png" alt="">
+                <img class="m-4" src="~static/hand-icon.png" alt="a hand icon">
                 <p class="pb-3">Tiny Stompers can have fun investigating lots of tactile resources to enhance their sense of touch and hand to eye co-ordination</p>
               </div>
             </div>
             <!-- card start -->
             <div class="col-12 p-3 col-md-6 col-lg-4 p-lg-5 text-center">
               <div class="about-card p-3 p-lg-5">
-                <img class="m-4" src="~static/tiny-stompers-logo.png" alt="">
+                <img class="m-4" src="~static/eye-icon.png" alt="an eye icon">
                 <p class="pb-3">Vibrant resources create a beautiful visual display of colours for Tiny Stompers to enjoy, as they move around the setting</p>
               </div>
             </div>
             <!-- card start -->
             <div class="col-12 p-3 col-md-6 col-lg-4 p-lg-5 text-center">
               <div class="about-card p-3 p-lg-5">
-                <img class="m-4" src="~static/tiny-stompers-logo.png" alt="">
+                <img class="m-4" src="~static/star-icon.png" alt="a star icon">
                 <p class="pb-3">Becky has a BA(hons) in Early Childcare and Education and is qualified in Baby Signing and Introducing Children to Yoga</p>
               </div>
             </div>
