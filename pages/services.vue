@@ -59,10 +59,10 @@
     <div class="container-fluid">
       <section class="row service-details twiggys">
         <div class="col-12 p-0 col-md-6 col-lg-7 order-md-2 services-img-container">
-          <img class="services-img" src="~static/photos/carousel1.jpg" alt="">
+          <!-- <img class="services-img" src="~static/photos/carousel1.jpg" alt=""> -->
         </div>
         <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5 order-md-1">
-          <h3 id="twiggys" class="pb-3">Tiny Stompers at Twiggy’s</h3>
+          <h3 id="twiggys" class="pb-3 pt-lg-5">Tiny Stompers at Twiggy’s</h3>
           <h4>Session times:</h4>
           <p>Mondays and Wednesdays (term time only)<br>10:15 - 11:00 or 11:15 - 12:00</p>
           <p>There are a limited number of places available, so we advise booking to avoid disappointment (booking T&C apply).</p>
@@ -70,35 +70,70 @@
           <p>£6.50 per child. Your session includes play time in Twiggy’s soft play centre after the Tiny Stompers class. </p>
           <h4>Address:</h4>
           <p>Twiggy’s Play, Unit 2, Concept Business Park, Allendale Road, Thirsk, YO7 3NY</p>
-          <NuxtLink to="contact" exact class="btn btn-primary mt-3 mb-3" href="">Book your place</NuxtLink>
+          <NuxtLink to="contact" exact class="btn btn-primary mt-3 mb-3 mb-lg-5" href="">Book your place</NuxtLink>
         </div>
       </section>
 
       <section class="row service-details preschool">
         <div class="col-12 p-0 col-md-6 col-lg-7 services-img-container">
-          <img class="services-img" src="~static/photos/carousel1.jpg" alt="a child playing with a wooden toy">
+          <!-- <img class="services-img" src="~static/photos/preschool-img.png" alt="a child playing with a wooden toy"> -->
         </div>
         <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5">
-          <h3 id="preschool" class="pb-3">Preschool / Nursery bookings</h3>
+          <h3 id="preschool" class="pb-3 pt-lg-5">Preschool / Nursery bookings</h3>
           <p>Preschools and nurseries can book Tiny Stompers sessions to take place within their childcare setting.  Each session is fun and varied and links to the EYFS.</p>
           <h4>Price:</h4>
           <p>£75 for a 45 minute session for up to 10 children at your preschool or nursery location. A 50% deposit is required to reserve your date(s) with the remaining balance paid via invoice.</p>
           <h4>Locations:</h4>
           <p>Tiny Stompers covers York, Thirsk, Easingwold and surrounding villages.  Please contact us directly if you are located outside of these areas as we always try to accommodate (extra charges may apply).</p>
-          <NuxtLink to="contact" exact class="btn btn-primary mt-3 mb-3" href="">Contact us</NuxtLink>
+          <NuxtLink to="contact" exact class="btn btn-primary mt-3 mb-3 mb-lg-5" href="">Contact us</NuxtLink>
+        </div>
+      </section>
+
+      <section class="row service-details party">
+        <div class="col-12 p-0 col-md-6 col-lg-7 order-md-2 services-img-container">
+          <!-- <img class="services-img" src="~static/photos/child-with-giant-lolly.png" alt="a child with a giant lolly"> -->
+        </div>
+        <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5 order-md-1">
+          <h3 id="party" class="pb-3 pt-lg-5">Children's Parties</h3>
+          <p>Enjoy a Tiny Stompers birthday themed party for up to 10 children at your chosen location. The Birthday Stomper will receive a <strong>free gift!</strong></p>
+          <h4>Price:</h4>
+          <p>£75 for a 45 minute party (up to 10 children)</p>
+          <h4>Locations:</h4>
+          <p>Tiny Stompers children’s parties are available across York, Thirsk, Easingwold and surrounding villages. Please contact us directly if you are located outside of these areas as we always try to accommodate (extra charges may apply).</p>
+          <NuxtLink to="contact" exact class="btn btn-primary mt-3 mb-3 mb-lg-5" href="">Contact us</NuxtLink>
+        </div>
+      </section>
+
+      <section class="row service-details baby">
+        <div class="col-12 p-0 col-md-6 col-lg-7 services-img-container">
+          <!-- <img class="services-img" src="~static/photos/baby-on-massage-mat.png" alt="a baby on a massage mat"> -->
+        </div>
+        <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5">
+          <h3 id="baby" class="pb-3 pt-lg-5">Tiny Stompers Baby Massage</h3>
+          <p>Baby Massage courses are offered in the comfort of your own home or within a class environment in beautiful hired venues. </p>
+          <p>They are very relaxing with basic to advanced techniques taught in every class to aid in bonding and child development. </p>
+          <p>Techniques are also shown to help decrease pain caused by colic, constipation and teething. </p>
+          <p>This wonderful mobile baby massage service covers York, Thirsk, Easingwold and surrounding villages.</p>
+          <blockquote>"We loved it so much we did the course twice!"</blockquote>
+          <NuxtLink to="contact" exact class="btn btn-primary mt-3 mb-3 mb-lg-5" href="">Contact us</NuxtLink>
         </div>
       </section>
     </div>
 
-    <!-- <get-in-touch/> -->
+    <get-in-touch/>
 
   </div>
 
 </template>
 
 <script>
-export default {
 
+import getInTouch from '../components/GetInTouch'
+
+export default {
+    components: {
+      getInTouch
+  },
 }
 </script>
 
@@ -126,11 +161,41 @@ export default {
 
 section.service-details {
 
+    .services-img-container {
+      height: 500px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
   &.twiggys {
     background: $twiggys-light;
+
+    .services-img-container {
+      background-image: url('~static/photos/carousel1.jpg');
+    }
   }
   &.preschool {
     background: $preschool-light;
+
+    .services-img-container {
+      background-image: url('~static/photos/preschool-img.png');
+    }
+  }
+  &.party {
+    background: $party-light;
+
+    .services-img-container {
+      background-image: url('~static/photos/child-with-giant-lolly.png');
+
+    }
+  }
+  &.baby {
+    background: rgba(185, 137, 221, 0.5);
+
+    .services-img-container {
+      background-image: url('~static/photos/baby-on-massage-mat.png');
+    }
   }
 
   h3 {
@@ -145,18 +210,6 @@ section.service-details {
 
   p {
     font-size: 18px;
-  }
-
-  .services-img-container {
-    
-    overflow: hidden;
-
-    .services-img {
-      max-width: 100%;
-      height: 500px;
-      object-fit: cover;
-      object-position: center;
-    }
   }
 
   .btn-primary {
@@ -180,18 +233,13 @@ section.service-details {
   section.service-details {
 
     .services-img-container {
-
-      .services-img {
-        width: 100%;
-        height: 100%;
-      }
-
+      height: auto;
     }
 
     .btn-primary {
       left: 0;
       transform: translateX(0);    
-  }
+    }
   }
 
 

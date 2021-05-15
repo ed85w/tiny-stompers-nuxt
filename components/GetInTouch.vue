@@ -1,6 +1,6 @@
 <template>
-  <div class="container-fluid">
-    <section class="row d-flex justify-content-center get-in-touch">
+  <div class="container-fluid pt-md-5">
+    <section class="row d-flex justify-content-center get-in-touch pt-md-5 pb-md-5">
       <div class="col-12 col-lg-11 pt-5 pb-5">
         <div class="row d-flex justify-content-center">
           <div class="col-12 text-center button-container">
