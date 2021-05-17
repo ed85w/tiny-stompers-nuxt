@@ -104,12 +104,12 @@ export default {
   },
   head(){
     return {
-      title: 'About Page',
+      title: 'Tiny Stompers | About us',
       meta: [
         {
           hid: 'description', //id
           name: 'description', //meta type
-          content: 'this is the description for the about page' //meta content
+          content: 'Tiny Stompers in Thirsk, near York. With a range of musical instruments, textures, music, sights, and smells, there is so much for Tiny Stompers to explore! Each session provides a multi-sensory environment aiding in children\'s development in many different and beneficial ways.' //meta content
         }
       ]
     };

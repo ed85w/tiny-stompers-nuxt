@@ -10,13 +10,11 @@
 
 import AppNavbar from '../components/AppNavbar';
 import AppFooter from '../components/AppFooter';
-// import GetInTouch from '../components/GetInTouch';
 
 export default {
   components: {
     AppNavbar,
-    AppFooter,
-    // GetInTouch
+    AppFooter
   }  
 }
 </script>
