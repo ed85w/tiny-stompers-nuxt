@@ -21,21 +21,7 @@
 
     <div class="container">
       <div class="row contact-row">
-        <div class="col-12 col-md-5">
-          <h2>Contact Us</h2>
-          <p>If you would like to ask us any questions please don’t hesitate to contact Becky...</p>
-          <ul class="about-ul">
-            <li class="about-li"><a href="tel:07739960910">mobile: 07739 960910</a></li>
-            <li class="about-li"><a href="mailto:langstaff56@gmx.co.uk">email: langstaff56@gmx.co.uk</a></li>
-            <li class="about-li"><a href="https://www.facebook.com/TinyStompers/">visit Tiny Stompers on Facebook</a></li>              
-          </ul>
-          <br>
-          <h2 class="d-none d-md-block">Facebook</h2>
-          <!-- facebook widget  (only on medium+ size screens)-->
-          <div class="fb-page d-none d-md-block" data-href="https://www.facebook.com/TinyStompers/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/TinyStompers/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/TinyStompers/">Tiny Stompers</a></blockquote></div>
-          <!-- end of facebook widget -->
-        </div>
-        <div class="col-12 col-md-7" id="vue-form"> 
+        <div class="col-12 col-md-7 order-md-2" id="vue-form"> 
 
           <!-- contact form  -->
           <form 
@@ -89,9 +75,11 @@
               </div>
               <div class="form-group col-12 text-center">
                 <button type="button" class="btn" @click="addNewChildForm">
-                  Add Child
+                  <img class="button-img" src="~static/plus-icon.png" alt="plus icon">
+                    Add Child
                 </button>
                 <button type="button" class="btn btn-red" v-if="index > 0" @click="deleteForm(index)">
+                  <img class="button-img" src="~static/minus-icon.png" alt="minus icon">
                   Remove Child
                 </button>
               </div>
@@ -106,12 +94,28 @@
                 <textarea class="form-control" id="enquiry" name="enquiry"></textarea>
               </div>
             
-              <button type="submit" class="btn" value="send">Send</button>
+              <button type="submit" class="btn send-btn" value="send">
+                <img class="button-img" src="~static/tick-icon.png" alt="tick icon">
+                Send
+              </button>
             </div>
           </form>
           <br>
           <p class="gdpr-text">GDPR: Tiny Stompers holds your contact details on a tablet device/mobile for contacting you with information about Tiny Stompers. The hard copies from signing in sheets once transported from the session, are stored in my office at home. I will not share your details with any third parties (unless in child protection instances where the usual policy applies). If at any time you would like to be removed from the distribution list, please let me know through my contact details.</p> 
           <!-- end of contact form -->  
+        </div>
+        <div class="col-12 col-md-5 order-md-1">
+          <ul class="contact-ul pt-5 pb-5">
+            <li class="contact-li"><a href="tel:07739960910"><i class="fa fa-phone"></i><p class="d-none d-lg-block m-0 contact-text">07739 960910</p></a></li>
+            <li class="contact-li"><a href="mailto:langstaff56@gmx.co.uk"><i class="fa fa-envelope"></i><p class="d-none d-lg-block m-0 contact-text">langstaff56@gmx.co.uk</p></a></li>
+            <li class="contact-li"><a href="https://www.facebook.com/TinyStompers/"><i class="fa fa-facebook-square"></i><p class="d-none d-lg-block m-0 contact-text">Tiny Stompers</p></a></li>              
+            <li class="contact-li"><a href="https://www.instagram.com/tinystompers"><i class="fa fa-instagram"></i><p class="d-none d-lg-block m-0 contact-text">@tinystompers</p></a></li>              
+          </ul>
+          <br>
+
+          <!-- facebook widget -->
+          <div class="fb-page" data-href="https://www.facebook.com/TinyStompers/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/TinyStompers/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/TinyStompers/">Tiny Stompers</a></blockquote></div>
+          <!-- end of facebook widget -->
         </div>
       </div>
     </div>
@@ -152,53 +156,96 @@ data() {
 /*  Extra small devices (portrait phones, less than 576px) */
 /*  No media query for `xs` since this is the default in Bootstrap */
 
-#vue-form {
-  border-left: 1px solid black;
+.contact-row {
 
-  .form-control {
-    border: 4px solid #5C52AF;
-    border-radius: 30px;
+  ul.contact-ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+
+    li a i {
+      font-size: 30px;
+      color: $tiny-stompers-dark;
+    }
+
   }
+  #vue-form {
+    border-left: none;
 
-  .btn-red {
-    background: red;
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+
+    .form-control {
+      border: 3px solid #5C52AF;
+      border-radius: 30px;
+    }
+
+    label {
+      font-size: 16px;
+      // font-weight: 700;
+      margin-bottom: 2px;
+      margin-left: 12px;
+    }
+
+    input {
+      padding-top: 4px;
+      padding-bottom: 4px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 15px;
+      padding-right: 15px;
+      background: #5C52AF;
+      border-radius: 30px;  
+      font-size: 16px;
+      font-weight: 700;
+      color: white;
+
+      .button-img {
+        width: 25px;
+        height: 25px;
+        margin-right: 3px;
+      }
+    }
+
+    .btn-red {
+      background: #f54646
+    }
+
+    .send-btn {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
   }
-
 }
 
 
-.contact-row{
-  padding-bottom: 40px;
-}
-
-label {
-  font-size: 0.7rem;
-}
-
-.btn {
-  background-color: #302d7e;
-  color: white;
-}
 
 .gdpr-text {
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   text-align: justify;
 }
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
-  label {
-    font-size: 0.8rem;
-  }
 
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+  #vue-form {
+    border-left: 1px solid black;
+  }
+
   .gdpr-text {
-    font-size: 0.7rem;
     margin-top: 0;
   }
 
@@ -208,14 +255,36 @@ label {
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-  .contact-row{
-    padding-bottom: 150px;
-  } 
+  .contact-row {
 
-  label {
-    font-size: 1rem;
+    ul.contact-ul {
+      flex-direction: column;
+
+
+      li a {
+        display: flex;
+        align-items: center;
+        padding-bottom: 1.5rem;
+        
+        i {
+          width: 40px;
+        }
+        p {
+          font-family: 'Manrope', sans-serif;
+          font-size: 16px;
+          font-weight: bold;
+          color: $tiny-stompers-dark;
+        }
+
+        &:hover {
+          text-decoration: none;
+        }
+      
+      
+      
+      }
+    }
   }
-
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
