@@ -47,12 +47,12 @@
               </div>
             </div>
             <div class="col-12 col-lg-6 order-lg-1 pt-lg-5">
-              <h2 class="home-h2 pt-lg-3 pt-xl-5">Tiny Stompers<br class="d-lg-none"> Music & Movement</h2>
-              <p>A multi-sensory world of music and movement in a fun and exciting setting for children to explore as part of a class, children’s party or at a preschool/nursery setting.</p>
-              <a href="" class="btn btn-primary mb-5">Go to Tiny Stompers Music & movement</a>
-              <h2 class="home-h2">Tiny Stompers<br class="d-lg-none"> Baby Massage</h2>
-              <p>A relaxing environment for you and your baby to share a wonderful massage experience together, as a 1:1 in your home, joining a class or a private group booking.</p>
-              <a href="" class="btn btn-primary mb-5">Go to Tiny Stompers Baby Massage</a>
+              <h2 class="home-h2 pt-lg-3 pt-xl-5 fade-in">Tiny Stompers<br class="d-lg-none"> Music & Movement</h2>
+              <p class="fade-in">A multi-sensory world of music and movement in a fun and exciting setting for children to explore as part of a class, children’s party or at a preschool/nursery setting.</p>
+              <a href="" class="btn btn-primary mb-5 fade-in">Go to Tiny Stompers Music & movement</a>
+              <h2 class="home-h2 fade-in">Tiny Stompers<br class="d-lg-none"> Baby Massage</h2>
+              <p class="fade-in">A relaxing environment for you and your baby to share a wonderful massage experience together, as a 1:1 in your home, joining a class or a private group booking.</p>
+              <a href="" class="btn btn-primary mb-5 fade-in">Go to Tiny Stompers Baby Massage</a>
             </div>
           </div>
         </div>

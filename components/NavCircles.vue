@@ -73,12 +73,36 @@ export default {
     gsap.registerPlugin(ScrollTrigger);
 
     // scroll animation
-    gsap.from(".home-circle", {
-      scrollTrigger: ".home-circle", // start the animation when ".box" enters the viewport (once)
-      duration: 2,
-      scale:0,
-      ease: "elastic.out(1, 0.5)" ,
-      stagger: 0.1
+    ScrollTrigger.matchMedia({
+	
+      // desktop - stagger all 
+      "(min-width: 991px)": function() {
+        gsap.from(".home-circle", {
+          scrollTrigger: ".home-circle", 
+          duration: 2,
+          scale:0,
+          ease: "elastic.out(1, 0.5)" ,
+          stagger: 0.1
+        });
+      },
+
+      // mobile - each animated individually
+      "(max-width: 990px)": function() {
+        var homeCircle = gsap.utils.toArray('.home-circle');
+        homeCircle.forEach((homeCircle) => {
+          gsap.from(homeCircle, { 
+          duration: 2,
+          scale:0,
+          ease: "elastic.out(1, 0.5)" ,
+            scrollTrigger: {
+              trigger: homeCircle,
+              start: "top 80%", //when top of element crosses 80% from of page
+              end: "bottom center",   //when bottom of element crosses center of page
+              toggleActions: "play none none none",
+            }
+          });
+        })
+      },
     });
     
   }

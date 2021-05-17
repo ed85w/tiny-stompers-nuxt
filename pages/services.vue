@@ -61,7 +61,7 @@
       <section class="row service-details twiggys">
         <div class="col-12 p-0 col-md-6 col-lg-7 order-md-2 services-img-container">
         </div>
-        <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5 order-md-1">
+        <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5 order-md-1 fade-in">
           <h3 id="twiggys" class="pb-3 pt-lg-5">Tiny Stompers at Twiggy’s</h3>
           <h4>Session times:</h4>
           <p>Mondays and Wednesdays (term time only)<br>10:15 - 11:00 or 11:15 - 12:00</p>
@@ -77,7 +77,7 @@
       <section class="row service-details preschool">
         <div class="col-12 p-0 col-md-6 col-lg-7 services-img-container">
         </div>
-        <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5">
+        <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5 fade-in">
           <h3 id="preschool" class="pb-3 pt-lg-5">Preschool / Nursery bookings</h3>
           <p>Preschools and nurseries can book Tiny Stompers sessions to take place within their childcare setting.  Each session is fun and varied and links to the EYFS.</p>
           <h4>Price:</h4>
@@ -131,6 +131,26 @@ export default {
     components: {
       getInTouch
   },
+  mounted () {
+    // gsap 
+    gsap.registerPlugin(ScrollTrigger);
+
+    // scroll animations 
+    var fadeIn = gsap.utils.toArray('.fade-in');
+    fadeIn.forEach((fadeIn) => {
+      gsap.from(fadeIn, { 
+        opacity: 0,
+        y: 30,
+        duration: 1,
+        scrollTrigger: {
+          trigger: fadeIn,
+          start: "top 70%", //when top of element crosses 80% from of page
+          end: "bottom center",   //when bottom of element crosses center of page
+          toggleActions: "play none none none",
+        }
+      });
+    })
+  }
 }
 </script>
 

@@ -17,8 +17,27 @@ export default {
     AppNavbar,
     AppFooter,
     GetInTouch
-  }
+  },
+  // mounted () {
+  //   // gsap 
+  //   gsap.registerPlugin(ScrollTrigger);
 
+  //   // scroll animations 
+  //   var fadeIn = gsap.utils.toArray('.fade-in');
+  //   fadeIn.forEach((fadeIn) => {
+  //     gsap.from(fadeIn, { 
+  //       opacity: 0,
+  //       y: 30,
+  //       duration: 1,
+  //       scrollTrigger: {
+  //         trigger: fadeIn,
+  //         start: "top 70%", //when top of element crosses 80% from of page
+  //         end: "bottom center",   //when bottom of element crosses center of page
+  //         toggleActions: "play none none none",
+  //       }
+  //     });
+  //   })
+  // }
 }
 </script>
 <style>
