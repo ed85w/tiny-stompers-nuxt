@@ -63,7 +63,13 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
+    'nuxt-gsap-module',
   ],
+  gsap: {
+    extraPlugins: {
+      scrollTrigger: true
+    }
+  },
   /*
   ** Nuxt.js modules
   */
