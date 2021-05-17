@@ -21,7 +21,7 @@
 
     <div class="container">
       <div class="row contact-row">
-        <div class="col-12 col-md-7 order-md-2" id="vue-form"> 
+        <div class="col-12 col-lg-7 order-lg-2" id="vue-form"> 
 
           <!-- contact form  -->
           <form 
@@ -104,7 +104,7 @@
           <p class="gdpr-text">GDPR: Tiny Stompers holds your contact details on a tablet device/mobile for contacting you with information about Tiny Stompers. The hard copies from signing in sheets once transported from the session, are stored in my office at home. I will not share your details with any third parties (unless in child protection instances where the usual policy applies). If at any time you would like to be removed from the distribution list, please let me know through my contact details.</p> 
           <!-- end of contact form -->  
         </div>
-        <div class="col-12 col-md-5 order-md-1">
+        <div class="col-12 col-lg-5 order-lg-1">
           <ul class="contact-ul pt-5 pb-5">
             <li class="contact-li"><a href="tel:07739960910"><i class="fa fa-phone"></i><p class="d-none d-lg-block m-0 contact-text">07739 960910</p></a></li>
             <li class="contact-li"><a href="mailto:langstaff56@gmx.co.uk"><i class="fa fa-envelope"></i><p class="d-none d-lg-block m-0 contact-text">langstaff56@gmx.co.uk</p></a></li>

@@ -2,12 +2,12 @@
   <div class="max-width-container">
     <div class="container-fluid">
       <section class="row d-flex justify-content-center landing-row-home">
-        <div class="col-12 col-lg-11 nav-col">
+        <div class="col-12 col-md-11 nav-col">
           <div class="row">
             <div class="col-12 text-center text-lg-left pt-lg-5">
               <h1>Welcome to<br class="d-lg-none"> Tiny Stompers!</h1>
             </div>
-            <div class="col-12 pt-5 pb-5 col-lg-6 p-lg-5 order-lg-2">
+            <div class="col-12 col-md-10 offset-md-1 pt-5 pb-5 col-lg-6 offset-lg-0 p-lg-5 order-lg-2">
               <div class="symbols-container">
                 <img class="symbols-img" src="~static/symbols-left.png" alt="">
                 <img class="symbols-img" src="~static/symbols-right.png" alt="">
@@ -47,10 +47,10 @@
               </div>
             </div>
             <div class="col-12 col-lg-6 order-lg-1 pt-lg-5">
-              <h2 class="roboto-h2">Tiny Stompers<br class="d-lg-none"> Music & Movement</h2>
+              <h2 class="home-h2 pt-lg-3 pt-xl-5">Tiny Stompers<br class="d-lg-none"> Music & Movement</h2>
               <p>A multi-sensory world of music and movement in a fun and exciting setting for children to explore as part of a class, children’s party or at a preschool/nursery setting.</p>
               <a href="" class="btn btn-primary mb-5">Go to Tiny Stompers Music & movement</a>
-              <h2 class="roboto-h2">Tiny Stompers<br class="d-lg-none"> Baby Massage</h2>
+              <h2 class="home-h2">Tiny Stompers<br class="d-lg-none"> Baby Massage</h2>
               <p>A relaxing environment for you and your baby to share a wonderful massage experience together, as a 1:1 in your home, joining a class or a private group booking.</p>
               <a href="" class="btn btn-primary mb-5">Go to Tiny Stompers Baby Massage</a>
             </div>
@@ -110,6 +110,16 @@ export default {
       ]
     };
   },
+  mounted () {
+    // gsap 
+    gsap.registerPlugin(ScrollTrigger);
+
+    // gsap timeline to animate landing page 
+    var tl = gsap.timeline({})
+    tl.from(".carousel-fade", {duration:2, scale: 0, opacity: 0, ease: "elastic.out(1, 0.5)" },1);
+
+    
+  }
 }
 </script>
 
@@ -138,10 +148,15 @@ export default {
     }
   }
 
+  .embed-responsive,
+  .embed-responsive .embed-responsive-item {
+    overflow: visible;
+  }
+
   /* carousel */
   .carousel-fade {
     height: 100%;
-    border: 5px solid $tiny-stompers-dark;
+    border: 4px solid $tiny-stompers-dark;
     border-radius: 50%;
     overflow: hidden;
 
@@ -157,14 +172,14 @@ export default {
       .carousel-caption {
         right: 0;
         left: 0;
-        bottom: 0; //same as #carousel-fade border
+        bottom: 0; 
         padding: 0 10% 10px 10%;
         background-color: $tiny-stompers-dark; 
         background-color: rgba($tiny-stompers-dark, 0.7);
         text-align: center;
 
         p {
-          font-size: 0.8rem;
+          font-size: 0.9rem;
         }
 
         p:first-child::before {
@@ -347,6 +362,37 @@ section.bubbles-container {
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+  //NOTE - STYLING REUSED ON SERVICES PAGE!
+.landing-row-home,
+.landing-row-services {
+
+    /* carousel */
+  .carousel-fade {
+
+    .carousel-inner,
+    .carousel-item {
+
+      // .carousel-img .img-fluid{
+      // }
+
+      .carousel-caption {
+        right: 0;
+        left: 0;
+        bottom: 0; //same as .carousel-fade border
+        padding: 10px 18% 10px 18%;
+        background-color: $tiny-stompers-dark; 
+        background-color: rgba($tiny-stompers-dark, 0.7);
+        text-align: center;
+
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+}
 
 
 

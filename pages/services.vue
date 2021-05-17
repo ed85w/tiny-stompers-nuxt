@@ -4,7 +4,7 @@
       <section class="row d-flex justify-content-center landing-row-services">
         <div class="col-12 col-lg-11 nav-col">
           <div class="row">
-            <div class="col-12 text-center text-md-left pt-md-5">
+            <div class="d-md-none col-12 text-center">
               <h1>Our services</h1>
             </div>
             <div class="col-12 pt-5 pb-5 col-md-6 p-md-5 order-md-2">
@@ -47,6 +47,7 @@
               </div>
             </div>
             <div class="col-12 pb-5 col-md-6 order-md-1 pt-md-5 ">
+              <h1 class="d-none d-md-block pb-5">Our Services</h1>
                 <NuxtLink to="services#twiggys" exact class="btn btn-primary services-button mt-2 mb-2" href="">Tiny Stompers at Twiggys</NuxtLink>
                 <NuxtLink to="services#parties" exact class="btn btn-primary services-button mt-2 mb-2" href="">Children's parties</NuxtLink>
                 <NuxtLink to="services#preschool" exact class="btn btn-primary services-button mt-2 mb-2" href="">Preschool/nursery bookings</NuxtLink>
@@ -59,7 +60,6 @@
     <div class="container-fluid">
       <section class="row service-details twiggys">
         <div class="col-12 p-0 col-md-6 col-lg-7 order-md-2 services-img-container">
-          <!-- <img class="services-img" src="~static/photos/carousel1.jpg" alt=""> -->
         </div>
         <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5 order-md-1">
           <h3 id="twiggys" class="pb-3 pt-lg-5">Tiny Stompers at Twiggy’s</h3>
@@ -76,7 +76,6 @@
 
       <section class="row service-details preschool">
         <div class="col-12 p-0 col-md-6 col-lg-7 services-img-container">
-          <!-- <img class="services-img" src="~static/photos/preschool-img.png" alt="a child playing with a wooden toy"> -->
         </div>
         <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5">
           <h3 id="preschool" class="pb-3 pt-lg-5">Preschool / Nursery bookings</h3>
@@ -91,7 +90,6 @@
 
       <section class="row service-details party">
         <div class="col-12 p-0 col-md-6 col-lg-7 order-md-2 services-img-container">
-          <!-- <img class="services-img" src="~static/photos/child-with-giant-lolly.png" alt="a child with a giant lolly"> -->
         </div>
         <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5 order-md-1">
           <h3 id="party" class="pb-3 pt-lg-5">Children's Parties</h3>
@@ -106,7 +104,6 @@
 
       <section class="row service-details baby">
         <div class="col-12 p-0 col-md-6 col-lg-7 services-img-container">
-          <!-- <img class="services-img" src="~static/photos/baby-on-massage-mat.png" alt="a baby on a massage mat"> -->
         </div>
         <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5">
           <h3 id="baby" class="pb-3 pt-lg-5">Tiny Stompers Baby Massage</h3>

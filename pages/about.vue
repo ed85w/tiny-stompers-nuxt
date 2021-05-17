@@ -113,6 +113,27 @@ export default {
         }
       ]
     };
+  },  
+  mounted () {
+    // gsap 
+    gsap.registerPlugin(ScrollTrigger);
+
+    // scroll animation
+    gsap.from(".about-card", {
+      // scrollTrigger: ".about-card", // start the animation when ".box" enters the viewport (once)
+      scrollTrigger: {
+        trigger: ".about-card",
+        start: "top 80%", //when top of element crosses 80% from of page
+        end: "bottom center",   //when bottom of element crosses center of page
+        toggleActions: "play none none none",
+      },
+      duration: 2,
+      opacity: 0,
+      x: -50,
+      ease: "elastic.out(1, 0.5)" ,
+      stagger: 0.1
+    });
+    
   }
 
 }

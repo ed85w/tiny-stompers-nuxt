@@ -68,6 +68,20 @@
 
 <script>
 export default {
+  mounted () {
+    // gsap 
+    gsap.registerPlugin(ScrollTrigger);
+
+    // scroll animation
+    gsap.from(".home-circle", {
+      scrollTrigger: ".home-circle", // start the animation when ".box" enters the viewport (once)
+      duration: 2,
+      scale:0,
+      ease: "elastic.out(1, 0.5)" ,
+      stagger: 0.1
+    });
+    
+  }
 
 }
 </script>

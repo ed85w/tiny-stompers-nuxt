@@ -59,8 +59,7 @@ h2 {
   font-size: 24px;
 }
 
-h2.roboto-h2 {
-  font-family: 'Roboto', sans-serif;
+h2.home-h2 {
   font-weight: bold;
   font-size: 26px;
 }
@@ -81,7 +80,7 @@ h2.roboto-h2 {
 @media (min-width: 768px) {
 
   p {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   h1 {
@@ -96,6 +95,10 @@ h2.roboto-h2 {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
+  /* p {
+    font-size: 24px;
+  } */
 
   .max-width-container {
     max-width: 2500px;

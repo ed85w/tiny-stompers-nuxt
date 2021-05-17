@@ -19,7 +19,7 @@
                 <ul class="footer-socials">
                   <li><a href="mailto:langstaff56@gmx.co.uk"><i class="fa fa-instagram"></i></a></li>
                   <li><a href="mailto:langstaff56@gmx.co.uk"><i class="fa fa-envelope"></i></a></li>
-                  <li><a href="https://www.facebook.com/TinyStompers/"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="https://www.facebook.com/TinyStompers/"><i class="fa fa-facebook-square"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -60,12 +60,10 @@ export default {
     padding: 0;
     
     li {
-      width: 50%;
-      padding: 10px;
+      padding: 10px 20px;
       text-align: center;
       
       a {
-        font-family: 'Manrope', sans-serif;
         font-size: 16px;
         color: white;
       }
