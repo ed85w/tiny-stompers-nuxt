@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/where-to-find-us", {data:[{}],fetch:{},mutations:void 0});

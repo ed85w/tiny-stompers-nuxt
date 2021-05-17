@@ -49,10 +49,10 @@
             <div class="col-12 col-lg-6 order-lg-1 pt-lg-5">
               <h2 class="home-h2 pt-lg-3 pt-xl-5 fade-in">Tiny Stompers<br class="d-lg-none"> Music & Movement</h2>
               <p class="fade-in">A multi-sensory world of music and movement in a fun and exciting setting for children to explore as part of a class, children’s party or at a preschool/nursery setting.</p>
-              <a href="" class="btn btn-primary mb-5 fade-in">Go to Tiny Stompers Music & movement</a>
+              <NuxtLink to="about" exact class="btn btn-primary mb-5 fade-in">Go to Tiny Stompers Music & Movement</NuxtLink>
               <h2 class="home-h2 fade-in">Tiny Stompers<br class="d-lg-none"> Baby Massage</h2>
               <p class="fade-in">A relaxing environment for you and your baby to share a wonderful massage experience together, as a 1:1 in your home, joining a class or a private group booking.</p>
-              <a href="" class="btn btn-primary mb-5 fade-in">Go to Tiny Stompers Baby Massage</a>
+              <NuxtLink to="baby-massage" exact class="btn btn-primary mb-5 fade-in">Go to Tiny Stompers Baby Massage</NuxtLink>
             </div>
           </div>
         </div>
@@ -60,6 +60,7 @@
     </div>
     <section class="container-fluid bubbles-container">
       <div class="bubbles">
+        <div class="bubble"></div>
         <div class="bubble"></div>
         <div class="bubble"></div>
         <div class="bubble"></div>
@@ -110,30 +111,6 @@ export default {
       ]
     };
   },
-  mounted () {
-    // gsap 
-    gsap.registerPlugin(ScrollTrigger);
-
-    // gsap timeline to animate landing page 
-    var tl = gsap.timeline({})
-    tl.from(".carousel-fade", {duration:2, scale: 0, opacity: 0, ease: "elastic.out(1, 0.5)" },1);
-
-    // scroll animations 
-    var fadeIn = gsap.utils.toArray('.fade-in');
-    fadeIn.forEach((fadeIn) => {
-      gsap.from(fadeIn, { 
-        opacity: 0,
-        y: 30,
-        duration: 1,
-        scrollTrigger: {
-          trigger: fadeIn,
-          start: "top 70%", //when top of element crosses 80% from of page
-          end: "bottom center",   //when bottom of element crosses center of page
-          toggleActions: "play none none none",
-        }
-      });
-    })
-  }
 }
 </script>
 
@@ -330,11 +307,18 @@ section.bubbles-container {
       animation-delay:1s;
     }
     .bubble:nth-child(13){
-      width:90px;
-      height:90px;
-      left:25%;
-      animation-duration:10s;
-      animation-delay:4s;
+      width:42px;
+      height:42px;
+      left:-5%;
+      animation-duration:15s;
+      animation-delay:1s;
+    }
+    .bubble:nth-child(14){
+      width:71px;
+      height:71px;
+      left:5%;
+      animation-duration:3s;
+      animation-delay:6s;
     }
     @keyframes rise{
       0%{
