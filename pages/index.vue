@@ -111,6 +111,33 @@ export default {
       ]
     };
   },
+  mounted () {
+    // gsap 
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.from(".carousel-fade", {
+      scrollTrigger: ".carousel-fade", 
+      duration: 2,
+      scale:0,
+      ease: "elastic.out(1, 0.5)" ,
+    });
+
+    // scroll animations 
+    var fadeIn = gsap.utils.toArray('.fade-in');
+    fadeIn.forEach((fadeIn) => {
+      gsap.from(fadeIn, { 
+        opacity: 0,
+        y: 30,
+        duration: 1,
+        scrollTrigger: {
+          trigger: fadeIn,
+          start: "top 70%", //when top of element crosses 80% from of page
+          end: "bottom center",   //when bottom of element crosses center of page
+          toggleActions: "play none none none",
+        }
+      });
+    })
+  }
 }
 </script>
 
@@ -120,9 +147,10 @@ export default {
 /*  No media query for `xs` since this is the default in Bootstrap */
 
 
-//NOTE - STYLING REUSED ON SERVICES PAGE!
+//NOTE - STYLING REUSED ON SERVICES & BABY MASSAGE PAGE!
 .landing-row-home,
-.landing-row-services {
+.landing-row-services,
+.landing-row-baby {
   padding-top: 70px;
 
   .symbols-container {

@@ -6,6 +6,7 @@
           <nav class="row">
             <div class="logo-container">
               <NuxtLink to="/" exact><img class="logo-img" src="~static/tiny-stompers-logo.png" alt=""></NuxtLink>
+              <NuxtLink to="/" exact><img class="logo-img-baby" src="~static/tiny-stompers-baby-massage-logo.png" alt=""></NuxtLink>
             </div>
             <div class="col nav-menu-container" v-bind:class="{ showsidebar: showMobileMenu }">
               <ul class="sidebar-nav p-3 pt-5">
@@ -13,7 +14,7 @@
                 <li v-on:click="showMenu()" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="about" exact>About us</NuxtLink></li>
                 <li v-on:click="showMenu()" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="services" exact>Our services</NuxtLink></li>
                 <li v-on:click="showMenu()" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="contact" exact>Contact</NuxtLink></li>
-                <li v-on:click="showMenu()" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="#" exact>Baby Massage</NuxtLink></li>
+                <li v-on:click="showMenu()" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="baby-massage" exact>Baby Massage</NuxtLink></li>
               </ul>
               <ul class="socials p-3 pt-0 pt-lg-5">
                 <li><a href="mailto:langstaff56@gmx.co.uk"><i class="fa fa-instagram"></i></a></li>
@@ -62,6 +63,21 @@ export default {
 
 /* navbar styling (mobile)*/
 
+// if TS page(s)
+body .nav-row .nav-col .logo-container .logo-img {
+  display: block;
+}
+body .nav-row .nav-col .logo-container .logo-img-baby {
+  display: none;
+}
+// if baby massage page
+body.baby-massage .nav-row .nav-col .logo-container .logo-img {
+  display: none;
+}
+body.baby-massage .nav-row .nav-col .logo-container .logo-img-baby {
+  display: block;
+}
+
 .nav-row {
   height: 99px;
   background: #312783;
@@ -76,7 +92,8 @@ export default {
       top: 10px;
       transform: translateX(-50%);
 
-      .logo-img {
+      .logo-img,
+      .logo-img-baby {
         width: 127px;
         height: 127px;
 
@@ -264,7 +281,8 @@ export default {
         transform: none;
         z-index: 2;
 
-        .logo-img {
+        .logo-img,
+        .logo-img-baby {
           width: 230px;
           height: 230px;
         }

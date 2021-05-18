@@ -1,37 +1,104 @@
 <template>
   <div class="max-width-container">
     <!-- landing section  -->
-    <div class="container-fluid pt-5 pb-md-5 landing-container-about">
-      <section class="row d-flex justify-content-center justify-content-lg-end pt-5 pb-md-5 landing-row-about">
+    <div class="container-fluid pt-5 pb-md-5 landing-container-baby">
+      <section class="row d-flex justify-content-center justify-content-lg-end pt-5 pb-md-5">
         <div class="col-12 col-lg-11 pt-md-5 pb-md-5">
           <div class="row pl-3 pr-3 pt-md-5 pb-md-5 pr-md-0">
             <div class="col-12 p-3 col-md-10 offset-md-2 p-md-5 landing-text-container">
-              <h1>About Tiny Stompers</h1>
-              <p>At Tiny Stompers, we love introducing children and their parents/carers to the stimulating world of music and movemet in a fun, energetic and exciting way within a safe environment.</p>
-              <p>Each session provides a multi-sensory environment, aiding in children’s development in many different and beneficial ways. Enjoy bubbles, ribbon stick dances, parachute, baby signing and sensory play all within 45 minutes of fun, with plenty of resources for you to explore at your own pace.</p>
-              <p>Activities are aimed at 12 months+ but teeny tiny stompers are always welcome too.</p>
+              <h1 class="pb-3">Tiny Stompers Baby Massage</h1>
+              <p>Baby Massage courses are offered as a one to one in the comfort of your own home, as a private group booking at your chosen location, or within a class environment at one of Tiny Stompers Baby Massage hired venues.</p>
+              <p>The sessions are very relaxing with basic to advanced techniques taught in every class to aid in bonding and child development. Techniques are also shown to help decrease pain caused by colic, constipation and teething. This wonderful mobile baby massage service covers York, Thirsk, Easingwold and surrounding villages.</p>
             </div>
           </div>
         </div>
       </section>
     </div>
 
-    <!-- what to expect header  -->
+    <!-- benefits section  -->
     <div class="container-fluid">
-      <section class="row d-flex justify-content-center pt-5 what-to-expect">
-        <div class="col-12 col-lg-11 pt-5 pb-5">
-          <div class="row d-flex justify-content-center">
-            <div class="col-12 text-center button-container">
+      <section class="row d-flex justify-content-center landing-row-baby">
+        <div class="col-12 col-md-11 nav-col">
+          <div class="row">
+            <div class="col-12 col-md-10 offset-md-1 pt-5 pb-5 col-lg-6 offset-lg-0 p-lg-5 order-lg-2">
               <div class="symbols-container">
-                <img class="symbols-img" src="~static/symbols-left.png" alt="">
-                <img class="symbols-img" src="~static/symbols-right.png" alt="">
+                <img class="symbols-img" src="~static/baby-symbols-left.png" alt="">
+                <img class="symbols-img" src="~static/baby-symbols-right.png" alt="">
               </div>
-              <h3>What to expect <br class="d-lg-none">from our exciting<br>Tiny Stomper sessions</h3>
+              <div class="embed-responsive embed-responsive-1by1 text-center">
+                <div class="embed-responsive-item p-3 p-lg-5">
+                  <b-carousel
+                    class="carousel-fade"
+                    fade
+                  >
+                  <b-carousel-slide
+                    class="carousel-img"
+                    caption="Becky's love for children shines through as she creates fun and motivational music and movement sessions for children and their grown ups"
+                    caption-tag="p"
+                    text="Linda, Tiny Stomper Nanna"
+                    img-src="~static/photos/carousel03.jpg"
+                    img-alt="becky bubbles with a certificate for a tiny stomper"
+                  ></b-carousel-slide>
+                  <b-carousel-slide
+                    class="carousel-img"
+                    caption="Lots of fun for little stompers and their parents!! Becky is lovely and keeps the sessions varied and interesting each week"
+                    caption-tag="p"
+                    text="Alex, Tiny Stomper Mum"
+                    img-src="~static/photos/carousel02.jpg"
+                    img-alt="a tiny stomper having fun at tiny stompers!"
+                  ></b-carousel-slide>
+                  <b-carousel-slide
+                    class="carousel-img"
+                    caption="A fabulous, interactive group for preschoolers and their grown ups. Highly recommend coming to try it out"
+                    caption-tag="p"
+                    text="Kirsty, Tiny Stomper Mum"
+                    img-src="~static/photos/carousel01.jpg"
+                    img-alt="a younger tiny stomper enjoying sensory play"
+                  ></b-carousel-slide>
+                </b-carousel>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 order-lg-1 pt-lg-5">
+              <h2 class="pt-lg-3 pt-xl-5 fade-in">The benefits of our courses</h2>
+              <p class="fade-in">Baby Massage helps your baby to feel relaxed and sleep deeper... ahhh bliss! Lots of parents use baby massage after bath time as part of their daily routine to relax their babies before bed.</p>
+              <p class="fade-in">The techniques also help decrease discomfort caused by common problems which baby’s can suffer with such as colic, constipation and teething.</p>
+              <NuxtLink to="contact" exact class="btn btn-primary mb-5 fade-in">Contact us</NuxtLink>
             </div>
           </div>
         </div>
       </section>
     </div>
+
+    <!-- why choose section  -->
+    <div class="container-fluid">
+      <section class="row d-flex justify-content-center why-choose">
+        <div class="col-12 col-md-11 nav-col">
+          <div class="row">
+            <div class="col-12">
+              <h2>Why choose Tiny Stompers Baby Massage?</h2>
+            </div>
+            <div class="col-12 col-md-6">
+              <ul class="baby-massage-ul">
+                <li>We are fully insured</li>
+                <li>Becky is a qualified Baby Massage Therapist with Distinction</li>
+                <li>Policies and risk assessments within hired venues</li>
+                <li>Basic and advanced techniques are taught in every course with recaps provided each week</li>
+                <li>All classes are within a relaxing environment with time for a nice hot drink afterwards</li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-6">
+              <ul class="baby-massage-ul">
+                <li>All equipment and oils are provided plus a certificate on completion of the course... just you and your baby are needed!</li>
+                <li>Fed is best for babies so don't worry if your baby needs feeding during the course, breast of bottle, however you choose</li>
+                <li>After a Tiny Stompers Baby Massage lesson, we encourage calm, quiet time time with Mummy or Daddy so that baby can continue feeling relaxed, have a drink if they need to, and be ready for a rest.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
 
     <!-- about cards section  -->
     <div class="container-fluid">
@@ -59,52 +126,49 @@
                 <p class="pb-3">Scents such as lavender, citrus and fruity fragrances are used to stimulate our Tiny Stompers sense of smell</p>
               </div>
             </div>
-            <!-- card start -->
-            <div class="col-12 p-3 col-md-6 col-lg-4 p-lg-5 text-center">
-              <div class="about-card p-3 p-lg-5 fade-in">
-                <img class="m-4" src="~static/hand-icon.png" alt="a hand icon">
-                <p class="pb-3">Tiny Stompers can have fun investigating lots of tactile resources to enhance their sense of touch and hand to eye co-ordination</p>
-              </div>
-            </div>
-            <!-- card start -->
-            <div class="col-12 p-3 col-md-6 col-lg-4 p-lg-5 text-center">
-              <div class="about-card p-3 p-lg-5 fade-in">
-                <img class="m-4" src="~static/eye-icon.png" alt="an eye icon">
-                <p class="pb-3">Vibrant resources create a beautiful visual display of colours for Tiny Stompers to enjoy, as they move around the setting</p>
-              </div>
-            </div>
-            <!-- card start -->
-            <div class="col-12 p-3 col-md-6 col-lg-4 p-lg-5 text-center">
-              <div class="about-card p-3 p-lg-5 fade-in">
-                <img class="m-4" src="~static/star-icon.png" alt="a star icon">
-                <p class="pb-3">Becky has a BA(hons) in Early Childcare and Education and is qualified in Baby Signing and Introducing Children to Yoga</p>
-              </div>
-            </div>
+
           </div>
         </div>
       </section>
     </div>
 
-    <nav-circles/>
-
-    <get-in-touch/>
-    
+        <!-- prep section  -->
+    <div class="container-fluid">
+      <section class="row d-flex justify-content-center prep">
+        <div class="col-12 col-md-11 nav-col">
+          <div class="row">
+            <div class="col-12 pb-5">
+              <h2>Preparing for your Tiny Stompers Baby Massage</h2>
+            </div>
+            <div class="col-12 col-md-6">
+              <ul class="baby-massage-ul">
+                <li>All equipment is included whichever booking option you choose.</li>
+                <li>Babies will need their clothing removed, nappies are optional, so we suggest baby is wearing something easy to take off and on.</li>
+                <li>Bring a change of clothes, nappies in case of accidents, milk (if bottle feeding), a favourite quiet toy or comforter</li>
+                <li>The sessions last up to 45 minutes. This time allows for getting baby ready, massage time,  baby's individual needs, questions, recaps and a refreshing drink afterwards.</li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-6">
+              <ul class="baby-massage-ul">
+                <li>It is expected that babies are not always 'in the mood' for a massage. Demonstrations and recaps are available each week. Please do not worry if your baby cries, has an accident or needs feeding.</li>
+                <li>It is not advised to massage your baby up to a week after their vaccinations. Please ensure you have sought the advice of any healthcare professionals before participating in the Baby Massage Classes, if necessary. </li>
+                <li>You will be the only person who will massage your baby.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div> 
   </div>
 </template>
 
 <script>
 
-import navCircles from '../components/NavCircles'
-import getInTouch from '../components/GetInTouch'
-
 export default {
-    components: {
-    navCircles,
-    getInTouch
-  },
+
   head(){
     return {
-      title: 'About Page',
+      title: 'Tiny Stompers | Baby Massage',
       meta: [
         {
           hid: 'description', //id
@@ -115,6 +179,8 @@ export default {
     };
   },  
   mounted () {
+    // add class to navbar to identify baby-massage page 
+    document.body.classList.add('baby-massage');
     // gsap 
     gsap.registerPlugin(ScrollTrigger);
 
@@ -133,15 +199,35 @@ export default {
         }
       });
     })
-  }
+  },
+  destroyed () {
+    // remove baby-massage body class when not on this page 
+    document.body.classList.remove('baby-massage')
+  },
 
 }
 </script>
 
 <style lang="scss">
 
-.landing-container-about {
-  background: url(~static/photos/about-landing.png);
+ul.baby-massage-ul {
+  list-style: none;
+  padding: 0;
+
+  li {
+    background: url(~static/star-bullet.png);
+    background-size: 32px;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+    padding-left: 42px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+.landing-container-baby{
+  background: url(~static/photos/baby-massage-feet.png);
   background-size: cover;
   background-position: center;
 
@@ -162,13 +248,13 @@ section.what-to-expect {
     }
 
     .symbols-container {
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    top: -30px;
-    left: 0;
-    width: 100%;
-    padding: 0 16px;
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+      top: -30px;
+      left: 0;
+      width: 100%;
+      padding: 0 16px;
 
       .symbols-img {
         width: 20%;
@@ -226,7 +312,7 @@ section.about-cards {
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-    .landing-container-about {
+  .landing-container-baby {
 
     .landing-text-container {
       border-radius: 60px 0px 0px 60px;

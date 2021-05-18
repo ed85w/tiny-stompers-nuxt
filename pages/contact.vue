@@ -21,7 +21,7 @@
 
     <div class="container">
       <div class="row contact-row">
-        <div class="col-12 col-lg-7 order-lg-2" id="vue-form"> 
+        <div class="col-12 col-lg-7 order-lg-2 pl-lg-5" id="vue-form"> 
 
           <!-- contact form  -->
           <form 
@@ -127,26 +127,37 @@
 
 
 export default {
-
-data() {
+  head(){
     return {
-        children: [{
-            name: '',
-            age: ''
-            }],
-          date: ''
+      title: 'Tiny Stompers | Contact',
+      meta: [
+        {
+          hid: 'description', //id
+          name: 'description', //meta type
+          content: 'How to contact Tiny Stompers - music, movement and sensory group for babies, toddlers and children aged 12 months to 5 years. Based in Thirsk near York.' //meta content
         }
-    },
+      ]
+    };
+  },
+  data() {
+    return {
+      children: [{
+        name: '',
+        age: ''
+        }],
+        date: ''
+    }
+  },
     methods: {
-        addNewChildForm: function(){
-            this.children.push({
-                name: '',
-                age: ''
-            })
-        },
-        deleteForm: function(index){
-            this.children.splice(index, 1);
-        }
+      addNewChildForm: function(){
+        this.children.push({
+          name: '',
+          age: ''
+        })
+      },
+      deleteForm: function(index){
+        this.children.splice(index, 1);
+      }
     }
 }
 </script>
@@ -241,13 +252,12 @@ data() {
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-  #vue-form {
-    border-left: 1px solid black;
-  }
+.contact-row {
 
   .gdpr-text {
     margin-top: 0;
   }
+}
 
 
 }
@@ -256,6 +266,10 @@ data() {
 @media (min-width: 992px) {
 
   .contact-row {
+    
+    #vue-form {
+      border-left: 1px solid black;
+    }
 
     ul.contact-ul {
       flex-direction: column;
