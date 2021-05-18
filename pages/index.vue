@@ -115,12 +115,9 @@ export default {
     // gsap 
     gsap.registerPlugin(ScrollTrigger);
 
-    gsap.from(".carousel-fade", {
-      scrollTrigger: ".carousel-fade", 
-      duration: 2,
-      scale:0,
-      ease: "elastic.out(1, 0.5)" ,
-    });
+    // gsap timeline to animate carousel circle
+    var tl = gsap.timeline({})
+    tl.from(".carousel-fade", {duration:2, scale: 0, opacity: 0, ease: "elastic.out(1, 0.5)" },1);
 
     // scroll animations 
     var fadeIn = gsap.utils.toArray('.fade-in');
