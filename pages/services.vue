@@ -61,7 +61,7 @@
       <section class="row service-details twiggys">
         <div class="col-12 p-0 col-md-6 col-lg-7 order-md-2 services-img-container">
         </div>
-        <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5 order-md-1 fade-in">
+        <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5 order-md-1 fade-in-right">
           <h3 id="twiggys" class="pb-3 pt-lg-5">Tiny Stompers at Twiggy’s</h3>
           <h4>Session times:</h4>
           <p>Mondays and Wednesdays (term time only)<br>10:15 - 11:00 or 11:15 - 12:00</p>
@@ -77,7 +77,7 @@
       <section class="row service-details preschool">
         <div class="col-12 p-0 col-md-6 col-lg-7 services-img-container">
         </div>
-        <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5 fade-in">
+        <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5 fade-in-left">
           <h3 id="preschool" class="pb-3 pt-lg-5">Preschool / Nursery bookings</h3>
           <p>Preschools and nurseries can book Tiny Stompers sessions to take place within their childcare setting.  Each session is fun and varied and links to the EYFS.</p>
           <h4>Price:</h4>
@@ -91,7 +91,7 @@
       <section class="row service-details party">
         <div class="col-12 p-0 col-md-6 col-lg-7 order-md-2 services-img-container">
         </div>
-        <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5 order-md-1 fade-in">
+        <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5 order-md-1 fade-in-right">
           <h3 id="party" class="pb-3 pt-lg-5">Children's Parties</h3>
           <p>Enjoy a Tiny Stompers birthday themed party for up to 10 children at your chosen location. The Birthday Stomper will receive a <strong>free gift!</strong></p>
           <h4>Price:</h4>
@@ -105,7 +105,7 @@
       <section class="row service-details baby">
         <div class="col-12 p-0 col-md-6 col-lg-7 services-img-container">
         </div>
-        <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5 fade-in">
+        <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5 fade-in-left">
           <h3 id="baby" class="pb-3 pt-lg-5">Tiny Stompers Baby Massage</h3>
           <p>Baby Massage courses are offered in the comfort of your own home or within a class environment in beautiful hired venues. </p>
           <p>They are very relaxing with basic to advanced techniques taught in every class to aid in bonding and child development. </p>
@@ -156,6 +156,36 @@ export default {
         duration: 1,
         scrollTrigger: {
           trigger: fadeIn,
+          start: "top 70%", //when top of element crosses 80% from of page
+          end: "bottom center",   //when bottom of element crosses center of page
+          toggleActions: "play none none none",
+        }
+      });
+    })
+
+    var fadeInRight = gsap.utils.toArray('.fade-in-right');
+    fadeInRight.forEach((fadeInRight) => {
+      gsap.from(fadeInRight, { 
+        opacity: 0,
+        x: -30,
+        duration: 1,
+        scrollTrigger: {
+          trigger: fadeInRight,
+          start: "top 70%", //when top of element crosses 80% from of page
+          end: "bottom center",   //when bottom of element crosses center of page
+          toggleActions: "play none none none",
+        }
+      });
+    })
+
+    var fadeInLeft = gsap.utils.toArray('.fade-in-left');
+    fadeInLeft.forEach((fadeInLeft) => {
+      gsap.from(fadeInLeft, { 
+        opacity: 0,
+        x: 30,
+        duration: 1,
+        scrollTrigger: {
+          trigger: fadeInLeft,
           start: "top 70%", //when top of element crosses 80% from of page
           end: "bottom center",   //when bottom of element crosses center of page
           toggleActions: "play none none none",

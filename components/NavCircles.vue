@@ -96,7 +96,7 @@ export default {
           ease: "elastic.out(1, 0.5)" ,
             scrollTrigger: {
               trigger: homeCircle,
-              start: "top 80%", //when top of element crosses 80% from of page
+              start: "top 70%", //when top of element crosses 80% from of page
               end: "bottom center",   //when bottom of element crosses center of page
               toggleActions: "play none none none",
             }
