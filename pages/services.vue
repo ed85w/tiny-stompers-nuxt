@@ -48,10 +48,10 @@
             </div>
             <div class="col-12 pb-5 col-md-6 order-md-1 pt-md-5 ">
               <h1 class="d-none d-md-block pb-5">Our Services</h1>
-                <NuxtLink to="services#twiggys" exact class="btn btn-primary services-button mt-2 mb-2" href="">Tiny Stompers at Twiggys</NuxtLink>
-                <NuxtLink to="services#parties" exact class="btn btn-primary services-button mt-2 mb-2" href="">Children's parties</NuxtLink>
-                <NuxtLink to="services#preschool" exact class="btn btn-primary services-button mt-2 mb-2" href="">Preschool/nursery bookings</NuxtLink>
-                <NuxtLink to="services#baby" exact class="btn btn-primary services-button mt-2 mb-2" href="">Tiny Stompers Baby Massage</NuxtLink>
+                <NuxtLink to="services#twiggys" exact class="btn btn-primary services-button mt-3 mb-3">Tiny Stompers at Twiggys</NuxtLink>
+                <NuxtLink to="services#preschool" exact class="btn btn-primary services-button mt-3 mb-3">Preschool/nursery bookings</NuxtLink>
+                <NuxtLink to="services#party" exact class="btn btn-primary services-button mt-3 mb-3">Children's parties</NuxtLink>
+                <NuxtLink to="services#baby" exact class="btn btn-primary services-button mt-3 mb-3">Tiny Stompers Baby Massage</NuxtLink>
             </div>
           </div>
         </div>
@@ -70,7 +70,7 @@
           <p>£6.50 per child. Your session includes play time in Twiggy’s soft play centre after the Tiny Stompers class. </p>
           <h4>Address:</h4>
           <p>Twiggy’s Play, Unit 2, Concept Business Park, Allendale Road, Thirsk, YO7 3NY</p>
-          <NuxtLink to="contact" exact class="btn btn-primary mt-3 mb-3 mb-lg-5" href="">Book your place</NuxtLink>
+          <a class="btn btn-primary mt-3 mb-3 mb-lg-5" href="https://bookwhen.com/tinystompers">Book your place</a>
         </div>
       </section>
 
@@ -112,7 +112,7 @@
           <p>Techniques are also shown to help decrease pain caused by colic, constipation and teething. </p>
           <p>This wonderful mobile baby massage service covers York, Thirsk, Easingwold and surrounding villages.</p>
           <p><strong>"We loved it so much we did the course twice!"</strong></p>
-          <NuxtLink to="contact" exact class="btn btn-primary mt-3 mb-3 mb-lg-5" href="">Contact us</NuxtLink>
+          <NuxtLink to="baby-massage" exact class="btn btn-primary mt-3 mb-3 mb-lg-5" href="">Find out more</NuxtLink>
         </div>
       </section>
     </div>
@@ -219,13 +219,14 @@ export default {
 }
 
 section.service-details {
+  overflow: hidden;
 
-    .services-img-container {
-      height: 500px;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-    }
+  .services-img-container {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 
   &.twiggys {
     background: $twiggys-light;

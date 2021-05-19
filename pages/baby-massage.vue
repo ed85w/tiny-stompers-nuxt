@@ -7,8 +7,8 @@
           <div class="row pl-3 pr-3 pt-md-5 pb-md-5 pr-md-0">
             <div class="col-12 p-3 col-md-10 offset-md-2 p-md-5 landing-text-container">
               <h2 class="pt-3 pb-3 text-center text-md-left">Tiny Stompers Baby Massage</h2>
-              <p>Baby Massage courses are offered as a one to one in the comfort of your own home, as a private group booking at your chosen location, or within a class environment at one of Tiny Stompers Baby Massage hired venues.</p>
-              <p>The sessions are very relaxing with basic to advanced techniques taught in every class to aid in bonding and child development. Techniques are also shown to help decrease pain caused by colic, constipation and teething. This wonderful mobile baby massage service covers York, Thirsk, Easingwold and surrounding villages.</p>
+              <p class="pb-3">Baby Massage courses are offered as a one to one in the comfort of your own home, as a private group booking at your chosen location, or within a class environment at one of Tiny Stompers Baby Massage hired venues.</p>
+              <p class="pb-3">The sessions are very relaxing with basic to advanced techniques taught in every class to aid in bonding and child development. Techniques are also shown to help decrease pain caused by colic, constipation and teething. This wonderful mobile baby massage service covers York, Thirsk, Easingwold and surrounding villages.</p>
             </div>
           </div>
         </div>
@@ -61,8 +61,8 @@
             </div>
             <div class="col-12 col-lg-6 order-lg-1 pt-5 pb-5">
               <h2 class="pb-3 pt-lg-3 pt-xl-5 text-center text-md-left fade-in">The benefits of our courses</h2>
-              <p class="fade-in">Baby Massage helps your baby to feel relaxed and sleep deeper... ahhh bliss! Lots of parents use baby massage after bath time as part of their daily routine to relax their babies before bed.</p>
-              <p class="fade-in">The techniques also help decrease discomfort caused by common problems which baby’s can suffer with such as colic, constipation and teething.</p>
+              <p class="pb-3 fade-in">Baby Massage helps your baby to feel relaxed and sleep deeper... ahhh bliss! Lots of parents use baby massage after bath time as part of their daily routine to relax their babies before bed.</p>
+              <p class="pb-3 fade-in">The techniques also help decrease discomfort caused by common problems which baby’s can suffer with such as colic, constipation and teething.</p>
               <NuxtLink to="contact" exact class="btn btn-primary mb-5 fade-in">Contact us</NuxtLink>
             </div>
           </div>

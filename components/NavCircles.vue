@@ -11,7 +11,7 @@
           <!-- left on mob  -->
           <div class="col-9 p-3 col-md-6 p-md-5 col-lg-3 p-lg-3 p-xl-4 ">
             <div class="embed-responsive embed-responsive-1by1 text-center home-circle twiggys-circle">
-              <NuxtLink to="services" class="circle-links">
+              <NuxtLink to="services#twiggys" class="circle-links">
                 <div class="embed-responsive-item">
                   <img class="nav-circle-img" src="~/static/photos/carousel1.jpg" alt="">
                   <div class="home-circle-caption">
@@ -24,7 +24,7 @@
           <!-- right on mob  -->
           <div class="col-9 p-3 offset-3 col-md-6 offset-md-0 p-md-5 col-lg-3 p-lg-3 p-xl-4">
             <div class="embed-responsive embed-responsive-1by1 text-center home-circle preschool-circle">
-              <NuxtLink to="services" class="circle-links">
+              <NuxtLink to="services#preschool" class="circle-links">
                 <div class="embed-responsive-item">
                   <img class="nav-circle-img" src="~/static/photos/carousel1.jpg" alt="">
                   <div class="home-circle-caption">
@@ -37,7 +37,7 @@
           <!-- left on mob  -->
           <div class="col-9 p-3 col-md-6 p-md-5 col-lg-3 p-lg-3 p-xl-4">
             <div class="embed-responsive embed-responsive-1by1 text-center home-circle party-circle">
-              <NuxtLink to="services" class="circle-links">
+              <NuxtLink to="services#party" class="circle-links">
                 <div class="embed-responsive-item">
                   <img class="nav-circle-img" src="~/static/photos/carousel1.jpg" alt="">
                   <div class="home-circle-caption">
@@ -50,7 +50,7 @@
           <!-- right on mob  -->
           <div class="col-9 p-3 offset-3 col-md-6 offset-md-0 p-md-5 col-lg-3 p-lg-3 p-xl-4 ">
             <div class="embed-responsive embed-responsive-1by1 text-center home-circle baby-circle">
-              <NuxtLink to="services" class="circle-links">
+              <NuxtLink to="baby-massage" class="circle-links">
                 <div class="embed-responsive-item">
                   <img class="nav-circle-img" src="~/static/photos/carousel1.jpg" alt="">
                   <div class="home-circle-caption">

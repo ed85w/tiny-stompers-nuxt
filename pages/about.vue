@@ -35,8 +35,8 @@
 
     <!-- about cards section  -->
     <div class="container-fluid">
-      <section class="row d-flex justify-content-center pt-5 about-cards">
-        <div class="col-12 col-lg-11 pt-5 pb-5">
+      <section class="row d-flex justify-content-center about-cards">
+        <div class="col-12 col-lg-11 pt-5 pb-0">
           <div class="row">
             <!-- card start -->
             <div class="col-12 p-3 col-md-6 col-lg-4 p-lg-5 text-center">

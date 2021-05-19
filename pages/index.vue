@@ -47,18 +47,18 @@
               </div>
             </div>
             <div class="col-12 col-lg-6 order-lg-1 pt-lg-5">
-              <h2 class="home-h2 pt-lg-3 pt-xl-5 fade-in">Tiny Stompers<br class="d-lg-none"> Music & Movement</h2>
-              <p class="fade-in">A multi-sensory world of music and movement in a fun and exciting setting for children to explore as part of a class, children’s party or at a preschool/nursery setting.</p>
-              <NuxtLink to="about" exact class="btn btn-primary mb-5 fade-in">Go to Tiny Stompers Music & Movement</NuxtLink>
-              <h2 class="home-h2 pt-3 fade-in">Tiny Stompers<br class="d-lg-none"> Baby Massage</h2>
-              <p class="fade-in">A relaxing environment for you and your baby to share a wonderful massage experience together, as a 1:1 in your home, joining a class or a private group booking.</p>
-              <NuxtLink to="baby-massage" exact class="btn btn-primary mb-5 fade-in">Go to Tiny Stompers Baby Massage</NuxtLink>
+              <h2 class="home-h2 pb-3 pt-lg-3 pt-xl-5 fade-in">Tiny Stompers<br class="d-lg-none"> Music & Movement</h2>
+              <p class="pb-3 fade-in">A multi-sensory world of music and movement in a fun and exciting setting for children to explore as part of a class, children’s party or at a preschool/nursery setting.</p>
+              <a class="btn btn-primary mb-5 fade-in" href="https://bookwhen.com/tinystompers">Book Tiny Stompers</a>
+              <h2 class="home-h2 pb-3 pt-3 fade-in">Tiny Stompers<br class="d-lg-none"> Baby Massage</h2>
+              <p class="pb-3 fade-in">A relaxing environment for you and your baby to share a wonderful massage experience together, as a 1:1 in your home, joining a class or a private group booking.</p>
+              <NuxtLink to="baby-massage" exact class="btn btn-primary mb-5 fade-in">Find out more</NuxtLink>
             </div>
           </div>
         </div>
       </section>
     </div>
-    <section class="container-fluid bubbles-container">
+    <section class="container-fluid bubbles-container mt-3">
       <div class="bubbles">
         <div class="bubble"></div>
         <div class="bubble"></div>
@@ -149,82 +149,6 @@ export default {
 /*  Extra small devices (portrait phones, less than 576px) */
 /*  No media query for `xs` since this is the default in Bootstrap */
 
-
-//NOTE - STYLING REUSED ON SERVICES & BABY MASSAGE PAGE!
-.landing-row-home,
-.landing-row-services,
-.landing-row-baby {
-  padding-top: 70px;
-
-  .symbols-container {
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    top: 36px;
-    left: 0;
-    width: 100%;
-    padding: 0 16px;
-
-    .symbols-img {
-      width: 20%;
-    }
-  }
-
-  .embed-responsive,
-  .embed-responsive .embed-responsive-item {
-    overflow: visible;
-  }
-
-  /* carousel */
-  .carousel-fade {
-    height: 100%;
-    border: 4px solid $tiny-stompers-dark;
-    border-radius: 50%;
-    overflow: hidden;
-
-    .carousel-inner,
-    .carousel-item {
-      height: 100%;
-
-      .carousel-img .img-fluid{
-        height: 100%;
-        object-fit: cover;
-      }
-
-      .carousel-caption {
-        right: 0;
-        left: 0;
-        bottom: 0; 
-        padding: 0 10% 10px 10%;
-        background-color: $tiny-stompers-dark; 
-        background-color: rgba($tiny-stompers-dark, 0.7);
-        text-align: center;
-
-        p {
-          font-size: 0.9rem;
-        }
-
-        p:first-child::before {
-          content: open-quote;
-        }
-        
-        p:first-child::after {
-          content: close-quote;
-        }
-
-        p:first-child {
-          font-style: italic;
-          margin-top: 2px;
-          margin-bottom: 2px;
-        }
-
-        p:last-child {
-          margin-top: 0px;
-        }
-      }
-    }
-  }
-}
 
 // BUBBLES SECTION 
 section.bubbles-container {
@@ -392,72 +316,38 @@ section.bubbles-container {
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-  //NOTE - STYLING REUSED ON SERVICES PAGE!
-.landing-row-home,
-.landing-row-services {
-
-    /* carousel */
-  .carousel-fade {
-
-    .carousel-inner,
-    .carousel-item {
-
-      // .carousel-img .img-fluid{
-      // }
-
-      .carousel-caption {
-        right: 0;
-        left: 0;
-        bottom: 0; //same as .carousel-fade border
-        padding: 10px 18% 10px 18%;
-        background-color: $tiny-stompers-dark; 
-        background-color: rgba($tiny-stompers-dark, 0.7);
-        text-align: center;
-
-        p {
-          font-size: 1rem;
-        }
-      }
-    }
-  }
-
-}
-
-
-
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
   // BUBBLES SECTION 
-section.bubbles-container {
-  height: 600px;
+  section.bubbles-container {
+    height: 600px;
 
-  .bubbles{
+    .bubbles{
 
-    .bubble-text {
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      width: 80%;
+      .bubble-text {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
 
-      h4.bubbles-first-line {
-        font-size: 72px;
-      }
-      h4.bubbles-second-line {
-        font-size: 112px;
+        h4.bubbles-first-line {
+          font-size: 72px;
+        }
+        h4.bubbles-second-line {
+          font-size: 112px;
+        }
       }
     }
   }
-}
 
-}
+ }
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
 
 }
 
