@@ -5,7 +5,7 @@
         <div class="col-12 col-lg-11 nav-col">
           <div class="row">
             <div class="d-md-none col-12 text-center">
-              <h1>Our services</h1>
+              <h2>Our services</h2>
             </div>
             <div class="col-12 pt-5 pb-5 col-md-6 p-md-5 order-md-2">
               <div class="symbols-container">
@@ -111,7 +111,7 @@
           <p>They are very relaxing with basic to advanced techniques taught in every class to aid in bonding and child development. </p>
           <p>Techniques are also shown to help decrease pain caused by colic, constipation and teething. </p>
           <p>This wonderful mobile baby massage service covers York, Thirsk, Easingwold and surrounding villages.</p>
-          <blockquote>"We loved it so much we did the course twice!"</blockquote>
+          <p><strong>"We loved it so much we did the course twice!"</strong></p>
           <NuxtLink to="contact" exact class="btn btn-primary mt-3 mb-3 mb-lg-5" href="">Contact us</NuxtLink>
         </div>
       </section>

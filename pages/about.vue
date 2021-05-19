@@ -6,7 +6,7 @@
         <div class="col-12 col-lg-11 pt-md-5 pb-md-5">
           <div class="row pl-3 pr-3 pt-md-5 pb-md-5 pr-md-0">
             <div class="col-12 p-3 col-md-10 offset-md-2 p-md-5 landing-text-container">
-              <h1>About Tiny Stompers</h1>
+              <h2 class="pt-3 pb-3 text-center text-md-left">About Tiny Stompers</h2>
               <p>At Tiny Stompers, we love introducing children and their parents/carers to the stimulating world of music and movemet in a fun, energetic and exciting way within a safe environment.</p>
               <p>Each session provides a multi-sensory environment, aiding in children’s development in many different and beneficial ways. Enjoy bubbles, ribbon stick dances, parachute, baby signing and sensory play all within 45 minutes of fun, with plenty of resources for you to explore at your own pace.</p>
               <p>Activities are aimed at 12 months+ but teeny tiny stompers are always welcome too.</p>

@@ -6,7 +6,7 @@
         <div class="col-12 col-lg-11 pt-md-5 pb-md-5">
           <div class="row pl-3 pr-3 pt-md-5 pb-md-5 pr-md-0">
             <div class="col-12 p-3 col-md-10 offset-md-2 p-md-5 landing-text-container">
-              <h1 class="pb-3">Tiny Stompers Baby Massage</h1>
+              <h2 class="pt-3 pb-3 text-center text-md-left">Tiny Stompers Baby Massage</h2>
               <p>Baby Massage courses are offered as a one to one in the comfort of your own home, as a private group booking at your chosen location, or within a class environment at one of Tiny Stompers Baby Massage hired venues.</p>
               <p>The sessions are very relaxing with basic to advanced techniques taught in every class to aid in bonding and child development. Techniques are also shown to help decrease pain caused by colic, constipation and teething. This wonderful mobile baby massage service covers York, Thirsk, Easingwold and surrounding villages.</p>
             </div>
@@ -17,7 +17,7 @@
 
     <!-- benefits section  -->
     <div class="container-fluid">
-      <section class="row d-flex justify-content-center landing-row-baby">
+      <section class="row d-flex justify-content-center landing-row-baby pt-5 pb-5">
         <div class="col-12 col-md-11 nav-col">
           <div class="row">
             <div class="col-12 col-md-10 offset-md-1 pt-5 pb-5 col-lg-6 offset-lg-0 p-lg-5 order-lg-2">
@@ -59,8 +59,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-lg-6 order-lg-1 pt-lg-5">
-              <h2 class="pt-lg-3 pt-xl-5 fade-in">The benefits of our courses</h2>
+            <div class="col-12 col-lg-6 order-lg-1 pt-5 pb-5">
+              <h2 class="pb-3 pt-lg-3 pt-xl-5 text-center text-md-left fade-in">The benefits of our courses</h2>
               <p class="fade-in">Baby Massage helps your baby to feel relaxed and sleep deeper... ahhh bliss! Lots of parents use baby massage after bath time as part of their daily routine to relax their babies before bed.</p>
               <p class="fade-in">The techniques also help decrease discomfort caused by common problems which baby’s can suffer with such as colic, constipation and teething.</p>
               <NuxtLink to="contact" exact class="btn btn-primary mb-5 fade-in">Contact us</NuxtLink>
@@ -73,9 +73,9 @@
     <!-- why choose section  -->
     <div class="container-fluid">
       <section class="row d-flex justify-content-center why-choose">
-        <div class="col-12 col-md-11 nav-col">
+        <div class="col-12 col-md-11 ">
           <div class="row">
-            <div class="col-12">
+            <div class="col-12 pb-5 text-center text-md-left ">
               <h2>Why choose Tiny Stompers Baby Massage?</h2>
             </div>
             <div class="col-12 col-md-6">
@@ -90,7 +90,7 @@
             <div class="col-12 col-md-6">
               <ul class="baby-massage-ul">
                 <li>All equipment and oils are provided plus a certificate on completion of the course... just you and your baby are needed!</li>
-                <li>Fed is best for babies so don't worry if your baby needs feeding during the course, breast of bottle, however you choose</li>
+                <li>Fed is best for babies so don't worry if your baby needs feeding during the course, breast or bottle, however you choose</li>
                 <li>After a Tiny Stompers Baby Massage lesson, we encourage calm, quiet time time with Mummy or Daddy so that baby can continue feeling relaxed, have a drink if they need to, and be ready for a rest.</li>
               </ul>
             </div>
@@ -102,28 +102,40 @@
 
     <!-- about cards section  -->
     <div class="container-fluid">
-      <section class="row d-flex justify-content-center pt-5 about-cards">
+      <section class="row d-flex justify-content-center pt-5 baby-cards">
         <div class="col-12 col-lg-11 pt-5 pb-5">
           <div class="row">
             <!-- card start -->
             <div class="col-12 p-3 col-md-6 col-lg-4 p-lg-5 text-center">
-              <div class="about-card p-3 p-lg-5 fade-in">
-                <img class="m-4" src="~static/horse-icon.png" alt="a horse icon">
-                <p class="pb-3">Parachutes, bubbles, ribbon sticks, balancing and  treasure baskets are just some of the fun activities Tiny Stompers can explore</p>
+              <div class="baby-card p-3 p-lg-5 fade-in">
+                <img class="m-4" src="~static/flower-2-icon.png" alt="a flower icon">
+                <h3 class="pb-3">One to one sessions</h3>
+                <p class="pb-3">5 week private course<br>in the comfort of your home</p>
+                <h3 class="roboto-header mb-3 pb-3">£100</h3>
+                <NuxtLink to="contact" exact class="btn btn-primary mb-5">Contact us</NuxtLink>
+                <p>50% deposit required on booking</p>
               </div>
             </div>
             <!-- card start -->
             <div class="col-12 p-3 col-md-6 col-lg-4 p-lg-5 text-center">
-              <div class="about-card p-3 p-lg-5 fade-in">
-                <img class="m-4" src="~static/note-icon.png" alt="a music note icon">
-                <p class="pb-3">A range of music, dancing, singing and playing musical instruments are all part of our music and movement sessions</p>
+              <div class="baby-card p-3 p-lg-5 fade-in">
+                <img class="m-4" src="~static/star-filled-icon.png" alt="a star icon">
+                <h3 class="pb-3">Private group bookings</h3>
+                <p class="pb-3">5 week group booking<br>at your chosen location<br>for up to 10 babies</p>
+                <h3 class="roboto-header mb-3 pb-3">£250</h3>
+                <NuxtLink to="contact" exact class="btn btn-primary mb-5">Contact us</NuxtLink>
+                <p>50% deposit required on booking<br>(price does not include venue hire)</p>
               </div>
             </div>
             <!-- card start -->
             <div class="col-12 p-3 col-md-6 col-lg-4 p-lg-5 text-center">
-              <div class="about-card p-3 p-lg-5 fade-in">
+              <div class="baby-card p-3 p-lg-5 fade-in">
                 <img class="m-4" src="~static/flower-icon.png" alt="a flower icon">
-                <p class="pb-3">Scents such as lavender, citrus and fruity fragrances are used to stimulate our Tiny Stompers sense of smell</p>
+                <h3 class="pb-3">Tiny Stompers hired venues</h3>
+                <p class="pb-3">5 week course<br>located at one of our<br>lovely hired venues</p>
+                <h3 class="roboto-header mb-3 pb-3">£60</h3>
+                <NuxtLink to="contact" exact class="btn btn-primary mb-5">Contact us</NuxtLink>
+                <p>50% deposit required on booking</p>
               </div>
             </div>
 
@@ -135,9 +147,9 @@
         <!-- prep section  -->
     <div class="container-fluid">
       <section class="row d-flex justify-content-center prep">
-        <div class="col-12 col-md-11 nav-col">
+        <div class="col-12 col-md-11 pt-5 pb-5">
           <div class="row">
-            <div class="col-12 pb-5">
+            <div class="col-12 pb-5 text-center text-md-left ">
               <h2>Preparing for your Tiny Stompers Baby Massage</h2>
             </div>
             <div class="col-12 col-md-6">
@@ -263,10 +275,12 @@ section.what-to-expect {
   }
 }
 
-section.about-cards {
+section.baby-cards {
 
-  .about-card {
+  .baby-card {
     border-radius: 60px;
+    color: white;
+    height: 100%;
 
     img {
       width: 84px;
@@ -277,28 +291,44 @@ section.about-cards {
       font-size: 19px;
       color: white;
     }
+
+    h3.roboto-header {
+      font-family: 'Roboto', sans-serif;
+      font-size: 30px;
+    }
+
+    .btn-primary {
+      border: 4px solid #FFFFFF;
+
+      &:hover {
+        border-color: black;
+      }
+    }
   }
 
   div > div.row > div {
     
-    &:nth-of-type(1) .about-card {
-      background: #B989DD;
+    &:nth-of-type(1) .baby-card {
+      background: #602483;
+
+      .btn-primary {
+        background: #B989DD;
+      }
     }
   
-    &:nth-of-type(2) .about-card {
-      background: #29ABE2;
+    &:nth-of-type(2) .baby-card {
+      background: #B989DD;
+
+      .btn-primary {
+        background: #662D91;
+      }
     }
-    &:nth-of-type(3) .about-card {
-      background: #F49300;
-    }
-    &:nth-of-type(4) .about-card {
-      background: #FF7BAC;
-    }
-    &:nth-of-type(5) .about-card {
-      background: #09D8A6;
-    }
-    &:nth-of-type(6) .about-card {
-      background: #8CC63F;
+    &:nth-of-type(3) .baby-card {
+      background: #7951BA;
+
+      .btn-primary {
+        background: #B764F6;
+      }
     }
   }
 }

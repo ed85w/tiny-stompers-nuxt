@@ -18,7 +18,8 @@ export default {
   }  
 }
 </script>
-<style>
+
+<style lang="scss">
 
 .test {
   border: 2px solid red;
@@ -67,6 +68,11 @@ h2.home-h2 {
   border-radius: 30px;
   padding: 10px 40px;
   font-family: kristenITC, serif;
+  font-size: 18px;
+
+  &:hover {
+    color: black;
+  }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -92,10 +98,6 @@ h2.home-h2 {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
-  /* p {
-    font-size: 24px;
-  } */
 
   .max-width-container {
     max-width: 2500px;

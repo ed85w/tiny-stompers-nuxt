@@ -50,7 +50,7 @@
               <h2 class="home-h2 pt-lg-3 pt-xl-5 fade-in">Tiny Stompers<br class="d-lg-none"> Music & Movement</h2>
               <p class="fade-in">A multi-sensory world of music and movement in a fun and exciting setting for children to explore as part of a class, children’s party or at a preschool/nursery setting.</p>
               <NuxtLink to="about" exact class="btn btn-primary mb-5 fade-in">Go to Tiny Stompers Music & Movement</NuxtLink>
-              <h2 class="home-h2 fade-in">Tiny Stompers<br class="d-lg-none"> Baby Massage</h2>
+              <h2 class="home-h2 pt-3 fade-in">Tiny Stompers<br class="d-lg-none"> Baby Massage</h2>
               <p class="fade-in">A relaxing environment for you and your baby to share a wonderful massage experience together, as a 1:1 in your home, joining a class or a private group booking.</p>
               <NuxtLink to="baby-massage" exact class="btn btn-primary mb-5 fade-in">Go to Tiny Stompers Baby Massage</NuxtLink>
             </div>

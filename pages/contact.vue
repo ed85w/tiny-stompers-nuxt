@@ -191,11 +191,15 @@ export default {
     .form-control {
       border: 3px solid #5C52AF;
       border-radius: 30px;
+      height: 34px;
+    }
+
+    textarea#enquiry {
+      height: 90px;
     }
 
     label {
       font-size: 16px;
-      // font-weight: 700;
       margin-bottom: 2px;
       margin-left: 12px;
     }
@@ -204,6 +208,8 @@ export default {
       padding-top: 4px;
       padding-bottom: 4px;
     }
+
+
 
     .btn {
       display: inline-flex;
@@ -220,7 +226,7 @@ export default {
       .button-img {
         width: 25px;
         height: 25px;
-        margin-right: 3px;
+        margin-right: 10px;
       }
     }
 

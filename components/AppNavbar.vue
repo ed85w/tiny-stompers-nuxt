@@ -157,7 +157,7 @@ body.baby-massage .nav-row .nav-col .logo-container .logo-img-baby {
 
       /* active nav item  */
       ul.sidebar-nav li a.nuxt-link-exact-active.nuxt-link-active {
-          color: red;
+        border-bottom: 3px solid white;
       }
     }
   }
