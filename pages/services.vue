@@ -79,7 +79,7 @@
         </div>
         <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5 fade-in-left">
           <h3 id="preschool" class="pb-3 pt-lg-5">Preschool / Nursery bookings</h3>
-          <p>Preschools and nurseries can book Tiny Stompers sessions to take place within their childcare setting.  Each session is fun and varied and links to the EYFS.</p>
+          <p class="larger-p">Preschools and nurseries can book Tiny Stompers sessions to take place within their childcare setting.  Each session is fun and varied and links to the EYFS.</p>
           <h4>Price:</h4>
           <p>£75 for a 45 minute session for up to 10 children at your preschool or nursery location. A 50% deposit is required to reserve your date(s) with the remaining balance paid via invoice.</p>
           <h4>Locations:</h4>
@@ -93,9 +93,10 @@
         </div>
         <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5 order-md-1 fade-in-right">
           <h3 id="party" class="pb-3 pt-lg-5">Children's Parties</h3>
-          <p>Enjoy a Tiny Stompers birthday themed party for up to 10 children at your chosen location. The Birthday Stomper will receive a <strong>free gift!</strong></p>
+          <p class="larger-p">Enjoy a Tiny Stompers birthday themed party for up to 10 children at your chosen location. The Birthday Stomper will receive a <strong>free gift!</strong></p>
           <h4>Price:</h4>
           <p>£75 for a 45 minute party (up to 10 children)</p>
+          <p>A 50% deposit is required to reserve your date, the remaining balance can be paid on the day using a contactless card machine (venue hire is not included in the price).</p>
           <h4>Locations:</h4>
           <p>Tiny Stompers children’s parties are available across York, Thirsk, Easingwold and surrounding villages. Please contact us directly if you are located outside of these areas as we always try to accommodate (extra charges may apply).</p>
           <NuxtLink to="contact" exact class="btn btn-primary mt-3 mb-3 mb-lg-5" href="">Contact us</NuxtLink>
@@ -107,7 +108,7 @@
         </div>
         <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5 fade-in-left">
           <h3 id="baby" class="pb-3 pt-lg-5">Tiny Stompers Baby Massage</h3>
-          <p>Baby Massage courses are offered in the comfort of your own home or within a class environment in beautiful hired venues. </p>
+          <p class="larger-p">Baby Massage courses are offered in the comfort of your own home or within a class environment in beautiful hired venues. </p>
           <p>They are very relaxing with basic to advanced techniques taught in every class to aid in bonding and child development. </p>
           <p>Techniques are also shown to help decrease pain caused by colic, constipation and teething. </p>
           <p>This wonderful mobile baby massage service covers York, Thirsk, Easingwold and surrounding villages.</p>
@@ -204,13 +205,14 @@ export default {
     width: 100%;
   
     &:nth-of-type(1){
-        background: #29ABE2;
+      background: #29ABE2;
     }
+
     &:nth-of-type(2){
-        background: #FF7BAC;
+      background: #FF7BAC;
     }
     &:nth-of-type(3){
-        background: #8CC63F;
+      background: #8CC63F;
     }
     &:nth-of-type(4){
         background: #662D91;
@@ -231,6 +233,10 @@ section.service-details {
   &.twiggys {
     background: $twiggys-light;
 
+    .btn-primary {
+      background: #312783;
+    }
+
     .services-img-container {
       background-image: url('~static/photos/carousel1.jpg');
     }
@@ -238,12 +244,20 @@ section.service-details {
   &.preschool {
     background: $preschool-light;
 
+    .btn-primary {
+      background: #CF004D;
+    }
+
     .services-img-container {
       background-image: url('~static/photos/preschool-img.png');
     }
   }
   &.party {
     background: $party-light;
+
+    .btn-primary {
+      background: #2D4A04;
+    }
 
     .services-img-container {
       background-image: url('~static/photos/child-with-giant-lolly.png');
@@ -270,6 +284,10 @@ section.service-details {
 
   p {
     font-size: 18px;
+  }
+
+  p.larger-p {
+    font-size: 20px;
   }
 
   .btn-primary {
@@ -299,6 +317,10 @@ section.service-details {
     .btn-primary {
       left: 0;
       transform: translateX(0);    
+    }
+
+    p.larger-p {
+      font-size: 24px;
     }
   }
 

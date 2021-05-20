@@ -119,6 +119,29 @@
         </div>
       </div>
     </div>
+
+        <section class="container-fluid bubbles-container mt-5">
+      <div class="bubbles">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble-text text-center">
+          <h4 class="pb-5 pb-lg-0 bubbles-first-line">Come and join us for...</h4>
+          <h4 class="bubbles-second-line">stomping good fun!</h4>
+        </div>
+      </div>
+    </section>
   </div>
 
 </template>

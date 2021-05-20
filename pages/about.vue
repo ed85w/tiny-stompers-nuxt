@@ -7,9 +7,9 @@
           <div class="row pl-3 pr-3 pt-md-5 pb-md-5 pr-md-0">
             <div class="col-12 p-3 col-md-10 offset-md-2 p-md-5 landing-text-container">
               <h2 class="pt-3 pb-3 text-center text-md-left">About Tiny Stompers</h2>
-              <p>At Tiny Stompers, we love introducing children and their parents/carers to the stimulating world of music and movemet in a fun, energetic and exciting way within a safe environment.</p>
-              <p>Each session provides a multi-sensory environment, aiding in children’s development in many different and beneficial ways. Enjoy bubbles, ribbon stick dances, parachute, baby signing and sensory play all within 45 minutes of fun, with plenty of resources for you to explore at your own pace.</p>
-              <p>Activities are aimed at 12 months+ but teeny tiny stompers are always welcome too.</p>
+              <p class="pr-lg-5 font-weight-bold">At Tiny Stompers, we love introducing children and their parents/carers to the stimulating world of music and movemet in a fun, energetic and exciting way within a safe environment.</p>
+              <p class="pr-lg-5">Each session provides a multi-sensory environment, aiding in children’s development in many different and beneficial ways. Enjoy bubbles, ribbon stick dances, parachute, baby signing and sensory play all within 45 minutes of fun, with plenty of resources for you to explore at your own pace.</p>
+              <p class="pr-lg-5">Activities are aimed at 12 months+ but teeny tiny stompers are always welcome too.</p>
             </div>
           </div>
         </div>
@@ -84,6 +84,29 @@
         </div>
       </section>
     </div>
+
+    <section class="container-fluid bubbles-container mt-5">
+      <div class="bubbles">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble-text text-center">
+          <h4 class="pb-5 pb-lg-0 bubbles-first-line">Come and join us for...</h4>
+          <h4 class="bubbles-second-line">stomping good fun!</h4>
+        </div>
+      </div>
+    </section>
 
     <nav-circles/>
 

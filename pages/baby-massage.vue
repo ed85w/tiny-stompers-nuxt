@@ -1,5 +1,5 @@
 <template>
-  <div class="max-width-container">
+  <div class="max-width-container baby-massage">
     <!-- landing section  -->
     <div class="container-fluid pt-5 pb-md-5 landing-container-baby">
       <section class="row d-flex justify-content-center justify-content-lg-end pt-5 pb-md-5">
@@ -7,8 +7,8 @@
           <div class="row pl-3 pr-3 pt-md-5 pb-md-5 pr-md-0">
             <div class="col-12 p-3 col-md-10 offset-md-2 p-md-5 landing-text-container">
               <h2 class="pt-3 pb-3 text-center text-md-left">Tiny Stompers Baby Massage</h2>
-              <p class="pb-3">Baby Massage courses are offered as a one to one in the comfort of your own home, as a private group booking at your chosen location, or within a class environment at one of Tiny Stompers Baby Massage hired venues.</p>
-              <p class="pb-3">The sessions are very relaxing with basic to advanced techniques taught in every class to aid in bonding and child development. Techniques are also shown to help decrease pain caused by colic, constipation and teething. This wonderful mobile baby massage service covers York, Thirsk, Easingwold and surrounding villages.</p>
+              <p class="pb-3 pr-lg-5 font-weight-bold">Baby Massage courses are offered as a one to one in the comfort of your own home, as a private group booking at your chosen location, or within a class environment at one of Tiny Stompers Baby Massage hired venues.</p>
+              <p class="pb-3 pr-lg-5">The sessions are very relaxing with basic to advanced techniques taught in every class to aid in bonding and child development. Techniques are also shown to help decrease pain caused by colic, constipation and teething. This wonderful mobile baby massage service covers York, Thirsk, Easingwold and surrounding villages.</p>
             </div>
           </div>
         </div>
@@ -170,7 +170,25 @@
           </div>
         </div>
       </section>
-    </div> 
+    </div>
+
+    <!-- get in touch  -->
+    <div class="container-fluid pt-md-5">
+      <section class="row d-flex justify-content-center get-in-touch pt-md-5 pb-md-5">
+        <div class="col-12 col-lg-11 pt-5 pb-5">
+          <div class="row d-flex justify-content-center">
+            <div class="col-12 text-center button-container">
+              <div class="symbols-container">
+                <img class="symbols-img" src="~static/baby-symbols-left.png" alt="flower icons">
+                <img class="symbols-img" src="~static/baby-symbols-right.png" alt="flower icons">
+              </div>
+              <h3>Get in touch,<br>we'd love to hear from you!</h3>
+              <NuxtLink to="contact" exact class="btn btn-primary mt-3 mb-3" href="">Contact us</NuxtLink>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </div>
 </template>
 
@@ -222,6 +240,15 @@ export default {
 
 <style lang="scss">
 
+// default text and buttons are purple
+.baby-massage {
+  color: $baby-color;
+
+  .btn-primary {
+    background: $baby-color;
+  }
+}
+
 ul.baby-massage-ul {
   list-style: none;
   padding: 0;
@@ -246,6 +273,20 @@ ul.baby-massage-ul {
   .landing-text-container {
     background: rgba(255, 255, 255, 0.8);
     border-radius: 40px 40px 0px 0px;
+  }
+}
+
+// carousel is purple 
+.max-width-container .landing-row-baby .carousel-fade {
+  border-color: $baby-color;
+
+  .carousel-inner,
+  .carousel-item {
+
+    .carousel-caption {
+      background-color: $baby-color; 
+      background-color: rgba($baby-color, 0.7);
+    }
   }
 }
 

@@ -110,7 +110,7 @@ body.baby-massage .nav-row .nav-col .logo-container .logo-img-baby {
       pointer-events: none;
 
       &.showsidebar {
-        z-index: 1;
+        z-index: 5;
         transition: 0.3s ease-in;
         opacity: 1;
         pointer-events: all;
@@ -180,7 +180,7 @@ body.baby-massage .nav-row .nav-col .logo-container .logo-img-baby {
   outline: none;
   padding-left: 5px;
   overflow: hidden;
-  z-index: 3;
+  z-index: 10;
 }
 
 .sidebarBtn:focus {
