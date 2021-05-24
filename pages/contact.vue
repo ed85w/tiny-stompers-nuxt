@@ -55,17 +55,18 @@
 
             </div>
 
-            <!-- child details part of form -->
-            <div class="form-row" v-for="(child, index) of children" :key="child.id">
+            <!-- end of child details part of form -->
+
+            <!-- <div class="form-row">
               <div class="form-group col-12 col-md-6">
                 <label>Child's Name</label>
-                <input type="text" class="form-control" :id="'Child_name' + index" :name="'Child_name' + index" v-model="child.name"/>
+                <input type="text" class="form-control" id="Child_name" name="Child_name"/>
               </div> 
             
               <div class="form-group col-12 col-md-6">
                 <label>Child's Age</label>
-                <select class="form-control" :id="'Child_age' + index" :name="'Child_age' + index" v-model="child.age">
-                  <option selected>0 - 6 Months</option>
+                <select class="form-control" id="Child_age" name="Child_age">
+                  <option>0 - 6 Months</option>
                   <option>7 - 12 Months</option>
                   <option>1 Year</option>
                   <option>2 Years</option>
@@ -74,19 +75,8 @@
                   <option>5 Years</option>
                 </select>
               </div>
-              <div class="form-group col-12 text-center">
-                <button type="button" class="btn" @click="addNewChildForm">
-                  <img class="button-img" src="~static/plus-icon.png" alt="plus icon">
-                    Add Child
-                </button>
-                <button type="button" class="btn btn-red" v-if="index > 0" @click="deleteForm(index)">
-                  <img class="button-img" src="~static/minus-icon.png" alt="minus icon">
-                  Remove Child
-                </button>
-              </div>
 
-            </div>
-            <!-- end of child details part of form -->
+            </div> -->
 
             <div class="form-row">
             
