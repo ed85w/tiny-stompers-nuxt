@@ -65,9 +65,13 @@
             </div>
             <div class="col-12 col-lg-6 order-lg-1 pt-5 pb-5">
               <h2 class="pb-3 pt-lg-3 pt-xl-5 text-center text-md-left fade-in">The benefits of our courses</h2>
-              <p class="pb-3 fade-in">Baby Massage helps your baby to feel relaxed and sleep deeper... ahhh bliss! Lots of parents use baby massage after bath time as part of their daily routine to relax their babies before bed.</p>
-              <p class="pb-3 fade-in">The techniques also help decrease discomfort caused by common problems which baby’s can suffer with such as colic, constipation and teething.</p>
-              <NuxtLink to="contact" exact class="btn btn-primary mb-5 fade-in">Contact us</NuxtLink>
+              <p class="pb-3 fade-in">Tiny Stompers Baby Massage is a perfect way to spend time bonding with your baby.</p>
+              <p class="pb-3 fade-in">Babies feel relaxed and sleep deeper after a baby massage... ahh bliss! So many parents use it as part of their bedtime routine to relax their baby before bed.</p>
+              <p class="pb-3 fade-in">The techniques used are fantastic at helping decrease discomfort caused by common problems such as colic, constipation and teething.</p>
+              <p class="pb-3 fade-in">There are so many positive short and long term benefits to baby massage, we are sure you and your baby will enjoy it.</p>
+              <div class="d-flex justify-content-center justify-content-lg-start">
+                <NuxtLink to="contact" exact class="btn btn-primary btn-center-mob mb-5 fade-in">Contact us</NuxtLink>
+              </div>
             </div>
           </div>
         </div>
@@ -110,7 +114,7 @@
         <div class="col-12 col-lg-11 pt-5 pb-5">
           <div class="row">
             <!-- card start -->
-            <div class="col-12 p-3 col-md-6 col-lg-4 p-lg-5 text-center">
+            <div class="col-12 p-3 col-md-6 col-lg-4 p-xl-5 text-center">
               <div class="baby-card p-3 p-lg-5 fade-in">
                 <img class="m-4" src="~static/flower-2-icon.png" alt="a flower icon">
                 <h3 class="pb-3">One to one courses</h3>
@@ -121,7 +125,7 @@
               </div>
             </div>
             <!-- card start -->
-            <div class="col-12 p-3 col-md-6 col-lg-4 p-lg-5 text-center">
+            <div class="col-12 p-3 col-md-6 col-lg-4 p-xl-5 text-center">
               <div class="baby-card p-3 p-lg-5 fade-in">
                 <img class="m-4" src="~static/star-filled-icon.png" alt="a star icon">
                 <h3 class="pb-3">Private group bookings</h3>
@@ -132,7 +136,7 @@
               </div>
             </div>
             <!-- card start -->
-            <div class="col-12 p-3 col-md-6 col-lg-4 p-lg-5 text-center">
+            <div class="col-12 p-3 col-md-6 col-lg-4 p-xl-5 text-center">
               <div class="baby-card p-3 p-lg-5 fade-in">
                 <img class="m-4" src="~static/flower-icon.png" alt="a flower icon">
                 <h3 class="pb-3">Tiny Stompers classes in hired venues</h3>
@@ -297,13 +301,6 @@ ul.baby-massage-ul {
 // what to expect section 
 section.what-to-expect {
 
-  .button-container {
-    max-width: 380px;
-
-    h3 {
-      font-size: 18px;
-    }
-
     .symbols-container {
       position: absolute;
       display: flex;
@@ -316,6 +313,22 @@ section.what-to-expect {
       .symbols-img {
         width: 18%;
       }
+  .button-container {
+    max-width: 380px;
+
+    h3 {
+      font-size: 18px;
+    }
+
+    }
+  }
+}
+
+section.what-to-expect,
+.landing-row-baby {
+  .symbols-container {
+    .symbols-img {
+      width: 18%;
     }
   }
 }
@@ -399,6 +412,17 @@ section.baby-cards {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
+
+  .landing-row-baby {
+    .symbols-container {
+      .symbols-img {
+        width: 16%;
+        height: auto;
+        margin: 1rem;
+      }
+    }
+  }
 
   section.what-to-expect {
 

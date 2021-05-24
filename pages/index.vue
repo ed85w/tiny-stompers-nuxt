@@ -27,7 +27,7 @@
                   ></b-carousel-slide>
                   <b-carousel-slide
                     class="carousel-img"
-                    caption="Lots of fun for little stompers and their parents!!"
+                    caption="Amazing group, my son loves it! Everything very well thought out, recommend to anyone "
                     caption-tag="p"
                     img-src="~static/photos/tiny-stompers-carousel2.jpg"
                     img-alt="a tiny stomper having fun at tiny stompers!"

@@ -438,10 +438,10 @@ section.bubbles-container {
           right: 0;
           left: 0;
           bottom: 0; //same as .carousel-fade border
-          padding: 50px 20% 40px 20%;
+          padding: 45px 20% 45px 20%;
 
           p {
-            font-size: 14px;
+            font-size: 18px;
           }
         }
       }
