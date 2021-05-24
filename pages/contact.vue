@@ -12,7 +12,6 @@
                   <img class="symbols-img" src="~static/symbols-right.png" alt="">
                 </div>
                 <h3>Get in touch,<br>we'd love to hear from you!</h3>
-                <!-- <a class="btn btn-primary mt-3 mb-3 mb-lg-5" href="https://bookwhen.com/tinystompers" target="_blank" rel=”noopener”>Book your place</a> -->
               </div>
             </div>
           </div>
@@ -111,7 +110,7 @@
       </div>
     </div>
 
-        <section class="container-fluid bubbles-container mt-5">
+    <section class="container-fluid bubbles-container mt-5">
       <div class="bubbles">
         <div class="bubble"></div>
         <div class="bubble"></div>

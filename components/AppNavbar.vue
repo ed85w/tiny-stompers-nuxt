@@ -5,8 +5,8 @@
         <div class="col-12 col-lg-11 nav-col">
           <nav class="row">
             <div class="logo-container">
-              <NuxtLink to="/" exact><img class="logo-img" src="~static/tiny-stompers-logo.png" alt=""></NuxtLink>
-              <NuxtLink to="/" exact><img class="logo-img-baby" src="~static/tiny-stompers-baby-massage-logo.png" alt=""></NuxtLink>
+              <NuxtLink to="/" exact><img class="logo-img" src="~static/tiny-stompers-logo.png" alt="tiny stompers logo"></NuxtLink>
+              <NuxtLink to="/" exact><img class="logo-img-baby" src="~static/tiny-stompers-baby-massage-logo.png" alt="tiny stompers baby massage logo"></NuxtLink>
             </div>
             <div class="col nav-menu-container" v-bind:class="{ showsidebar: showMobileMenu }">
               <ul class="sidebar-nav p-3 pt-5">

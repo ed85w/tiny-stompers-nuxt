@@ -30,6 +30,7 @@ export default {
 @font-face {
   font-family: kristenITC;
   src: url(~static/fonts/ITCKRIST.ttf) format('truetype');
+  font-display: swap;
 }
 
 html {
@@ -44,6 +45,7 @@ body {
 h1,h2,h3,h4,h5 {
   font-family: kristenITC, serif;
 }
+
 p {
   font-size: 16px;
   font-weight: 300;
@@ -93,6 +95,7 @@ h2.home-h2 {
 
     .symbols-img {
       width: 20%;
+      object-fit: contain;
     }
   }
 

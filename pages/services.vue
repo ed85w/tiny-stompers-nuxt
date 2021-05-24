@@ -100,7 +100,7 @@
         </div>
       </section>
 
-      <section class="row service-details baby">
+      <section class="row mb-5 mb-md-0 service-details baby">
         <div class="col-12 p-0 col-md-6 col-lg-7 services-img-container">
         </div>
         <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5 fade-in-left">

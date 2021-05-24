@@ -42,14 +42,14 @@
                     class="carousel-img"
                     caption="Becky is so lovely, knows her stuff and gets to know you and your baby which makes the sessions so nice"
                     caption-tag="p"
-                    img-src="~static/photos/baby-massage-carousel3.jpg"
+                    img-src="~static/photos/baby-massage-carousel4.jpg"
                     img-alt="a happy baby on a massage mat"
                   ></b-carousel-slide>
                   <b-carousel-slide
                     class="carousel-img"
                     caption="Becky is so welcoming, it’s the most relaxing hour of the week, a great time to bond with baby & meet other mums!"
                     caption-tag="p"
-                    img-src="~static/photos/baby-massage-carousel4.jpg"
+                    img-src="~static/photos/baby-massage-carousel3.jpg"
                     img-alt="a father massaging his baby"
                   ></b-carousel-slide>
                   <b-carousel-slide
