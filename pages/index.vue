@@ -22,25 +22,29 @@
                     class="carousel-img"
                     caption="Becky's love for children shines through as she creates fun and motivational music and movement sessions for children and their grown ups"
                     caption-tag="p"
-                    text="Linda, Tiny Stomper Nanna"
-                    img-src="~static/photos/carousel03.jpg"
-                    img-alt="becky bubbles with a certificate for a tiny stomper"
+                    img-src="~static/photos/tiny-stompers-carousel1.jpg"
+                    img-alt="becky bubbles!"
                   ></b-carousel-slide>
                   <b-carousel-slide
                     class="carousel-img"
-                    caption="Lots of fun for little stompers and their parents!! Becky is lovely and keeps the sessions varied and interesting each week"
+                    caption="Lots of fun for little stompers and their parents!!"
                     caption-tag="p"
-                    text="Alex, Tiny Stomper Mum"
-                    img-src="~static/photos/carousel02.jpg"
+                    img-src="~static/photos/tiny-stompers-carousel2.jpg"
                     img-alt="a tiny stomper having fun at tiny stompers!"
                   ></b-carousel-slide>
                   <b-carousel-slide
                     class="carousel-img"
-                    caption="A fabulous, interactive group for preschoolers and their grown ups. Highly recommend coming to try it out"
+                    caption="I absolutely loved this course, so much so, I took my little girl twice!"
                     caption-tag="p"
-                    text="Kirsty, Tiny Stomper Mum"
-                    img-src="~static/photos/carousel01.jpg"
-                    img-alt="a younger tiny stomper enjoying sensory play"
+                    img-src="~static/photos/baby-massage-carousel2.jpg"
+                    img-alt="a very relaxed baby!"
+                  ></b-carousel-slide>
+                  <b-carousel-slide
+                    class="carousel-img"
+                    caption="Such a lovely relaxed atmosphere... We can’t wait for our next class!"
+                    caption-tag="p"
+                    img-src="~static/photos/tiny-stompers-carousel4.jpg"
+                    img-alt="a tiny stomper playing a xylophone"
                   ></b-carousel-slide>
                 </b-carousel>
                 </div>
@@ -49,7 +53,7 @@
             <div class="col-12 col-lg-6 order-lg-1 pt-lg-5">
               <h2 class="home-h2 pb-3 pt-lg-3 pt-xl-5 fade-in">Tiny Stompers<br class="d-lg-none"> Music & Movement</h2>
               <p class="pb-3 fade-in">A multi-sensory world of music and movement in a fun and exciting setting for children to explore as part of a class, children’s party or at a preschool/nursery setting.</p>
-              <a class="btn btn-primary mb-5 fade-in" href="https://bookwhen.com/tinystompers">Book Tiny Stompers</a>
+              <NuxtLink to="services" exact class="btn btn-primary mb-5 fade-in">Our services</NuxtLink>
               <h2 class="home-h2 pb-3 pt-3 fade-in">Tiny Stompers<br class="d-lg-none"> Baby Massage</h2>
               <p class="pb-3 fade-in">A relaxing environment for you and your baby to share a wonderful massage experience together, as a 1:1 in your home, joining a class or a private group booking.</p>
               <NuxtLink to="baby-massage" exact class="btn btn-primary mb-5 fade-in">Find out more</NuxtLink>

@@ -4,50 +4,47 @@
       <section class="row d-flex justify-content-center landing-row-services">
         <div class="col-12 col-lg-11 nav-col">
           <div class="row">
-            <div class="d-md-none col-12 text-center">
+            <div class="d-lg-none col-12 text-center">
               <h2>Our services</h2>
             </div>
-            <div class="col-12 pt-5 pb-5 col-md-6 p-md-5 order-md-2">
+            <div class="col-12 pt-5 pb-5 col-lg-6 p-md-5 order-lg-2">
               <div class="symbols-container">
                 <img class="symbols-img" src="~static/symbols-left.png" alt="">
                 <img class="symbols-img" src="~static/symbols-right.png" alt="">
               </div>
               <div class="embed-responsive embed-responsive-1by1 text-center">
-                <div class="embed-responsive-item p-3 p-md-5">
+                <div class="embed-responsive-item p-3 p-lg-5">
                   <b-carousel
                     id="carousel-fade"
                     fade
                   >
                   <b-carousel-slide
                     class="carousel-img"
+                    caption="Such a lovely relaxed atmosphere... We can’t wait for our next class!"
+                    caption-tag="p"
+                    img-src="~static/photos/tiny-stompers-carousel4.jpg"
+                    img-alt="a tiny stomper playing a xylophone"
+                  ></b-carousel-slide>
+                  <b-carousel-slide
+                    class="carousel-img"
                     caption="Becky's love for children shines through as she creates fun and motivational music and movement sessions for children and their grown ups"
                     caption-tag="p"
-                    text="Linda, Tiny Stomper Nanna"
-                    img-src="~static/photos/carousel03.jpg"
-                    img-alt="becky bubbles with a certificate for a tiny stomper"
+                    img-src="~static/photos/tiny-stompers-carousel1.jpg"
+                    img-alt="becky bubbles!"
                   ></b-carousel-slide>
                   <b-carousel-slide
                     class="carousel-img"
-                    caption="Lots of fun for little stompers and their parents!! Becky is lovely and keeps the sessions varied and interesting each week"
+                    caption="Lots of fun for little stompers and their parents!!"
                     caption-tag="p"
-                    text="Alex, Tiny Stomper Mum"
-                    img-src="~static/photos/carousel02.jpg"
+                    img-src="~static/photos/tiny-stompers-carousel2.jpg"
                     img-alt="a tiny stomper having fun at tiny stompers!"
-                  ></b-carousel-slide>
-                  <b-carousel-slide
-                    class="carousel-img"
-                    caption="A fabulous, interactive group for preschoolers and their grown ups. Highly recommend coming to try it out"
-                    caption-tag="p"
-                    text="Kirsty, Tiny Stomper Mum"
-                    img-src="~static/photos/carousel01.jpg"
-                    img-alt="a younger tiny stomper enjoying sensory play"
                   ></b-carousel-slide>
                 </b-carousel>
                 </div>
               </div>
             </div>
-            <div class="col-12 pb-5 col-md-6 order-md-1 pt-md-5 ">
-              <h1 class="d-none d-md-block pb-5">Our Services</h1>
+            <div class="col-12 pb-5 col-lg-6 order-lg-1 pt-md-5 ">
+              <h1 class="d-none d-lg-block pb-5">Our Services</h1>
                 <NuxtLink to="services#twiggys" exact class="btn btn-primary services-button mt-3 mb-3">Tiny Stompers at Twiggys</NuxtLink>
                 <NuxtLink to="services#preschool" exact class="btn btn-primary services-button mt-3 mb-3">Preschool/nursery bookings</NuxtLink>
                 <NuxtLink to="services#party" exact class="btn btn-primary services-button mt-3 mb-3">Children's parties</NuxtLink>
@@ -70,7 +67,7 @@
           <p>£6.50 per child. Your session includes play time in Twiggy’s soft play centre after the Tiny Stompers class. </p>
           <h4>Address:</h4>
           <p>Twiggy’s Play, Unit 2, Concept Business Park, Allendale Road, Thirsk, YO7 3NY</p>
-          <a class="btn btn-primary mt-3 mb-3 mb-lg-5" href="https://bookwhen.com/tinystompers">Book your place</a>
+          <a class="btn btn-primary mt-3 mb-3 mb-lg-5" href="https://bookwhen.com/tinystompers" target="_blank" rel=”noopener”>Book your place</a>
         </div>
       </section>
 
@@ -238,7 +235,7 @@ section.service-details {
     }
 
     .services-img-container {
-      background-image: url('~static/photos/carousel1.jpg');
+      background-image: url('~static/photos/tiny-stompers-carousel2.jpg');
     }
   }
   &.preschool {
@@ -329,6 +326,16 @@ section.service-details {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
+  .landing-row-services {
+    .services-button {
+      width: 90%;
+    }
+  }
+
+  section.service-details.baby .services-img-container {
+    background-position: 50% 35%;
+  }
 
 
 }

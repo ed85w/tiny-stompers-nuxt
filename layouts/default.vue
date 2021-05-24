@@ -121,7 +121,7 @@ h2.home-h2 {
         right: 0;
         left: 0;
         bottom: 0; 
-        padding: 0 10% 10px 10%;
+        padding: 30px 17% 30px 17%;
         background-color: $tiny-stompers-dark; 
         background-color: rgba($tiny-stompers-dark, 0.7);
         text-align: center;
@@ -341,7 +341,7 @@ section.bubbles-container {
           right: 0;
           left: 0;
           bottom: 0; //same as .carousel-fade border
-          padding: 10px 18% 10px 18%;
+          padding: 40px 18% 40px 18%;
           background-color: $tiny-stompers-dark; 
           background-color: rgba($tiny-stompers-dark, 0.7);
           text-align: center;
@@ -381,7 +381,7 @@ section.bubbles-container {
           right: 0;
           left: 0;
           bottom: 0; //same as .carousel-fade border
-          padding: 10px 18% 10px 18%;
+          padding: 30px 20% 40px 20%;
 
           p {
             font-size: 12px;
@@ -438,7 +438,7 @@ section.bubbles-container {
           right: 0;
           left: 0;
           bottom: 0; //same as .carousel-fade border
-          padding: 15px 18% 15px 18%;
+          padding: 50px 20% 40px 20%;
 
           p {
             font-size: 14px;

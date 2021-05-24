@@ -13,7 +13,7 @@
             <div class="embed-responsive embed-responsive-1by1 text-center home-circle twiggys-circle">
               <NuxtLink to="services#twiggys" class="circle-links">
                 <div class="embed-responsive-item">
-                  <img class="nav-circle-img" src="~/static/photos/carousel1.jpg" alt="">
+                  <img class="nav-circle-img" src="~/static/photos/tiny-stompers-carousel2.jpg" alt="a toddler having fun at tiny stompers">
                   <div class="home-circle-caption">
                     <h5>Tiny Stompers<br>at Twiggy's</h5>
                   </div>
@@ -26,9 +26,9 @@
             <div class="embed-responsive embed-responsive-1by1 text-center home-circle preschool-circle">
               <NuxtLink to="services#preschool" class="circle-links">
                 <div class="embed-responsive-item">
-                  <img class="nav-circle-img" src="~/static/photos/carousel1.jpg" alt="">
+                  <img class="nav-circle-img" src="~/static/photos/preschool-img.png" alt="a xylophone">
                   <div class="home-circle-caption">
-                    <h5>Preschool/Nursery<br>Session Bookings</h5>
+                    <h5>Preschool/Nursery<br>Bookings</h5>
                   </div>
                 </div>
               </NuxtLink>
@@ -39,7 +39,7 @@
             <div class="embed-responsive embed-responsive-1by1 text-center home-circle party-circle">
               <NuxtLink to="services#party" class="circle-links">
                 <div class="embed-responsive-item">
-                  <img class="nav-circle-img" src="~/static/photos/carousel1.jpg" alt="">
+                  <img class="nav-circle-img" src="~/static/photos/child-with-giant-lolly.png" alt="a child with a giant lolly">
                   <div class="home-circle-caption">
                     <h5>Children's<br>Parties</h5>
                   </div>
@@ -52,7 +52,7 @@
             <div class="embed-responsive embed-responsive-1by1 text-center home-circle baby-circle">
               <NuxtLink to="baby-massage" class="circle-links">
                 <div class="embed-responsive-item">
-                  <img class="nav-circle-img" src="~/static/photos/carousel1.jpg" alt="">
+                  <img class="nav-circle-img" src="~/static/photos/baby-massage-carousel2.jpg" alt="a baby on a maasage mat">
                   <div class="home-circle-caption">
                     <h5>Tiny Stompers<br>Baby Massage</h5>
                   </div>
@@ -123,6 +123,12 @@ export default {
 
   .circle-links {
     height: 100%;
+
+    .nav-circle-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
   }
 
   .home-circle-caption {

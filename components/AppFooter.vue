@@ -17,15 +17,17 @@
                   <li><NuxtLink to="baby-massage" exact>Baby Massage</NuxtLink></li>
                 </ul>
                 <ul class="footer-socials">
-                  <li><a href="mailto:langstaff56@gmx.co.uk"><i class="fa fa-instagram"></i></a></li>
-                  <li><a href="mailto:langstaff56@gmx.co.uk"><i class="fa fa-envelope"></i></a></li>
-                  <li><a href="https://www.facebook.com/TinyStompers/"><i class="fa fa-facebook-square"></i></a></li>
+                  <li><a href="https://www.instagram.com/tinystompers/" target="_blank" rel=”noopener”><i class="fa fa-instagram"></i></a></li>
+                  <li><a href="mailto:langstaff56@gmx.co.uk" target="_blank" rel=”noopener”><i class="fa fa-envelope"></i></a></li>
+                  <li><a href="https://www.facebook.com/TinyStompers/" target="_blank" rel=”noopener”><i class="fa fa-facebook-square"></i></a></li>
                 </ul>
               </div>
             </div>
-            <div class="col-12 col-lg-4">LOGOS</div>
+            <div class="col-12 col-lg-4 pt-3 pb-3 col-lg-4 text-center text-lg-left">
+              <img class="footer-logo-img m-3 m-lg-1" src="~static/photos/Mumbler.png" alt="mumbler logo">
+            </div>
             <div class="col-12 text-center">
-              <p><a href="https://www.koodi.co.uk/">website designed and built by koodi</a></p>
+              <p><a href="https://www.koodi.co.uk/" target="_blank" rel=”noopener”>website designed and built by koodi</a></p>
             </div>
           </div>
         </div>

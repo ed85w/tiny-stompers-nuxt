@@ -33,27 +33,31 @@
                   >
                   <b-carousel-slide
                     class="carousel-img"
-                    caption="Becky's love for children shines through as she creates fun and motivational music and movement sessions for children and their grown ups"
+                    caption="I absolutely loved this course, so much so, I took my little girl twice!"
                     caption-tag="p"
-                    text="Linda, Tiny Stomper Nanna"
-                    img-src="~static/photos/carousel03.jpg"
-                    img-alt="becky bubbles with a certificate for a tiny stomper"
+                    img-src="~static/photos/baby-massage-carousel2.jpg"
+                    img-alt="a very relaxed baby!"
                   ></b-carousel-slide>
                   <b-carousel-slide
                     class="carousel-img"
-                    caption="Lots of fun for little stompers and their parents!! Becky is lovely and keeps the sessions varied and interesting each week"
+                    caption="Becky is so lovely, knows her stuff and gets to know you and your baby which makes the sessions so nice"
                     caption-tag="p"
-                    text="Alex, Tiny Stomper Mum"
-                    img-src="~static/photos/carousel02.jpg"
-                    img-alt="a tiny stomper having fun at tiny stompers!"
+                    img-src="~static/photos/baby-massage-carousel3.jpg"
+                    img-alt="a happy baby on a massage mat"
                   ></b-carousel-slide>
                   <b-carousel-slide
                     class="carousel-img"
-                    caption="A fabulous, interactive group for preschoolers and their grown ups. Highly recommend coming to try it out"
+                    caption="Becky is so welcoming, it’s the most relaxing hour of the week, a great time to bond with baby & meet other mums!"
                     caption-tag="p"
-                    text="Kirsty, Tiny Stomper Mum"
-                    img-src="~static/photos/carousel01.jpg"
-                    img-alt="a younger tiny stomper enjoying sensory play"
+                    img-src="~static/photos/baby-massage-carousel4.jpg"
+                    img-alt="a father massaging his baby"
+                  ></b-carousel-slide>
+                  <b-carousel-slide
+                    class="carousel-img"
+                    caption="Such a relaxing environment, my baby (and me) loved it!"
+                    caption-tag="p"
+                    img-src="~static/photos/baby-massage-carousel1.jpg"
+                    img-alt="baby's feet"
                   ></b-carousel-slide>
                 </b-carousel>
                 </div>
@@ -82,7 +86,7 @@
               <ul class="baby-massage-ul">
                 <li>We are fully insured</li>
                 <li>Becky is a qualified Baby Massage Therapist with Distinction</li>
-                <li>Policies and risk assessments within hired venues</li>
+                <li>This wonderful mobile baby massage service covers York, Thirsk, Easingwold and surrounding villages</li>
                 <li>Basic and advanced techniques are taught in every course with recaps provided each week</li>
                 <li>All classes are within a relaxing environment with time for a nice hot drink afterwards</li>
               </ul>
@@ -91,7 +95,7 @@
               <ul class="baby-massage-ul">
                 <li>All equipment and oils are provided plus a certificate on completion of the course... just you and your baby are needed!</li>
                 <li>Fed is best for babies so don't worry if your baby needs feeding during the course, breast or bottle, however you choose</li>
-                <li>After a Tiny Stompers Baby Massage lesson, we encourage calm, quiet time time with Mummy or Daddy so that baby can continue feeling relaxed, have a drink if they need to, and be ready for a rest.</li>
+                <li>After a Tiny Stompers Baby Massage class, we encourage calm, quiet time time with Mummy or Daddy so that baby can continue feeling relaxed, have a drink if they need to, and be ready for a rest.</li>
               </ul>
             </div>
           </div>
@@ -109,10 +113,10 @@
             <div class="col-12 p-3 col-md-6 col-lg-4 p-lg-5 text-center">
               <div class="baby-card p-3 p-lg-5 fade-in">
                 <img class="m-4" src="~static/flower-2-icon.png" alt="a flower icon">
-                <h3 class="pb-3">One to one sessions</h3>
+                <h3 class="pb-3">One to one courses</h3>
                 <p class="pb-3">5 week private course<br>in the comfort of your home</p>
                 <h3 class="roboto-header mb-3 pb-3">£100</h3>
-                <NuxtLink to="contact" exact class="btn btn-primary mb-5">Contact us</NuxtLink>
+                <NuxtLink to="contact" exact class="btn btn-primary mb-5">Book now</NuxtLink>
                 <p>50% deposit required on booking</p>
               </div>
             </div>
@@ -131,10 +135,10 @@
             <div class="col-12 p-3 col-md-6 col-lg-4 p-lg-5 text-center">
               <div class="baby-card p-3 p-lg-5 fade-in">
                 <img class="m-4" src="~static/flower-icon.png" alt="a flower icon">
-                <h3 class="pb-3">Tiny Stompers hired venues</h3>
+                <h3 class="pb-3">Tiny Stompers classes in hired venues</h3>
                 <p class="pb-3">5 week course<br>located at one of our<br>lovely hired venues</p>
                 <h3 class="roboto-header mb-3 pb-3">£60</h3>
-                <NuxtLink to="contact" exact class="btn btn-primary mb-5">Contact us</NuxtLink>
+                <a href="https://www.facebook.com/tinystompersbabymassage/events/" target="_blank" rel=”noopener” class="btn btn-primary mb-5">Check events</a>
                 <p>50% deposit required on booking</p>
               </div>
             </div>
@@ -163,7 +167,7 @@
             <div class="col-12 col-md-6">
               <ul class="baby-massage-ul">
                 <li>It is expected that babies are not always 'in the mood' for a massage. Demonstrations and recaps are available each week. Please do not worry if your baby cries, has an accident or needs feeding.</li>
-                <li>It is not advised to massage your baby up to a week after their vaccinations. Please ensure you have sought the advice of any healthcare professionals before participating in the Baby Massage Classes, if necessary. </li>
+                <li>It is not advised to massage your baby up to a week after their vaccinations. Please ensure you have sought the advice of any healthcare professionals before participating in the Baby Massage Classes. </li>
                 <li>You will be the only person who will massage your baby.</li>
               </ul>
             </div>
@@ -310,7 +314,7 @@ section.what-to-expect {
       padding: 0 16px;
 
       .symbols-img {
-        width: 20%;
+        width: 18%;
       }
     }
   }
@@ -322,6 +326,7 @@ section.baby-cards {
     border-radius: 60px;
     color: white;
     height: 100%;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
 
     img {
       width: 84px;
