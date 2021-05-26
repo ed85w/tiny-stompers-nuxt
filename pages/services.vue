@@ -15,7 +15,7 @@
               <div class="embed-responsive embed-responsive-1by1 text-center">
                 <div class="embed-responsive-item p-3 p-lg-5">
                   <b-carousel
-                    id="carousel-fade"
+                    class="carousel-fade"
                     fade
                   >
                   <b-carousel-slide

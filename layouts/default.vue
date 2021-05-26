@@ -114,10 +114,12 @@ h2.home-h2 {
     .carousel-inner,
     .carousel-item {
       height: 100%;
+      border-radius: 50%;
 
       .carousel-img .img-fluid{
         height: 100%;
         object-fit: cover;
+        border-radius: 50%;
       }
 
       .carousel-caption {
