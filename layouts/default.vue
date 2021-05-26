@@ -115,6 +115,7 @@ h2.home-h2 {
     .carousel-item {
       height: 100%;
       border-radius: 50%;
+      overflow: hidden;
 
       .carousel-img .img-fluid{
         height: 100%;
