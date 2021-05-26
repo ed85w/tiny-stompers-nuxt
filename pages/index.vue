@@ -15,6 +15,7 @@
               <div class="embed-responsive embed-responsive-1by1 text-center">
                 <div class="embed-responsive-item p-3 p-lg-5">
                   <b-carousel
+                    id="home-carousel"
                     class="carousel-fade"
                     fade
                   >
@@ -121,13 +122,14 @@ export default {
 
     // gsap timeline to animate carousel circle
     var tl = gsap.timeline({})
-    tl.from(".carousel-fade", {duration:2, scale: 0, opacity: 0, ease: "elastic.out(1, 0.5)" },1);
+    tl.from("#home-carousel", {duration:2, scale: 0, opacity: 0, ease: "elastic.out(1, 0.5)" },1);
 
     // scroll animation
     ScrollTrigger.matchMedia({
 
       // mobile only - each animated individually
       "(max-width: 990px)": function() {
+
         var fadeIn = gsap.utils.toArray('.fade-in');
         fadeIn.forEach((fadeIn) => {
           gsap.from(fadeIn, { 
@@ -152,6 +154,24 @@ export default {
 
 /*  Extra small devices (portrait phones, less than 576px) */
 /*  No media query for `xs` since this is the default in Bootstrap */
+
+  /* carousel */
+  #home-carousel {
+    border-radius: 50%;
+    overflow: hidden;
+
+    .carousel-inner,
+    .carousel-item {
+      height: 100%;
+      border-radius: 50%;
+
+      .carousel-img .img-fluid{
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+    }
+  }
 
 
 /* // Small devices (landscape phones, 576px and up) */

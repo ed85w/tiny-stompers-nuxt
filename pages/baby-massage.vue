@@ -29,6 +29,7 @@
                 <div class="embed-responsive-item p-3 p-lg-5">
                   <b-carousel
                     class="carousel-fade"
+                    id="baby-carousel"
                     fade
                   >
                   <b-carousel-slide
@@ -247,6 +248,24 @@ export default {
 </script>
 
 <style lang="scss">
+
+  /* carousel */
+  #baby-carousel {
+    border-radius: 50%;
+    overflow: hidden;
+
+    .carousel-inner,
+    .carousel-item {
+      height: 100%;
+      border-radius: 50%;
+
+      .carousel-img .img-fluid{
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+    }
+  }
 
 // default text and buttons are purple
 .baby-massage {

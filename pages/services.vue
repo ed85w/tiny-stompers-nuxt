@@ -15,6 +15,7 @@
               <div class="embed-responsive embed-responsive-1by1 text-center">
                 <div class="embed-responsive-item p-3 p-lg-5">
                   <b-carousel
+                    id="services-carousel"
                     class="carousel-fade"
                     fade
                   >
@@ -195,6 +196,24 @@ export default {
 </script>
 
 <style lang="scss">
+
+  /* carousel */
+  #services-carousel {
+    border-radius: 50%;
+    overflow: hidden;
+
+    .carousel-inner,
+    .carousel-item {
+      height: 100%;
+      border-radius: 50%;
+
+      .carousel-img .img-fluid{
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+    }
+  }
 
 .landing-row-services {
 
