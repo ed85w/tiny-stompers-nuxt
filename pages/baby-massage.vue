@@ -113,13 +113,13 @@
     <div class="container-fluid">
       <section class="row d-flex justify-content-center pt-5 baby-cards">
         <div class="col-12 col-lg-11 pt-5 pb-5">
-          <div class="row">
+          <div class="row justify-content-center">
             <!-- card start -->
             <div class="col-12 p-3 col-md-6 col-lg-4 p-xl-5 text-center">
               <div class="baby-card p-3 p-lg-5 fade-in">
                 <img class="m-4" src="~static/flower-2-icon.png" alt="a flower icon">
                 <h3 class="pb-3">One to one courses</h3>
-                <p class="pb-3">5 week private course<br>in the comfort of your home</p>
+                <p class="pb-3">4 or 5 week private course<br>in the comfort of your home</p>
                 <h3 class="roboto-header mb-3 pb-3">£100</h3>
                 <NuxtLink to="contact" exact class="btn btn-primary mb-5">Book now</NuxtLink>
                 <p>50% deposit required on booking</p>
@@ -130,7 +130,7 @@
               <div class="baby-card p-3 p-lg-5 fade-in">
                 <img class="m-4" src="~static/star-filled-icon.png" alt="a star icon">
                 <h3 class="pb-3">Private group bookings</h3>
-                <p class="pb-3">5 week group booking<br>at your chosen location<br>for up to 10 babies</p>
+                <p class="pb-3">4 or 5 week group booking<br>at your chosen location<br>for up to 10 babies</p>
                 <h3 class="roboto-header mb-3 pb-3">£250</h3>
                 <NuxtLink to="contact" exact class="btn btn-primary mb-5">Contact us</NuxtLink>
                 <p>50% deposit required on booking<br>(price does not include venue hire)</p>
@@ -141,7 +141,7 @@
               <div class="baby-card p-3 p-lg-5 fade-in">
                 <img class="m-4" src="~static/flower-icon.png" alt="a flower icon">
                 <h3 class="pb-3">Tiny Stompers classes in hired venues</h3>
-                <p class="pb-3">5 week course<br>located at one of our<br>lovely hired venues</p>
+                <p class="pb-3">4 or 5 week course<br>located at one of our<br>lovely hired venues</p>
                 <h3 class="roboto-header mb-3 pb-3">£60</h3>
                 <a href="https://www.facebook.com/tinystompersbabymassage/events/" target="_blank" rel=”noopener” class="btn btn-primary mb-5">Check events</a>
                 <p>50% deposit required on booking</p>
