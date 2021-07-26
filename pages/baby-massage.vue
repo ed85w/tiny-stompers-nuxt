@@ -17,7 +17,7 @@
 
     <!-- benefits section  -->
     <div class="container-fluid">
-      <section class="row d-flex justify-content-center landing-row-baby pt-5 pb-5">
+      <section class="row d-flex justify-content-center landing-row-baby pt-5 pb-5 max-width">
         <div class="col-12 col-md-11 nav-col">
           <div class="row">
             <div class="col-12 col-md-10 offset-md-1 pt-5 pb-5 col-lg-6 offset-lg-0 p-lg-5 order-lg-2">
@@ -81,7 +81,7 @@
 
     <!-- why choose section  -->
     <div class="container-fluid">
-      <section class="row d-flex justify-content-center why-choose">
+      <section class="row d-flex justify-content-center why-choose max-width">
         <div class="col-12 col-md-11 ">
           <div class="row">
             <div class="col-12 pb-5 text-center text-md-left ">
@@ -111,7 +111,7 @@
 
     <!-- about cards section  -->
     <div class="container-fluid">
-      <section class="row d-flex justify-content-center pt-5 baby-cards">
+      <section class="row d-flex justify-content-center pt-5 baby-cards max-width">
         <div class="col-12 col-lg-11 pt-5 pb-5">
           <div class="row justify-content-center">
             <!-- card start -->
@@ -155,7 +155,7 @@
 
         <!-- prep section  -->
     <div class="container-fluid">
-      <section class="row d-flex justify-content-center prep">
+      <section class="row d-flex justify-content-center prep max-width">
         <div class="col-12 col-md-11 pt-5 pb-5">
           <div class="row">
             <div class="col-12 pb-5 text-center text-md-left ">
@@ -182,7 +182,7 @@
     </div>
 
     <!-- get in touch  -->
-    <div class="container-fluid pt-md-5">
+    <div class="container-fluid pt-lg-5">
       <section class="row d-flex justify-content-center get-in-touch pt-md-5 pb-md-5">
         <div class="col-12 col-lg-11 pt-5 pb-5">
           <div class="row d-flex justify-content-center">

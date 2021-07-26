@@ -78,9 +78,10 @@ h2.home-h2 {
   }
 }
 
-// MAX WIDTH CLASS
 .max-width {
   max-width: 1650px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 //NOTE - STYLING REUSED ON SERVICES & BABY MASSAGE PAGE!
