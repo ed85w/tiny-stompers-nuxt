@@ -1,7 +1,7 @@
 <template>
   <div class="max-width-container">
     <div class="container-fluid">
-      <section class="row d-flex justify-content-center landing-row-services">
+      <section class="row d-flex justify-content-center landing-row-services max-width">
         <div class="col-12 col-lg-11 nav-col">
           <div class="row">
             <div class="d-lg-none col-12 text-center">
@@ -35,7 +35,7 @@
                   ></b-carousel-slide>
                   <b-carousel-slide
                     class="carousel-img"
-                    caption="Amazing group, my son loves it! Everything very well thought out, recommend to anyone "
+                    caption="Amazing group, my son loves it! Everything very well thought out, recommend to anyone"
                     caption-tag="p"
                     img-src="~static/photos/tiny-stompers-carousel2.jpg"
                     img-alt="a tiny stomper having fun at tiny stompers!"
@@ -255,6 +255,7 @@ section.service-details {
 
     .services-img-container {
       background-image: url('~static/photos/tiny-stompers-carousel2.jpg');
+      background-position: 50% 10%;
     }
   }
   &.preschool {

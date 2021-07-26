@@ -35,7 +35,7 @@
 
     <!-- about cards section  -->
     <div class="container-fluid">
-      <section class="row d-flex justify-content-center about-cards">
+      <section class="row d-flex justify-content-center about-cards max-width">
         <div class="col-12 col-lg-11 pt-5 pb-0">
           <div class="row">
             <!-- card start -->

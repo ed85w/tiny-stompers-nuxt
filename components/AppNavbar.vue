@@ -2,7 +2,7 @@
   <div class="max-width-container">
     <div class="container-fluid">
       <div class="row d-flex justify-content-center nav-row">
-        <div class="col-12 col-lg-11 nav-col">
+        <div class="col-12 col-lg-11 nav-col max-width">
           <nav class="row">
             <div class="logo-container">
               <NuxtLink to="/" exact><img class="logo-img" src="~static/tiny-stompers-logo.png" alt="tiny stompers logo"></NuxtLink>

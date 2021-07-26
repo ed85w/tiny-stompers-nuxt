@@ -2,7 +2,7 @@
   <div class="max-width-container pt-5">
     <div class="container-fluid">
       <div class="row d-flex justify-content-center footer-row">
-        <div class="col-12 col-lg-11 nav-col">
+        <div class="col-12 col-lg-11 nav-col max-width">
           <div class="row">
             <div class="col-12 pt-3 pb-3 col-lg-4 text-center text-lg-right">
               <NuxtLink to="/" exact><img class="footer-logo-img m-3 m-lg-1" src="~static/tiny-stompers-logo.png" alt="tiny stompers logo"></NuxtLink>

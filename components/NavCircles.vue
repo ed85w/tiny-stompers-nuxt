@@ -7,7 +7,7 @@
             <h2>Find out more about...</h2>
           </div>
         </div>
-        <div class="row circles-row pt-3 pb-3">
+        <div class="row circles-row pt-3 pb-3 max-width">
           <!-- left on mob  -->
           <div class="col-9 p-3 col-md-6 p-md-5 col-lg-3 p-lg-3 p-xl-4 ">
             <div class="embed-responsive embed-responsive-1by1 text-center home-circle twiggys-circle">

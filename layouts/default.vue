@@ -78,6 +78,12 @@ h2.home-h2 {
   }
 }
 
+.max-width {
+  max-width: 1650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 //NOTE - STYLING REUSED ON SERVICES & BABY MASSAGE PAGE!
 .landing-row-home,
 .landing-row-services,
