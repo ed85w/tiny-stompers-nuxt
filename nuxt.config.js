@@ -37,9 +37,9 @@ export default {
 
     ],
     script: [
-      { src: './js/fb-sdk.js' },
-      { src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js'},
-      { src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js'},
+      { src: './js/fb-sdk.js', defer: true },
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js', defer: true},
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js', defer: true},
       { src: '//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js', defer: true },
       { src: './js/cookie-consent.js' },
      ]

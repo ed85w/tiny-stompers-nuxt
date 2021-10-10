@@ -24,7 +24,7 @@
               </div>
             </div>
             <div class="col-12 col-lg-4 pt-3 pb-3 col-lg-4 text-center text-lg-left">
-              <img class="footer-logo-img m-3 m-lg-1" src="~static/photos/Mumbler.png" alt="mumbler logo">
+              <img class="footer-logo-img m-3 m-lg-1" src="~static/photos/Mumbler.webp" alt="mumbler logo">
             </div>
             <div class="col-12 text-center">
               <p><a href="https://www.koodi.co.uk/" target="_blank" rel=”noopener”>website designed and built by koodi</a></p>

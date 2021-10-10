@@ -164,7 +164,7 @@ export default {
 <style lang="scss">
 
 .landing-container-about {
-  background: url(~static/photos/about-landing.png);
+  background: url(~static/photos/about-landing.webp);
   background-size: cover;
   background-position: center;
 

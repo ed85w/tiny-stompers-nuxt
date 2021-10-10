@@ -293,7 +293,7 @@ ul.baby-massage-ul {
 }
 
 .landing-container-baby{
-  background: url(~static/photos/baby-massage-feet.png);
+  background: url(~static/photos/baby-massage-feet.webp);
   background-size: cover;
   background-position: center;
 

@@ -13,7 +13,7 @@
                 <img class="symbols-img" src="~static/symbols-right.png" alt="">
               </div>
               <div class="embed-responsive embed-responsive-1by1 text-center">
-                <div class="embed-responsive-item p-3 p-lg-5">
+                <div class="embed-responsive-item p-3 p-lg-5"> 
                   <b-carousel
                     id="services-carousel"
                     class="carousel-fade"
@@ -266,7 +266,7 @@ section.service-details {
     }
 
     .services-img-container {
-      background-image: url('~static/photos/preschool-img.png');
+      background-image: url('~static/photos/preschool-img.webp');
     }
   }
   &.party {
@@ -277,7 +277,7 @@ section.service-details {
     }
 
     .services-img-container {
-      background-image: url('~static/photos/child-with-giant-lolly.png');
+      background-image: url('~static/photos/child-with-giant-lolly.webp');
 
     }
   }
@@ -285,7 +285,7 @@ section.service-details {
     background: rgba(185, 137, 221, 0.5);
 
     .services-img-container {
-      background-image: url('~static/photos/baby-on-massage-mat.png');
+      background-image: url('~static/photos/baby-on-massage-mat.webp');
     }
   }
 

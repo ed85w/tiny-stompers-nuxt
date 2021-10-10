@@ -122,6 +122,7 @@ export default {
 
     // gsap timeline to animate carousel circle
     var tl = gsap.timeline({})
+    tl.from("#home-carousel", {duration:0, autoAlpha:0});
     tl.from("#home-carousel", {duration:2, scale: 0, opacity: 0, ease: "elastic.out(1, 0.5)" },1);
 
     // scroll animation
@@ -157,6 +158,7 @@ export default {
 
   /* carousel */
   #home-carousel {
+    visibility: hidden;  //hidden prior to animation
     border-radius: 50%;
     overflow: hidden;
 

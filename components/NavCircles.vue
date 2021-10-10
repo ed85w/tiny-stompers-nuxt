@@ -26,7 +26,7 @@
             <div class="embed-responsive embed-responsive-1by1 text-center home-circle preschool-circle">
               <NuxtLink to="services#preschool" class="circle-links">
                 <div class="embed-responsive-item">
-                  <img class="nav-circle-img" src="~/static/photos/preschool-img.png" alt="a xylophone">
+                  <img class="nav-circle-img" src="~/static/photos/preschool-img.webp" alt="a xylophone">
                   <div class="home-circle-caption">
                     <h5>Preschool/Nursery<br>Bookings</h5>
                   </div>
@@ -39,7 +39,7 @@
             <div class="embed-responsive embed-responsive-1by1 text-center home-circle party-circle">
               <NuxtLink to="services#party" class="circle-links">
                 <div class="embed-responsive-item">
-                  <img class="nav-circle-img" src="~/static/photos/child-with-giant-lolly.png" alt="a child with a giant lolly">
+                  <img class="nav-circle-img" src="~/static/photos/child-with-giant-lolly.webp" alt="a child with a giant lolly">
                   <div class="home-circle-caption">
                     <h5>Children's<br>Parties</h5>
                   </div>
