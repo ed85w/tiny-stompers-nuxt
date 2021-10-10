@@ -22,8 +22,8 @@
           <div class="row">
             <div class="col-12 col-md-10 offset-md-1 pt-5 pb-5 col-lg-6 offset-lg-0 p-lg-5 order-lg-2">
               <div class="symbols-container">
-                <img class="symbols-img" src="~static/baby-symbols-left.png" alt="">
-                <img class="symbols-img" src="~static/baby-symbols-right.png" alt="">
+                <img class="symbols-img" src="~static/baby-symbols-left.png" alt="decorative symbols and shapes" loading="lazy">
+                <img class="symbols-img" src="~static/baby-symbols-right.png" alt="decorative symbols and shapes" loading="lazy">
               </div>
               <div class="embed-responsive embed-responsive-1by1 text-center">
                 <div class="embed-responsive-item p-3 p-lg-5">
@@ -38,6 +38,7 @@
                     caption-tag="p"
                     img-src="~static/photos/baby-massage-carousel2.jpg"
                     img-alt="a very relaxed baby!"
+                    loading="lazy"
                   ></b-carousel-slide>
                   <b-carousel-slide
                     class="carousel-img"
@@ -45,6 +46,7 @@
                     caption-tag="p"
                     img-src="~static/photos/baby-massage-carousel4.jpg"
                     img-alt="a happy baby on a massage mat"
+                    loading="lazy"
                   ></b-carousel-slide>
                   <b-carousel-slide
                     class="carousel-img"
@@ -52,6 +54,7 @@
                     caption-tag="p"
                     img-src="~static/photos/baby-massage-carousel3.jpg"
                     img-alt="a father massaging his baby"
+                    loading="lazy"
                   ></b-carousel-slide>
                   <b-carousel-slide
                     class="carousel-img"
@@ -59,6 +62,7 @@
                     caption-tag="p"
                     img-src="~static/photos/baby-massage-carousel1.jpg"
                     img-alt="baby's feet"
+                    loading="lazy"
                   ></b-carousel-slide>
                 </b-carousel>
                 </div>
@@ -117,7 +121,7 @@
             <!-- card start -->
             <div class="col-12 p-3 col-md-6 col-lg-4 p-xl-5 text-center">
               <div class="baby-card p-3 p-lg-5 fade-in">
-                <img class="m-4" src="~static/flower-2-icon.png" alt="a flower icon">
+                <img class="m-4" src="~static/flower-2-icon.png" alt="a flower icon" loading="lazy">
                 <h3 class="pb-3">One to one courses</h3>
                 <p class="pb-3">4 or 5 week private course<br>in the comfort of your home</p>
                 <h3 class="roboto-header mb-3 pb-3">£100</h3>
@@ -128,7 +132,7 @@
             <!-- card start -->
             <div class="col-12 p-3 col-md-6 col-lg-4 p-xl-5 text-center">
               <div class="baby-card p-3 p-lg-5 fade-in">
-                <img class="m-4" src="~static/star-filled-icon.png" alt="a star icon">
+                <img class="m-4" src="~static/star-filled-icon.png" alt="a star icon" loading="lazy">
                 <h3 class="pb-3">Private group bookings</h3>
                 <p class="pb-3">4 or 5 week group booking<br>at your chosen location<br>for up to 10 babies</p>
                 <h3 class="roboto-header mb-3 pb-3">£250</h3>
@@ -139,7 +143,7 @@
             <!-- card start -->
             <div class="col-12 p-3 col-md-6 col-lg-4 p-xl-5 text-center">
               <div class="baby-card p-3 p-lg-5 fade-in">
-                <img class="m-4" src="~static/flower-icon.png" alt="a flower icon">
+                <img class="m-4" src="~static/flower-icon.png" alt="a flower icon" loading="lazy">
                 <h3 class="pb-3">Tiny Stompers classes in hired venues</h3>
                 <p class="pb-3">4 or 5 week course<br>located at one of our<br>lovely hired venues</p>
                 <h3 class="roboto-header mb-3 pb-3">£60</h3>
@@ -188,8 +192,8 @@
           <div class="row d-flex justify-content-center">
             <div class="col-12 text-center button-container">
               <div class="symbols-container">
-                <img class="symbols-img" src="~static/baby-symbols-left.png" alt="flower icons">
-                <img class="symbols-img" src="~static/baby-symbols-right.png" alt="flower icons">
+                <img class="symbols-img" src="~static/baby-symbols-left.png" alt="flower icons" loading="lazy">
+                <img class="symbols-img" src="~static/baby-symbols-right.png" alt="flower icons" loading="lazy">
               </div>
               <h3>Get in touch,<br>we'd love to hear from you!</h3>
               <NuxtLink to="contact" exact class="btn btn-primary mt-3 mb-3" href="">Contact us</NuxtLink>

@@ -5,8 +5,8 @@
         <div class="col-12 col-lg-11 nav-col max-width">
           <div class="row">
             <div class="col-12 pt-3 pb-3 col-lg-4 text-center text-lg-right">
-              <NuxtLink to="/" exact><img class="footer-logo-img m-3 m-lg-1" src="~static/tiny-stompers-logo.png" alt="tiny stompers logo"></NuxtLink>
-              <NuxtLink to="baby-massage" exact><img class="footer-logo-img m-3 m-lg-1" src="~static/tiny-stompers-baby-massage-logo.png" alt="tiny stompers baby massage logo"></NuxtLink>
+              <NuxtLink to="/" exact><img class="footer-logo-img m-3 m-lg-1" src="~static/tiny-stompers-logo.png" alt="tiny stompers logo" loading="lazy"></NuxtLink>
+              <NuxtLink to="baby-massage" exact><img class="footer-logo-img m-3 m-lg-1" src="~static/tiny-stompers-baby-massage-logo.png" alt="tiny stompers baby massage logo" loading="lazy"></NuxtLink>
             </div>
             <div class="col-12 pr-5 pl-5 col-lg-4 pr-lg-3 pl-lg-3">
               <div class="row d-flex">
@@ -24,7 +24,7 @@
               </div>
             </div>
             <div class="col-12 col-lg-4 pt-3 pb-3 col-lg-4 text-center text-lg-left">
-              <img class="footer-logo-img m-3 m-lg-1" src="~static/photos/Mumbler.webp" alt="mumbler logo">
+              <img class="footer-logo-img m-3 m-lg-1" src="~static/photos/Mumbler.webp" alt="mumbler logo" loading="lazy">
             </div>
             <div class="col-12 text-center">
               <p><a href="https://www.koodi.co.uk/" target="_blank" rel=”noopener”>website designed and built by koodi</a></p>
