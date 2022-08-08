@@ -11,11 +11,11 @@
           <!-- left on mob  -->
           <div class="col-9 p-3 col-md-6 p-md-5 col-lg-3 p-lg-3 p-xl-4 ">
             <div class="embed-responsive embed-responsive-1by1 text-center home-circle twiggys-circle">
-              <NuxtLink to="services#twiggys" class="circle-links">
+              <NuxtLink to="services#classes" class="circle-links">
                 <div class="embed-responsive-item">
                   <img class="nav-circle-img" src="~/static/photos/tiny-stompers-carousel2.jpg" alt="a toddler having fun at tiny stompers" loading="lazy">
                   <div class="home-circle-caption">
-                    <h5>Tiny Stompers<br>at Twiggy's</h5>
+                    <h5>Tiny Stompers<br>Classes</h5>
                   </div>
                 </div>
               </NuxtLink>

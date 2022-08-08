@@ -46,7 +46,7 @@
             </div>
             <div class="col-12 pb-5 col-lg-6 order-lg-1 pt-md-5 ">
               <h1 class="d-none d-lg-block pb-5">Our Services</h1>
-                <NuxtLink to="services#twiggys" exact class="btn btn-primary services-button mt-3 mb-3">Tiny Stompers at Twiggys</NuxtLink>
+                <NuxtLink to="services#classes" exact class="btn btn-primary services-button mt-3 mb-3">Tiny Stompers classes</NuxtLink>
                 <NuxtLink to="services#preschool" exact class="btn btn-primary services-button mt-3 mb-3">Preschool/nursery bookings</NuxtLink>
                 <NuxtLink to="services#party" exact class="btn btn-primary services-button mt-3 mb-3">Children's parties</NuxtLink>
                 <NuxtLink to="services#baby" exact class="btn btn-primary services-button mt-3 mb-3">Tiny Stompers Baby Massage</NuxtLink>
@@ -60,14 +60,10 @@
         <div class="col-12 p-0 col-md-6 col-lg-7 order-md-2 services-img-container">
         </div>
         <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5 order-md-1 fade-in-right">
-          <h3 id="twiggys" class="pb-3 pt-lg-5">Tiny Stompers at Twiggy’s</h3>
-          <h4>Session times:</h4>
-          <p>Mondays and Wednesdays (term time only)<br>10:15 - 11:00 or 11:15 - 12:00</p>
-          <p>There are a limited number of places available, so we advise booking to avoid disappointment (booking T&C apply).</p>
-          <h4>Price:</h4>
-          <p>£6.50 per child. Your session includes play time in Twiggy’s soft play centre after the Tiny Stompers class. </p>
-          <h4>Address:</h4>
-          <p>Twiggy’s Play, Unit 2, Concept Business Park, Allendale Road, Thirsk, YO7 3NY</p>
+          <h3 id="classes" class="pb-3 pt-lg-5">Tiny Stompers Classes</h3>
+          <p>Tiny Stompers is a mobile business, with classes available near York, Easingwold, Harrogate, Thirsk and surrounding villages.</p>
+          <p>For our latest classes for you to join with your little one, please visit our <a href="https://www.facebook.com/TinyStompers/" target="_blank" rel=”noopener” class="facebook-link">facebook page</a> or click the button below.</p>
+          <p>Activities within our classes are aimed at children who are 12 months+ but younger children are always welcome!</p>
           <a class="btn btn-primary mt-3 mb-3 mb-lg-5" href="https://bookwhen.com/tinystompers" target="_blank" rel=”noopener”>Book your place</a>
         </div>
       </section>
@@ -76,7 +72,7 @@
         <div class="col-12 p-0 col-md-6 col-lg-7 services-img-container">
         </div>
         <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5 fade-in-left">
-          <h3 id="preschool" class="pb-3 pt-lg-5">Preschool / Nursery bookings</h3>
+          <h3 id="preschool" class="pb-3 pt-lg-5">Preschool / Nursery Bookings</h3>
           <p class="larger-p">Preschools and nurseries can book Tiny Stompers sessions to take place within their childcare setting.  Each session is fun and varied and links to the EYFS.</p>
           <h4>Price:</h4>
           <p>£75 for a 45 minute session for up to 10 children at your preschool or nursery location. A 50% deposit is required to reserve your date(s) with the remaining balance paid via invoice.</p>
@@ -312,6 +308,11 @@ section.service-details {
     left: 50%;
     transform: translateX(-50%);    
   }
+}
+
+.facebook-link {
+  color: #302d7e;
+  font-weight: bold;  
 }
 
 
