@@ -8,7 +8,7 @@
             <div class="col-12 p-3 col-md-10 offset-md-2 p-md-5 landing-text-container">
               <h2 class="pt-3 pb-3 text-center text-md-left">Tiny Stompers Baby Massage</h2>
               <p class="pb-3 pr-lg-5 font-weight-bold">Tiny Stompers Baby Massage courses are designed for you and your baby to enjoy a relaxed, nurturing and soothing experience together in the comfort of your own home.</p>
-              <p class="pb-3 pr-lg-5">It’s the perfect way to connect with your baby while learning all about baby massage. Our four week courses include basic and advanced techniques to help ease discomfort caused by wind, constipation, colic and teething. These are designed to provided you with a range of soothing and gentle methods which you can continue to use as your baby grows. In each session you’ll discover simple but effective techniques that can help;</p>
+              <p class="pb-3 pr-lg-5">It’s the perfect way to connect with your baby while learning all about baby massage. Our four week courses include basic and advanced techniques to help ease discomfort caused by wind, constipation, colic and teething. These are designed to provide you with a range of soothing and gentle methods which you can continue to use as your baby grows. In each session you’ll discover simple but effective techniques that can help;</p>
               <ul class="baby-massage-ul">
                 <li>Enhance bonding</li>
                 <li>Support healthy development</li>
@@ -78,10 +78,10 @@
             </div>
             <div class="col-12 col-lg-6 order-lg-1 pt-5 pb-5">
               <h2 class="pb-3 pt-lg-3 pt-xl-5 text-center text-md-left fade-in">The benefits of our courses</h2>
-              <p class="pb-3 fade-in">Tiny Stompers Baby Massage is a perfect way to spend time bonding with your baby.</p>
-              <p class="pb-3 fade-in">Babies feel relaxed and sleep deeper after a baby massage... ahh bliss! So many parents use it as part of their bedtime routine to relax their baby before bed.</p>
-              <p class="pb-3 fade-in">The techniques used are fantastic at helping decrease discomfort caused by common problems such as colic, constipation and teething.</p>
-              <p class="pb-3 fade-in">There are so many positive short and long term benefits to baby massage, we are sure you and your baby will enjoy it.</p>
+              <p class="pb-3 fade-in">"I use the massage techniques as part of my baby’s bedtime routine, which help relax her and set the mood for a peaceful night’s sleep"</p>
+              <p class="pb-3 fade-in"><strong>"Becky is very welcoming and knowledgeable, it’s a lovely relaxed environment and I’ve learnt lots"</strong></p>
+              <p class="pb-3 fade-in">"I couldn’t recommend it more - I’ve learnt lots of great techniques"</p>
+              <p class="pb-3 fade-in"><strong>"This is a really lovely baby class, Becky explains everything really well and each class is relaxing and enjoyable"</strong></p>
               <div class="d-flex justify-content-center justify-content-lg-start">
                 <NuxtLink to="contact" exact class="btn btn-primary btn-center-mob mb-5 fade-in">Contact us</NuxtLink>
               </div>
@@ -101,11 +101,10 @@
             </div>
             <div class="col-12 col-md-6">
               <ul class="baby-massage-ul">
-                <li>We are fully insured</li>
+                <li>We are fully insured and DBS clear</li>
                 <li>Becky is a qualified Baby Massage Therapist with Distinction</li>
-                <li>This wonderful mobile baby massage service covers York, Thirsk, Easingwold and surrounding villages</li>
+                <li>This wonderful mobile baby massage service covers North of York, Thirsk, Easingwold and surrounding villages</li>
                 <li>Basic and advanced techniques are taught in every course with recaps provided each week</li>
-                <li>All classes are within a relaxing environment with time for a nice hot drink afterwards</li>
               </ul>
             </div>
             <div class="col-12 col-md-6">
@@ -175,17 +174,17 @@
             </div>
             <div class="col-12 col-md-6">
               <ul class="baby-massage-ul">
-                <li>All equipment is included whichever booking option you choose.</li>
-                <li>Babies will need their clothing removed, nappies are optional, so we suggest baby is wearing something easy to take off and on.</li>
+                <li>All equipment is included whichever booking option you choose</li>
+                <li>Babies will need their clothing removed, nappies are optional, so we suggest baby is wearing something easy to take off and on</li>
                 <li>Bring a change of clothes, nappies in case of accidents, milk (if bottle feeding), a favourite quiet toy or comforter</li>
-                <li>The sessions last up to 45 minutes. This time allows for getting baby ready, massage time,  baby's individual needs, questions, recaps and a refreshing drink afterwards.</li>
+                <li>The sessions last up to 45 minutes. This time allows for getting baby ready, massage time,  baby's individual needs, questions and recaps</li>
               </ul>
             </div>
             <div class="col-12 col-md-6">
               <ul class="baby-massage-ul">
-                <li>It is expected that babies are not always 'in the mood' for a massage. Demonstrations and recaps are available each week. Please do not worry if your baby cries, has an accident or needs feeding.</li>
-                <li>It is not advised to massage your baby up to a week after their vaccinations. Please ensure you have sought the advice of any healthcare professionals before participating in the Baby Massage Classes. </li>
-                <li>You will be the only person who will massage your baby.</li>
+                <li>It is expected that babies are not always 'in the mood' for a massage. Demonstrations and recaps are available each week. Please do not worry if your baby cries, has an accident or needs feeding</li>
+                <li>It is not advised to massage your baby up to a week after their vaccinations. Please ensure you have sought the advice of any healthcare professionals before participating in the Baby Massage Classes</li>
+                <li>You will be the only person who will massage your baby</li>
               </ul>
             </div>
           </div>

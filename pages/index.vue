@@ -54,7 +54,7 @@
             <div class="col-12 col-lg-6 order-lg-1 pt-lg-5">
               <h2 class="home-h2 pb-3 pt-lg-3 pt-xl-5 fade-in">Tiny Stompers<br class="d-lg-none"> Music & Movement</h2>
               <p class="pb-3 fade-in">A multisensory world of Music and Movement in a fun and relaxed setting for children to explore within your Early Years setting</p>
-              <NuxtLink to="services" exact class="btn btn-primary mb-5 fade-in">Our services</NuxtLink>
+              <NuxtLink to="about" exact class="btn btn-primary mb-5 fade-in">Find out more</NuxtLink>
               <h2 class="home-h2 pb-3 pt-3 fade-in">Tiny Stompers<br class="d-lg-none"> Baby Massage</h2>
               <p class="pb-3 fade-in">A relaxing environment for you and your baby to share a wonderful baby massage experience together in your own home</p>
               <NuxtLink to="baby-massage" exact class="btn btn-primary mb-5 fade-in">Find out more</NuxtLink>

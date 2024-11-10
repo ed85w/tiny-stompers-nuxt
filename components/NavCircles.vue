@@ -28,7 +28,7 @@
                 <div class="embed-responsive-item">
                   <img class="nav-circle-img" src="~/static/photos/preschool-img.webp" alt="a xylophone" loading="lazy">
                   <div class="home-circle-caption">
-                    <h5>Preschool/Nursery<br>Bookings</h5>
+                    <h5>Our Locations</h5>
                   </div>
                 </div>
               </NuxtLink>
@@ -41,7 +41,7 @@
                 <div class="embed-responsive-item">
                   <img class="nav-circle-img" src="~/static/photos/child-with-giant-lolly.webp" alt="a child with a giant lolly" loading="lazy">
                   <div class="home-circle-caption">
-                    <h5>Children's<br>Parties</h5>
+                    <h5>Why Choose Us</h5>
                   </div>
                 </div>
               </NuxtLink>

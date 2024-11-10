@@ -47,8 +47,8 @@
             <div class="col-12 pb-5 col-lg-6 order-lg-1 pt-md-5 ">
               <h1 class="d-none d-lg-block pb-5">Our Services</h1>
                 <NuxtLink to="services#classes" exact class="btn btn-primary services-button mt-3 mb-3">Tiny Stompers classes</NuxtLink>
-                <NuxtLink to="services#preschool" exact class="btn btn-primary services-button mt-3 mb-3">Preschool/nursery bookings</NuxtLink>
-                <NuxtLink to="services#party" exact class="btn btn-primary services-button mt-3 mb-3">Children's parties</NuxtLink>
+                <NuxtLink to="services#preschool" exact class="btn btn-primary services-button mt-3 mb-3">Our locations</NuxtLink>
+                <NuxtLink to="services#party" exact class="btn btn-primary services-button mt-3 mb-3">Why choose us</NuxtLink>
                 <NuxtLink to="services#baby" exact class="btn btn-primary services-button mt-3 mb-3">Tiny Stompers Baby Massage</NuxtLink>
             </div>
           </div>
@@ -65,7 +65,7 @@
           <p>Each session provides a multi-sensory environment which aids in child development through a variety of fun and beneficial activities. Explore our diverse range of equipment, songs, lights and sounds at your child’s pace nurturing creativity, coordination and social skills.</p>
           <p>Watch children delight in each moment growing in confidence and forming connections through the joy of music, play and discovery. At Tiny Stompers every tiny step is a big stomp towards learning!</p>
           <NuxtLink to="about" exact class="btn btn-primary mt-3 mb-3 mb-lg-5">Find out more</NuxtLink>
-          <p><strong>"Thank you so much, we love to see the smiles you put on the children’s faces, I can’t recommend Tiny Stompers enough"</strong></p>
+          <p><strong>"Becky brought the sunshine with her! I'd have absolutely no hesitation in giving my recommendations"</strong></p>
         </div>
       </section>
 
@@ -73,12 +73,9 @@
         <div class="col-12 p-0 col-md-6 col-lg-7 services-img-container">
         </div>
         <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5 fade-in-left">
-          <h3 id="preschool" class="pb-3 pt-lg-5">Preschool / Nursery Bookings</h3>
-          <p class="larger-p">Preschools and nurseries can book Tiny Stompers sessions to take place within their childcare setting.  Each session is fun and varied and links to the EYFS.</p>
-          <h4>Price:</h4>
-          <p>£75 for a 45 minute session for up to 10 children at your preschool or nursery location. A 50% deposit is required to reserve your date(s) with the remaining balance paid via invoice.</p>
-          <h4>Locations:</h4>
-          <p>Tiny Stompers covers York, Thirsk, Easingwold and surrounding villages.  Please contact us directly if you are located outside of these areas as we always try to accommodate (extra charges may apply).</p>
+          <h3 id="preschool" class="pb-3 pt-lg-5">Our locations</h3>
+          <p>Tiny Stompers covers Thirsk, Easingwold, the North of York and surrounding villages. </p>  
+          <p>Please contact us directly if you are located outside of these areas as we always try to accommodate (extra charges may apply).</p>
           <NuxtLink to="contact" exact class="btn btn-primary mt-3 mb-3 mb-lg-5" href="">Contact us</NuxtLink>
         </div>
       </section>
@@ -87,14 +84,11 @@
         <div class="col-12 p-0 col-md-6 col-lg-7 order-md-2 services-img-container">
         </div>
         <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5 order-md-1 fade-in-right">
-          <h3 id="party" class="pb-3 pt-lg-5">Children's Parties</h3>
-          <p class="larger-p">Enjoy a Tiny Stompers birthday themed party for up to 10 children at your chosen location. The Birthday Stomper will receive a <strong>free gift!</strong></p>
-          <h4>Price:</h4>
-          <p>£75 for a 45 minute party (up to 10 children)</p>
-          <p>A 50% deposit is required to reserve your date, the remaining balance can be paid on the day using a contactless card machine (venue hire is not included in the price).</p>
-          <h4>Locations:</h4>
-          <p>Tiny Stompers children’s parties are available across York, Thirsk, Easingwold and surrounding villages. Please contact us directly if you are located outside of these areas as we always try to accommodate (extra charges may apply).</p>
-          <NuxtLink to="contact" exact class="btn btn-primary mt-3 mb-3 mb-lg-5" href="">Contact us</NuxtLink>
+          <h3 id="party" class="pb-3 pt-lg-5">Why choose us</h3>
+          <p>"Tiny stompers involves fun and engaging sessions that focus on appealing to the senses and needs of children, including those with special educational needs and disabilities. Becky is so knowledgeable in her field and has a sound understanding of the development of children. She interacts with all of the children and is always happy with and infectious and bubbly personality. </p>
+          <p>Each session is carefully planned, with a different theme each week ranging from food to animals. The music, lights, toys and equipment provided means that there is something for everyone. We have had Tiny Stompers sessions at our nursery since April 2023 and all of the children show thorough enjoyment of the sessions and look forward to Becky's visits. </p>
+          <p><strong>Thank you so much - we love to see the smiles you put on the children's faces. I can't recommend Tiny Stompers enough."</strong></p>
+          <NuxtLink to="about" exact class="btn btn-primary mt-3 mb-3 mb-lg-5">Find out more</NuxtLink>
         </div>
       </section>
 
@@ -104,7 +98,8 @@
         <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5 fade-in-left">
           <h3 id="baby" class="pb-3 pt-lg-5">Tiny Stompers Baby Massage</h3>
           <p class="larger-p">Enjoy your relaxing four week Baby Massage Course in the comfort of your own home guided by your qualified baby massage instructor.</p>
-          <p>All courses include basic to advance techniques to help ease discomfort and soothe your baby. It’s a beautiful way to bond with your baby and help aid in their development. Everything is brought to you, just you and your baby are needed.</p>
+          <p>All courses include basic to advance techniques to help ease discomfort and soothe your baby. It’s a beautiful way to bond with your baby and help aid in their development.</p> 
+          <p>Everything is brought to you, just you and your baby are needed.</p>
           <p><strong>"We loved it so much we did the course twice!"</strong></p>
           <NuxtLink to="baby-massage" exact class="btn btn-primary mt-3 mb-3 mb-lg-5" href="">Find out more</NuxtLink>
         </div>
