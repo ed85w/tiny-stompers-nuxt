@@ -61,10 +61,11 @@
         </div>
         <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5 order-md-1 fade-in-right">
           <h3 id="classes" class="pb-3 pt-lg-5">Tiny Stompers Classes</h3>
-          <p>Tiny Stompers is a mobile business, with classes available near York, Easingwold, Harrogate, Thirsk and surrounding villages.</p>
-          <p>For our latest classes for you to join with your little one, please visit our <a href="https://www.facebook.com/TinyStompers/" target="_blank" rel=”noopener” class="facebook-link">facebook page</a> or click the button below.</p>
-          <p>Activities within our classes are aimed at children who are 12 months+ but younger children are always welcome!</p>
-          <a class="btn btn-primary mt-3 mb-3 mb-lg-5" href="https://bookwhen.com/tinystompers" target="_blank" rel=”noopener”>Book your place</a>
+          <p>Tiny Stompers began in 2017 to introduce children and their carers to the engaging and magical world of music and movement.</p>
+          <p>Each session provides a multi-sensory environment which aids in child development through a variety of fun and beneficial activities. Explore our diverse range of equipment, songs, lights and sounds at your child’s pace nurturing creativity, coordination and social skills.</p>
+          <p>Watch children delight in each moment growing in confidence and forming connections through the joy of music, play and discovery. At Tiny Stompers every tiny step is a big stomp towards learning!</p>
+          <NuxtLink to="about" exact class="btn btn-primary mt-3 mb-3 mb-lg-5">Find out more</NuxtLink>
+          <p><strong>"Thank you so much, we love to see the smiles you put on the children’s faces, I can’t recommend Tiny Stompers enough"</strong></p>
         </div>
       </section>
 
@@ -102,10 +103,8 @@
         </div>
         <div class="col-12 pt-5 pb-5 col-md-6 col-lg-5 p-md-5 fade-in-left">
           <h3 id="baby" class="pb-3 pt-lg-5">Tiny Stompers Baby Massage</h3>
-          <p class="larger-p">Baby Massage courses are offered in the comfort of your own home or within a class environment in beautiful hired venues. </p>
-          <p>They are very relaxing with basic to advanced techniques taught in every class to aid in bonding and child development. </p>
-          <p>Techniques are also shown to help decrease pain caused by colic, constipation and teething. </p>
-          <p>This wonderful mobile baby massage service covers York, Thirsk, Easingwold and surrounding villages.</p>
+          <p class="larger-p">Enjoy your relaxing four week Baby Massage Course in the comfort of your own home guided by your qualified baby massage instructor.</p>
+          <p>All courses include basic to advance techniques to help ease discomfort and soothe your baby. It’s a beautiful way to bond with your baby and help aid in their development. Everything is brought to you, just you and your baby are needed.</p>
           <p><strong>"We loved it so much we did the course twice!"</strong></p>
           <NuxtLink to="baby-massage" exact class="btn btn-primary mt-3 mb-3 mb-lg-5" href="">Find out more</NuxtLink>
         </div>

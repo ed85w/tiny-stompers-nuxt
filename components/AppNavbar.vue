@@ -11,7 +11,7 @@
             <div class="col nav-menu-container" v-bind:class="{ showsidebar: showMobileMenu }">
               <ul class="sidebar-nav p-3 pt-5">
                 <li class="d-lg-none" v-on:click="showMenu()" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="/" exact>Home</NuxtLink></li>
-                <li v-on:click="showMenu()" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="about" exact>About us</NuxtLink></li>
+                <li v-on:click="showMenu()" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="about" exact>Music & Movement</NuxtLink></li>
                 <li v-on:click="showMenu()" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="services" exact>Our services</NuxtLink></li>
                 <li v-on:click="showMenu()" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="contact" exact>Contact</NuxtLink></li>
                 <li v-on:click="showMenu()" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="baby-massage" exact>Baby Massage</NuxtLink></li>
@@ -266,7 +266,76 @@ body.baby-massage .nav-row .nav-col .logo-container .logo-img-baby {
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-  .nav-row {
+  // .nav-row {
+  //   height: 178px;
+  //   border-bottom: 18px solid #5C52AF;
+
+  //   .nav-col {
+  //     display: flex;
+  //     justify-content: flex-end;
+  //     align-items: flex-end;
+
+  //     .logo-container {
+  //       left: 0;
+  //       top: 20px;
+  //       transform: none;
+  //       z-index: 2;
+
+  //       .logo-img,
+  //       .logo-img-baby {
+  //         width: 230px;
+  //         height: 230px;
+  //       }
+  //     }
+
+  //     .nav-menu-container {
+  //       position: static;
+  //       display: flex;
+  //       justify-content: flex-end;
+  //       opacity: 1;
+  //       pointer-events: all;
+        
+  //       ul.sidebar-nav {
+  //         display: inline-flex;
+          
+
+  //         li {
+  //           padding: 20px 15px;
+  //           list-style: none;
+  //           display: inline-block;
+
+  //           a {
+  //             font-size: 17px;
+  //           }
+  //         }
+  //       }
+
+  //       ul.socials {
+  //         display: inline-flex;
+  //         align-items: center;
+
+  //         li a {
+  //           padding: 0 15px;
+
+  //           i {
+  //           font-size: 24px;
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+  
+  // .sidebarBtn {
+  //   display: none;
+  // }
+  // /* end of navbar */
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    .nav-row {
     height: 178px;
     border-bottom: 18px solid #5C52AF;
 
@@ -330,10 +399,6 @@ body.baby-massage .nav-row .nav-col .logo-container .logo-img-baby {
     display: none;
   }
   /* end of navbar */
-}
-
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
 
   .nav-row .nav-col .nav-menu-container {
 

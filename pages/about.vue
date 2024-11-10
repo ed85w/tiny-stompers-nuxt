@@ -7,9 +7,18 @@
           <div class="row pl-3 pr-3 pt-md-5 pb-md-5 pr-md-0">
             <div class="col-12 p-3 col-md-10 offset-md-2 p-md-5 landing-text-container">
               <h2 class="pt-3 pb-3 text-center text-md-left">About Tiny Stompers</h2>
-              <p class="pr-lg-5 font-weight-bold">At Tiny Stompers, we love introducing children and their parents/carers to the stimulating world of music and movemet in a fun, energetic and exciting way within a safe environment.</p>
-              <p class="pr-lg-5">Each session provides a multi-sensory environment, aiding in children’s development in many different and beneficial ways. Enjoy bubbles, ribbon stick dances, parachute, baby signing and sensory play all within 45 minutes of fun, with plenty of resources for you to explore at your own pace.</p>
-              <p class="pr-lg-5">Activities are aimed at 12 months+ but teeny tiny stompers are always welcome too.</p>
+              <p class="pr-lg-5 font-weight-bold">Tiny Stompers offers small, private Music and Movement Classes for your Early Years setting- just a small, clear space is needed and your children’s key worker. We transform your space into a multisensory environment using different themes each week.</p>
+              <p class="pr-lg-5">These classes are specifically designed for small focus groups (3 children maximum) which are quieter to build confidence and aid in children’s development in a more relaxed way. This also supports them in understanding patience, sharing and working together. An ideal environment for any children with SEND in your care.</p>
+              <p class="pr-lg-5">Some of the key learning areas we focus on include;</p>
+              <ul class="baby-massage-ul">
+                <li>Communication / interaction</li>
+                <li>Cognitive learning</li>
+                <li>Social and emotional mental health</li>
+                <li>Sensory exploration</li>
+              </ul>
+              <p class="pr-lg-5">With repetition and flexibility in each class to ensure key elements of learning are enjoyable we focus on a range of lights, sounds and textures. We also include some simple BSL, yoga, parachute, bubbles and mindfulness creating a stimulating environment where communication thrives.</p>
+              <p class="pr-lg-5">Thoughtfully designed for each individual child in a nurturing environment to ensure everyone can benefit from our engaging classes. We work closely with you to ensure our classes are inclusive of any specific needs within your own environment. Your course leader, Becky is Qualified in Early Years and Education (BA hons, diplomas with distinction) and links these sessions to the EYFS to ensure that children have the maximum learning potential in our 30 minute classes. Tiny Stompers is where children discover their unique strengths and gain confidence in a fun and supportive space. Every interaction, song and sound is a stomp towards becoming more empowered in their communication, emotional regulation and forming friendships.</p>
+              <p class="pr-lg-5">Price on application. T&Cs apply</p>
             </div>
           </div>
         </div>
@@ -77,7 +86,7 @@
             <div class="col-12 p-3 col-md-6 col-lg-4 p-lg-5 text-center">
               <div class="about-card p-3 p-lg-5 fade-in">
                 <img class="m-4" src="~static/star-icon.png" alt="a star icon">
-                <p class="pb-3">Becky has a BA(hons) in Early Childcare and Education and is qualified in Baby Signing and Introducing Children to Yoga</p>
+                <p class="pb-3">Led by Becky, a qualified Early Years Practitioner (Ba hons) fully insured and DBS clear</p>
               </div>
             </div>
           </div>

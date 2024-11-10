@@ -7,8 +7,16 @@
           <div class="row pl-3 pr-3 pt-md-5 pb-md-5 pr-md-0">
             <div class="col-12 p-3 col-md-10 offset-md-2 p-md-5 landing-text-container">
               <h2 class="pt-3 pb-3 text-center text-md-left">Tiny Stompers Baby Massage</h2>
-              <p class="pb-3 pr-lg-5 font-weight-bold">Baby Massage courses are offered as a one to one in the comfort of your own home, as a private group booking at your chosen location, or within a class environment at one of Tiny Stompers Baby Massage hired venues.</p>
-              <p class="pb-3 pr-lg-5">The sessions are very relaxing with basic to advanced techniques taught in every class to aid in bonding and child development. Techniques are also shown to help decrease pain caused by colic, constipation and teething. This wonderful mobile baby massage service covers York, Thirsk, Easingwold and surrounding villages.</p>
+              <p class="pb-3 pr-lg-5 font-weight-bold">Tiny Stompers Baby Massage courses are designed for you and your baby to enjoy a relaxed, nurturing and soothing experience together in the comfort of your own home.</p>
+              <p class="pb-3 pr-lg-5">It’s the perfect way to connect with your baby while learning all about baby massage. Our four week courses include basic and advanced techniques to help ease discomfort caused by wind, constipation, colic and teething. These are designed to provided you with a range of soothing and gentle methods which you can continue to use as your baby grows. In each session you’ll discover simple but effective techniques that can help;</p>
+              <ul class="baby-massage-ul">
+                <li>Enhance bonding</li>
+                <li>Support healthy development</li>
+                <li>Allieviate discomfort</li>
+              </ul>
+              <p class="pb-3 pr-lg-5">Our courses are brought to you right in the comfort of your own home. Everything is provided so no need to worry about packing bags, travelling or rushing out of the door. You’ll have all your home comforts around you making the experience even more relaxing for you and your little one.</p>
+              <p class="pb-3 pr-lg-5">Please remember Baby Massage courses are not just for Mums! Dad’s are always welcome too.</p>
+              <p class="pb-3 pr-lg-5">After the soothing session you and baby can enjoy cosy snuggles together in your own space. It’s the perfect way to bond and unwind. Let the magic of baby massage come to you - creating beautiful memories right where the heart is.</p>
             </div>
           </div>
         </div>
@@ -123,32 +131,32 @@
               <div class="baby-card p-3 p-lg-5 fade-in">
                 <img class="m-4" src="~static/flower-2-icon.png" alt="a flower icon" loading="lazy">
                 <h3 class="pb-3">One to one courses</h3>
-                <p class="pb-3">4 or 5 week private course<br>in the comfort of your home</p>
-                <h3 class="roboto-header mb-3 pb-3">£100</h3>
-                <NuxtLink to="contact" exact class="btn btn-primary mb-5">Book now</NuxtLink>
-                <p>50% deposit required on booking</p>
+                <p class="pb-3">A personal experience with one to one guidance and support. Everything is brought to you so you can truly relax in your own home</p>
+                <h3 class="roboto-header mb-3 pb-3">From £100</h3>
+                <NuxtLink to="contact" exact class="btn btn-primary mb-5">Contact us</NuxtLink>
+                <p>Payment required to secure your place</p>
               </div>
             </div>
             <!-- card start -->
             <div class="col-12 p-3 col-md-6 col-lg-4 p-xl-5 text-center">
               <div class="baby-card p-3 p-lg-5 fade-in">
                 <img class="m-4" src="~static/star-filled-icon.png" alt="a star icon" loading="lazy">
-                <h3 class="pb-3">Private group bookings</h3>
-                <p class="pb-3">4 or 5 week group booking<br>at your chosen location<br>for up to 10 babies</p>
-                <h3 class="roboto-header mb-3 pb-3">£250</h3>
+                <h3 class="pb-3">You and a friend</h3>
+                <p class="pb-3">Enjoy a baby massage course together and create some special memories, whether with a friend, sibling or neighbour it’s a wonderful journey to share together</p>
+                <h3 class="roboto-header mb-3 pb-3">From £125</h3>
                 <NuxtLink to="contact" exact class="btn btn-primary mb-5">Contact us</NuxtLink>
-                <p>50% deposit required on booking<br>(price does not include venue hire)</p>
+                <p>Payment required to secure your place</p>
               </div>
             </div>
             <!-- card start -->
             <div class="col-12 p-3 col-md-6 col-lg-4 p-xl-5 text-center">
               <div class="baby-card p-3 p-lg-5 fade-in">
                 <img class="m-4" src="~static/flower-icon.png" alt="a flower icon" loading="lazy">
-                <h3 class="pb-3">Tiny Stompers classes in hired venues</h3>
-                <p class="pb-3">4 or 5 week course<br>located at one of our<br>lovely hired venues</p>
-                <h3 class="roboto-header mb-3 pb-3">£60</h3>
-                <a href="https://www.facebook.com/tinystompersbabymassage/events/" target="_blank" rel=”noopener” class="btn btn-primary mb-5">Check events</a>
-                <p>50% deposit required on booking</p>
+                <h3 class="pb-3">Private group</h3>
+                <p class="pb-3">Gather your friends and create your own baby massage group (max 6 babies) in your own home or a venue of your choice (venue hire is not included)</p>
+                <h3 class="roboto-header mb-3 pb-3">From £250</h3>
+                <NuxtLink to="contact" exact class="btn btn-primary mb-5">Contact us</NuxtLink>
+                <p>Payment required to secure your place</p>
               </div>
             </div>
 
