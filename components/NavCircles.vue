@@ -11,7 +11,7 @@
           <!-- left on mob  -->
           <div class="col-9 p-3 col-md-6 p-md-5 col-lg-3 p-lg-3 p-xl-4 ">
             <div class="embed-responsive embed-responsive-1by1 text-center home-circle twiggys-circle">
-              <NuxtLink to="services#classes" class="circle-links">
+              <NuxtLink to="/services#classes" class="circle-links">
                 <div class="embed-responsive-item">
                   <img class="nav-circle-img" src="~/static/photos/tiny-stompers-carousel2.jpg" alt="a toddler having fun at tiny stompers" loading="lazy">
                   <div class="home-circle-caption">
@@ -24,7 +24,7 @@
           <!-- right on mob  -->
           <div class="col-9 p-3 offset-3 col-md-6 offset-md-0 p-md-5 col-lg-3 p-lg-3 p-xl-4">
             <div class="embed-responsive embed-responsive-1by1 text-center home-circle preschool-circle">
-              <NuxtLink to="services#preschool" class="circle-links">
+              <NuxtLink to="/services#preschool" class="circle-links">
                 <div class="embed-responsive-item">
                   <img class="nav-circle-img" src="~/static/photos/preschool-img.webp" alt="a xylophone" loading="lazy">
                   <div class="home-circle-caption">
@@ -37,7 +37,7 @@
           <!-- left on mob  -->
           <div class="col-9 p-3 col-md-6 p-md-5 col-lg-3 p-lg-3 p-xl-4">
             <div class="embed-responsive embed-responsive-1by1 text-center home-circle party-circle">
-              <NuxtLink to="services#party" class="circle-links">
+              <NuxtLink to="/services#party" class="circle-links">
                 <div class="embed-responsive-item">
                   <img class="nav-circle-img" src="~/static/photos/child-with-giant-lolly.webp" alt="a child with a giant lolly" loading="lazy">
                   <div class="home-circle-caption">
@@ -50,7 +50,7 @@
           <!-- right on mob  -->
           <div class="col-9 p-3 offset-3 col-md-6 offset-md-0 p-md-5 col-lg-3 p-lg-3 p-xl-4 ">
             <div class="embed-responsive embed-responsive-1by1 text-center home-circle baby-circle">
-              <NuxtLink to="baby-massage" class="circle-links">
+              <NuxtLink to="/baby-massage" class="circle-links">
                 <div class="embed-responsive-item">
                   <img class="nav-circle-img" src="~/static/photos/baby-massage-carousel2.jpg" alt="a baby on a maasage mat" loading="lazy">
                   <div class="home-circle-caption">

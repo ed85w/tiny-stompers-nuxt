@@ -6,15 +6,15 @@
           <div class="row">
             <div class="col-12 pt-3 pb-3 col-lg-4 text-center text-lg-right">
               <NuxtLink to="/" exact><img class="footer-logo-img m-3 m-lg-1" src="~static/tiny-stompers-logo.png" alt="tiny stompers logo" loading="lazy"></NuxtLink>
-              <NuxtLink to="baby-massage" exact><img class="footer-logo-img m-3 m-lg-1" src="~static/tiny-stompers-baby-massage-logo.png" alt="tiny stompers baby massage logo" loading="lazy"></NuxtLink>
+              <NuxtLink to="/baby-massage" exact><img class="footer-logo-img m-3 m-lg-1" src="~static/tiny-stompers-baby-massage-logo.png" alt="tiny stompers baby massage logo" loading="lazy"></NuxtLink>
             </div>
             <div class="col-12 pr-5 pl-5 col-lg-4 pr-lg-3 pl-lg-3">
               <div class="row d-flex">
                 <ul class="footer-nav pt-lg-5 mb-lg-1">
-                  <li><NuxtLink to="about" exact>About</NuxtLink></li>
-                  <li><NuxtLink to="services" exact>Services</NuxtLink></li>
-                  <li><NuxtLink to="contact" exact>Contact</NuxtLink></li>
-                  <li><NuxtLink to="baby-massage" exact>Baby Massage</NuxtLink></li>
+                  <li><NuxtLink to="/about" exact>About</NuxtLink></li>
+                  <li><NuxtLink to="/services" exact>Services</NuxtLink></li>
+                  <li><NuxtLink to="/contact" exact>Contact</NuxtLink></li>
+                  <li><NuxtLink to="/baby-massage" exact>Baby Massage</NuxtLink></li>
                 </ul>
                 <ul class="footer-socials">
                   <li><a href="https://www.instagram.com/tinystompers/" target="_blank" rel=”noopener”><i class="fa fa-instagram"></i></a></li>

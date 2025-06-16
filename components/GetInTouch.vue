@@ -9,7 +9,7 @@
               <img class="symbols-img" src="~static/symbols-right.png" alt="images of music note, stars, flowers">
             </div>
             <h3>Get in touch,<br>we'd love to hear from you!</h3>
-            <NuxtLink to="contact" exact class="btn btn-primary mt-3 mb-3" href="">Contact us</NuxtLink>
+            <NuxtLink to="/contact" exact class="btn btn-primary mt-3 mb-3" href="">Contact us</NuxtLink>
           </div>
         </div>
       </div>

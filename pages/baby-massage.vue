@@ -83,7 +83,7 @@
               <p class="pb-3 fade-in">"I couldn’t recommend it more - I’ve learnt lots of great techniques"</p>
               <p class="pb-3 fade-in"><strong>"This is a really lovely baby class, Becky explains everything really well and each class is relaxing and enjoyable"</strong></p>
               <div class="d-flex justify-content-center justify-content-lg-start">
-                <NuxtLink to="contact" exact class="btn btn-primary btn-center-mob mb-5 fade-in">Contact us</NuxtLink>
+                <NuxtLink to="/contact" exact class="btn btn-primary btn-center-mob mb-5 fade-in">Contact us</NuxtLink>
               </div>
             </div>
           </div>
@@ -132,7 +132,7 @@
                 <h3 class="pb-3">One to one courses</h3>
                 <p class="pb-3">A personal experience with one to one guidance and support. Everything is brought to you so you can truly relax in your own home</p>
                 <h3 class="roboto-header mb-3 pb-3">From £100</h3>
-                <NuxtLink to="contact" exact class="btn btn-primary mb-5">Contact us</NuxtLink>
+                <NuxtLink to="/contact" exact class="btn btn-primary mb-5">Contact us</NuxtLink>
                 <p>Payment required to secure your place</p>
               </div>
             </div>
@@ -143,7 +143,7 @@
                 <h3 class="pb-3">You and a friend</h3>
                 <p class="pb-3">Enjoy a baby massage course together and create some special memories, whether with a friend, sibling or neighbour it’s a wonderful journey to share together</p>
                 <h3 class="roboto-header mb-3 pb-3">From £125</h3>
-                <NuxtLink to="contact" exact class="btn btn-primary mb-5">Contact us</NuxtLink>
+                <NuxtLink to="/contact" exact class="btn btn-primary mb-5">Contact us</NuxtLink>
                 <p>Payment required to secure your place</p>
               </div>
             </div>
@@ -154,7 +154,7 @@
                 <h3 class="pb-3">Private group</h3>
                 <p class="pb-3">Gather your friends and create your own baby massage group (max 6 babies) in your own home or a venue of your choice (venue hire is not included)</p>
                 <h3 class="roboto-header mb-3 pb-3">From £250</h3>
-                <NuxtLink to="contact" exact class="btn btn-primary mb-5">Contact us</NuxtLink>
+                <NuxtLink to="/contact" exact class="btn btn-primary mb-5">Contact us</NuxtLink>
                 <p>Payment required to secure your place</p>
               </div>
             </div>
@@ -203,7 +203,7 @@
                 <img class="symbols-img" src="~static/baby-symbols-right.png" alt="flower icons" loading="lazy">
               </div>
               <h3>Get in touch,<br>we'd love to hear from you!</h3>
-              <NuxtLink to="contact" exact class="btn btn-primary mt-3 mb-3" href="">Contact us</NuxtLink>
+              <NuxtLink to="/contact" exact class="btn btn-primary mt-3 mb-3" href="">Contact us</NuxtLink>
             </div>
           </div>
         </div>

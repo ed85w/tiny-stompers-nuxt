@@ -11,10 +11,10 @@
             <div class="col nav-menu-container" v-bind:class="{ showsidebar: showMobileMenu }">
               <ul class="sidebar-nav p-3 pt-5">
                 <li class="d-lg-none" v-on:click="showMenu()" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="/" exact>Home</NuxtLink></li>
-                <li v-on:click="showMenu()" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="about" exact>Music & Movement</NuxtLink></li>
-                <li v-on:click="showMenu()" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="services" exact>Our services</NuxtLink></li>
-                <li v-on:click="showMenu()" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="contact" exact>Contact</NuxtLink></li>
-                <li v-on:click="showMenu()" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="baby-massage" exact>Baby Massage</NuxtLink></li>
+                <li v-on:click="showMenu()" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="/about" exact>Music & Movement</NuxtLink></li>
+                <li v-on:click="showMenu()" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="/services" exact>Our services</NuxtLink></li>
+                <li v-on:click="showMenu()" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="/contact" exact>Contact</NuxtLink></li>
+                <li v-on:click="showMenu()" v-bind:class="{ toggle: showMobileMenu }"><NuxtLink to="/baby-massage" exact>Baby Massage</NuxtLink></li>
               </ul>
               <ul class="socials p-3 pt-0 pt-lg-5">
                 <li><a href="https://www.instagram.com/tinystompers/" target="_blank" rel=”noopener”><i class="fa fa-instagram"></i></a></li>
